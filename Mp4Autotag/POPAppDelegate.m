@@ -60,7 +60,7 @@
 	NSOpenPanel* oDlg = [NSOpenPanel openPanel];
     [oDlg setCanChooseFiles:YES];
 	[oDlg setAllowsMultipleSelection:YES];
-	[oDlg setCanChooseDirectories:YES];
+	[oDlg setCanChooseDirectories:NO];
     [oDlg setCanCreateDirectories:NO];
     [oDlg beginSheetModalForWindow:[self window] completionHandler:^(NSInteger result) {
         if (result == NSFileHandlingPanelOKButton)
