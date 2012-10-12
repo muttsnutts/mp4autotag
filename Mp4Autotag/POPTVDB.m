@@ -141,7 +141,10 @@
 					[tag setImage:img];
 				}
 				if(epinum == episearchnum && seanum == seasearchnum){
-					[r1m addObject:tag];
+					if([series compare:tvshow options:NSCaseInsensitiveSearch] == 0)
+						[r1m insertObject:tag atIndex:0];
+					else
+						[r1m addObject:tag];
 				}
 				else if(epinum == episearchnum){
 					[r2m addObject:tag];
@@ -149,7 +152,7 @@
 				else if(absnum == episearchnum){
 					[r3m addObject:tag];
 				}
-				else if(seanum == seasearchnum ){
+				else if(seanum == seasearchnum){
 					[r4m addObject:tag];
 				}
 				tag = nil;

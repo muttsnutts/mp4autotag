@@ -15,6 +15,7 @@
 @property (readwrite) int coverArtPieces;
 @property (readwrite) NSImage* image;
 @property (readwrite) int dbID;
+@property (readwrite) bool customSeriesSearch;
 
 -(id) init;
 -(id) initWithFile:(NSString*)filename;

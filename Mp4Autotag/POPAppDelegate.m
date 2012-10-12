@@ -139,6 +139,7 @@
 		if([[self customSearchWindowUseSameSeriesCheckBox] state])
 		{
 			[tag setProperty:@"TV Show" value:[[self customSearchWindowSeriesTextField] stringValue]];
+			[tag setCustomSeriesSearch:YES];
 		}
 		mp4SearchFileTagTable = [[POPMp4FileTagSearch alloc] init];
 		[mp4SearchFileTagTable searchWithFileTag:tag tableView:[self searchTableView]];
@@ -220,6 +221,7 @@
 		[tag setProperty:@"TV Show" value:[[self customSearchWindowSeriesTextField] stringValue]];
 		[tag setProperty:@"TV Season" value:[[self customSearchWindowSeasonNumberTextField] stringValue]];
 		[tag setProperty:@"TV Episode" value:[[self customSearchWindowEpisodeNumberTextField] stringValue]];
+		[tag setCustomSeriesSearch:YES];
 		[_loadWnd show:[NSString stringWithFormat:@"Searching for TV Show: %@\nSeason: %@\nEpisode: %@", [tag property:@"TV Show"], [tag property:@"TV Season"], [tag property:@"TV Episode"]]];
 	}
 	else {

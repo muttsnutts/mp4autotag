@@ -112,7 +112,7 @@
 					m = [rgx matchesInString:search_str
 									 options:0
 									   range:NSMakeRange(0, [search_str length])];
-					if([serstr compare:@""] == 0)
+					if(![tag customSeriesSearch])
 						serstr = [[search_str substringWithRange:NSMakeRange(0, [[m objectAtIndex:0] range].location)] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
 				}
 				

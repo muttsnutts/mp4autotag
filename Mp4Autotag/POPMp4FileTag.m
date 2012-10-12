@@ -23,12 +23,14 @@
 @synthesize coverArtPieces = _coverArtPieces;
 @synthesize image = _image;
 @synthesize dbID = _dbID;
+@synthesize customSeriesSearch = _customSeriesSearch;
 
 -(id) init {
 	_filename = @"";
 	_coverArtPieces = 0;
 	_image = nil;
 	_dbID = 0;
+	_customSeriesSearch = NO;
 	numFlags = [NSArray arrayWithObjects:@"-b", @"-d",@"-D",@"-H",@"-I",@"-l",@"-L",@"-M",@"-n",@"-t",@"-T",@"-y", nil];
 	allowedMediaTypes = [NSArray arrayWithObjects:@"tvshow", @"movie", @"music", nil];
 	keysOrder = [NSArray arrayWithObjects:
