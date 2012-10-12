@@ -27,7 +27,7 @@
 @synthesize customSearchWindow = _customSearchWindow;
 @synthesize searchTableView = _searchTableView;
 @synthesize seachFilenameLabel = _seachFilenameLabel;
-@synthesize customSearchWindowTabView = _custumeSearchWindowTabView;
+@synthesize customSearchWindowTabView = _customSearchWindowTabView;
 @synthesize customSearchWindowSeriesTextField = _customSearchWindowSeriesTextField;
 @synthesize customSearchWindowSeasonNumberTextField = _customSearchWindowSeasonNumberTextField;
 @synthesize customSearchWindowEpisodeNumberTextField = _customSearchWindowEpisodeNumberTextField;
@@ -144,11 +144,16 @@
 		mp4SearchFileTagTable = [[POPMp4FileTagSearch alloc] init];
 		[mp4SearchFileTagTable searchWithFileTag:tag tableView:[self searchTableView]];
 		[_loadWnd hide];
+		
+		if([[self searchTableView] numberOfRows] == 0)
+			NSRunAlertPanel(@"Mp4Autotag", 
+							@"Unable to find movie/show in databases, try a custom search.",
+							@"OK", nil, nil);
+		
 		attags_idx = attags_idx + 1;
 		return true;
 	}
 	[[NSApplication sharedApplication] endSheet:[self searchResultWindow] returnCode:0];
-	[[self searchResultWindow] close];
 	return false;
 }
 
@@ -233,18 +238,20 @@
 	[mp4SearchFileTagTable searchWithFileTag:tag
 								   tableView:[self searchTableView]];
 	[_loadWnd hide];
-	[[NSApplication sharedApplication] endSheet:[self customSearchWindow] returnCode:0];
-	[[self customSearchWindow] close];
-}
+	
+	if([[self searchTableView] numberOfRows] == 0)
+		NSRunAlertPanel(@"Mp4Autotag", 
+						@"Unable to find movie/show in databases, try a custom search.",
+						@"OK", nil, nil);
+	
+	[[NSApplication sharedApplication] endSheet:[self customSearchWindow] returnCode:0];}
 
 - (IBAction)customSearchWindowCloseClick:(id)sender {
 	[[NSApplication sharedApplication] endSheet:[self customSearchWindow] returnCode:0];
-	[[self customSearchWindow] close];
 }
 
 - (IBAction)searchDoneClick:(id)sender {
 	[[NSApplication sharedApplication] endSheet:[self searchResultWindow] returnCode:0];
-	[[self searchResultWindow] close];
 }
 
 - (IBAction)searchSkipClick:(id)sender {
@@ -314,11 +321,14 @@
 - (void)searchResultSheetEnded:(NSNotification *)notification returnCode:(NSInteger)rtnCode contextInfo:(NSObject*)cInfo
 {
 	[mp4FileTagTable reloadAll];
+	[[self searchTableView] setDataSource:nil];
+	[[self searchTableView] reloadData];
+	[[self searchResultWindow] close];
 }
 
 - (void)customSearchSheetEnded:(NSNotification *)notification returnCode:(NSInteger)rtnCode contextInfo:(NSObject*)cInfo
 {
-	
+	[[self customSearchWindow] close];
 }
 @end
 
