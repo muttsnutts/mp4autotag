@@ -138,11 +138,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Mp4Autotag/POPAppDelegate.m"
-         timestampString = "371151490.339073"
+         timestampString = "371778148.239145"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "86"
-         endingLineNumber = "86"
+         startingLineNumber = "133"
+         endingLineNumber = "133"
          landmarkName = "-saveMp4Click:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -177,11 +177,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Mp4Autotag/POPAppDelegate.m"
-         timestampString = "371749530.48784"
+         timestampString = "371778148.239145"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "254"
-         endingLineNumber = "254"
+         startingLineNumber = "301"
+         endingLineNumber = "301"
          landmarkName = "-searchDoneClick:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -190,11 +190,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Mp4Autotag/POPAppDelegate.m"
-         timestampString = "371151490.339073"
+         timestampString = "371778148.239145"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "133"
-         endingLineNumber = "133"
+         startingLineNumber = "180"
+         endingLineNumber = "180"
          landmarkName = "-autotagNext"
          landmarkType = "5">
       </FileBreakpoint>
@@ -342,11 +342,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Mp4Autotag/POPAppDelegate.m"
-         timestampString = "371749530.48784"
+         timestampString = "371778148.239145"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "187"
-         endingLineNumber = "187"
+         startingLineNumber = "234"
+         endingLineNumber = "234"
          landmarkName = "-searchResultWindowSearchClick:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -355,11 +355,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Mp4Autotag/POPAppDelegate.m"
-         timestampString = "371749530.48784"
+         timestampString = "371778148.239145"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "223"
-         endingLineNumber = "223"
+         startingLineNumber = "270"
+         endingLineNumber = "270"
          landmarkName = "-customSearchWindowSearchClick:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -426,6 +426,19 @@
          startingLineNumber = "180"
          endingLineNumber = "180"
          landmarkName = "-initWithFile:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Mp4Autotag/POPAppDelegate.m"
+         timestampString = "371778148.239145"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "71"
+         endingLineNumber = "71"
+         landmarkName = "-applicationDidFinishLaunching:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

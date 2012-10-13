@@ -86,7 +86,7 @@
 			//set default series string
 			serstr = [tag property:@"TV Show"];
 			
-			//broad swep for tvshow...
+			//broad sweep for tvshow...
 			rgx = [NSRegularExpression regularExpressionWithPattern:@"E[0-9]+"
 															options:NSRegularExpressionCaseInsensitive
 															  error:&error];

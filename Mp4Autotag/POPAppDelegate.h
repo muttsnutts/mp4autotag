@@ -29,6 +29,8 @@
 @property (weak) IBOutlet NSTextField *customSearchWindowEpisodeNumberTextField;
 @property (weak) IBOutlet NSTextField *customSearchWindowMovieTextField;
 @property (weak) IBOutlet NSButton *customSearchWindowUseSameSeriesCheckBox;
+@property (weak) IBOutlet NSSplitView *mp4AutotagWindowSplitViewHorizontal;
+@property (weak) IBOutlet NSSplitView *mp4AutotagWindowSplitViewVertical;
 
 - (IBAction)addMp4Click:(id)sender;
 - (IBAction)removeMp4Click:(id)sender;

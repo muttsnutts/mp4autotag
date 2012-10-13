@@ -33,6 +33,9 @@
 @synthesize customSearchWindowEpisodeNumberTextField = _customSearchWindowEpisodeNumberTextField;
 @synthesize customSearchWindowMovieTextField = _customSearchWindowMovieTextField;
 @synthesize customSearchWindowUseSameSeriesCheckBox = _customSearchWindowUseSameSeriesCheckBox;
+@synthesize mp4AutotagWindowSplitViewHorizontal = _mp4AutotagWindowSplitViewHorizontal;
+@synthesize mp4AutotagWindowSplitViewVertical = _mp4AutotagWindowSplitViewVertical;
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
 	// Insert code here to initialize your application
@@ -44,11 +47,55 @@
 	mp4SearchFileTagTable = nil;
 	[[self mp4FileTagTableView] setDataSource:(id<NSTableViewDataSource>)mp4FileTagTable];
 	[[self mp4FileTagTableView] setDelegate:(id<NSTableViewDelegate>)mp4FileTagTable];
+	
+	//setup the window size
+	CGFloat wh = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndheight"] floatValue];
+	CGFloat ww = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndwidth"] floatValue];
+	CGFloat wx = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndx"] floatValue];
+	CGFloat wy = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndy"] floatValue];
+	if(wh > 0 && ww > 0){
+		[[self window] setFrame:NSMakeRect(wx, wy, ww, wh) display:NO];
+	}
+	//setup the size of the splits
+	CGFloat hf = [[[NSUserDefaults standardUserDefaults] valueForKey:@"hsplit"] floatValue];
+	CGFloat vf = [[[NSUserDefaults standardUserDefaults] valueForKey:@"vsplit"] floatValue];	
+	NSSize size;
+	if(hf != 0){
+		size = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] frame].size;
+		size.height = hf;
+		[[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] setFrameSize:size];
+		//[[self mp4AutotagWindowSplitViewHorizontal] adjustSubviews];
+	}
+	if(vf != 0){
+		size = [[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:0] frame].size;
+		size.width = vf;
+		[[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:0] setFrameSize:size];
+		//[[self mp4AutotagWindowSplitViewVertical] adjustSubviews];
+	}
+	
 }
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
 {
-    return YES;
+	return YES;
+}
+
+- (void)applicationWillTerminate:(NSNotification *)aNotification
+{
+	//save out the userdefaults...
+	NSNumber *wh = [NSNumber numberWithFloat:[[self window] frame].size.height];
+	NSNumber *ww = [NSNumber numberWithFloat:[[self window] frame].size.width];
+	NSNumber *wx = [NSNumber numberWithFloat:[[self window] frame].origin.x];
+	NSNumber *wy = [NSNumber numberWithFloat:[[self window] frame].origin.y];
+	[[NSUserDefaults standardUserDefaults] setValue:wh forKey:@"wndheight"];
+	[[NSUserDefaults standardUserDefaults] setValue:ww forKey:@"wndwidth"];
+	[[NSUserDefaults standardUserDefaults] setValue:wx forKey:@"wndx"];
+	[[NSUserDefaults standardUserDefaults] setValue:wy forKey:@"wndy"];
+	
+	CGFloat hf = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] frame].size.height;
+	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:hf] forKey:@"hsplit"];
+	CGFloat vf = [[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:0] frame].size.width;
+	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:vf] forKey:@"vsplit"];
 }
 
 -(void)awakeFromNib
