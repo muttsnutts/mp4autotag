@@ -43,6 +43,7 @@
 @synthesize autotagButton = _autotagButton;
 @synthesize preferencesButton = _preferencesButton;
 @synthesize preferencesRenameCheckBox = _preferencesRenameCheckBox;
+@synthesize preferencesFullAutomationCheckBox = _preferencesFullAutomationCheckBox;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -209,6 +210,7 @@
 }
 
 -(bool) autotagNext {
+	NSInteger fa = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fullAutomation"] intValue];
 	if(attags_idx < [attags count]) {
 		POPMp4FileTag* tag = [attags objectAtIndex:attags_idx];
 		attags_idx = attags_idx + 1;
@@ -227,28 +229,41 @@
 		
 		if([[self searchTableView] numberOfRows] == 0)
 		{
-			NSInteger rtn =  NSRunAlertPanel(@"Mp4Autotag", 
-											 @"Unable to find movie/show in databases. Try a custom search, or skip this file?",
-											 @"Custom Search", 
-											 @"Skip File", 
-											 nil);
-			if(rtn == NSAlertDefaultReturn)
-			{
-				[self searchResultWindowSearchClick:self];
-			}
-			else if(rtn == NSAlertAlternateReturn)
-			{
+			if(fa){
 				[self autotagNext];
 			}
+			else{
+				NSInteger rtn =  NSRunAlertPanel(@"Mp4Autotag", 
+												 @"Unable to find movie/show in databases. Try a custom search, or skip this file?",
+												 @"Custom Search", 
+												 @"Skip File", 
+												 nil);
+				if(rtn == NSAlertDefaultReturn)
+				{
+					[self searchResultWindowSearchClick:self];
+				}
+				else if(rtn == NSAlertAlternateReturn)
+				{
+					[self autotagNext];
+				}
+			}
+		}
+		else if(fa){
+			[self searchTagClick:self];
 		}
 		return true;
+	}
+	if(fa){
+		[_loadWnd hide];
 	}
 	[[NSApplication sharedApplication] endSheet:[self searchResultWindow] returnCode:0];
 	return false;
 }
 
 -(void) autotag {
+	NSInteger fa = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fullAutomation"] intValue];
 	[[self customSearchWindowUseSameSeriesCheckBox] setState:NO];
+	if(fa) [_loadWnd show:@"Preforming Full Automation Autotag..."];
 	[[NSApplication sharedApplication] beginSheet:[self searchResultWindow] 
 								   modalForWindow:[self window]
 									modalDelegate:self
@@ -274,6 +289,8 @@
 - (IBAction)preferencesClick:(id)sender {
 	NSInteger i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"renameFile"] intValue];
 	[[self preferencesRenameCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fullAutomation"] intValue];
+	[[self preferencesFullAutomationCheckBox] setState:i];
 	[[NSApplication sharedApplication] beginSheet:[self preferencesWindow] 
 								   modalForWindow:[self window]
 									modalDelegate:self
@@ -412,6 +429,7 @@
 - (void)preferencesWindowSheetEnded:(NSNotification *)notification returnCode:(NSInteger)rtnCode contextInfo:(NSObject*)cInfo
 {
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesRenameCheckBox] state]] forKey:@"renameFile"];
+	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesFullAutomationCheckBox] state]] forKey:@"fullAutomation"];
 	[[self preferencesWindow] close];
 }
 @end

@@ -39,6 +39,7 @@
 @property (weak) IBOutlet NSToolbarItem *autotagButton;
 @property (weak) IBOutlet NSToolbarItem *preferencesButton;
 @property (weak) IBOutlet NSButton *preferencesRenameCheckBox;
+@property (weak) IBOutlet NSButton *preferencesFullAutomationCheckBox;
 
 - (IBAction)addMp4Click:(id)sender;
 - (IBAction)removeMp4Click:(id)sender;

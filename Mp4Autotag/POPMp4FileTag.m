@@ -184,7 +184,7 @@
 									 userInfo:nil];
 	}
 	[info enumerateLinesUsingBlock: ^(NSString *line, BOOL *stop) {
-		if(line != nil) {
+		if(line != nil && [line compare:@""] != 0) {
 			if([line characterAtIndex:0] == ' ')
 			{
 				NSArray* kvpair = [[line stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] componentsSeparatedByString:@":"];

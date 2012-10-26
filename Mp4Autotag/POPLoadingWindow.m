@@ -49,7 +49,7 @@
 	if(session == nil)
 	{
 		session = [NSApp beginModalSessionForWindow:self];
-	}
+	} 
 	
 }
 

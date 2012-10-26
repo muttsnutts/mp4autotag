@@ -172,15 +172,8 @@
 		tvdb = [[POPTVDB alloc] init];
 		results = [tvdb searchTVFor:serstr season:seastr episode:epistr];
 	}
-	/*if([results count] == 0) {
-		NSRunAlertPanel(@"Mp4Autotag", 
-						@"Unable to find movie/show in databases, try a custom search.",
-						@"OK", nil, nil);
-	}
-	else {*/
-		[tableView reloadData];
-		[tableView selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:NO];
-	//}
+	[tableView reloadData];
+	[tableView selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:NO];
 	return results;
 }
 
