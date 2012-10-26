@@ -8,6 +8,7 @@
 
 #import "POPTMDB.h"
 #import "POPMp4FileTag.h"
+#import "POPImage.h"
 
 @implementation POPTMDB
 {
@@ -43,7 +44,7 @@
 	return [self queryURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://api.themoviedb.org/3/movie/%@?api_key=ae802ff2638e8a186add7079dda29e03", [mid stringValue]]]];
 }
 
--(POPMp4FileTag*)getMp4FileTagWithId:(int)dbId
+-(POPMp4FileTag*)getMp4FileTagWithId:(int)dbId useITunes:(BOOL)useITunes
 {
 	NSNumber* mid = [NSNumber numberWithInt:dbId];
 	POPMp4FileTag* tag = [[POPMp4FileTag alloc] init];
@@ -102,13 +103,20 @@
 	[tag setProperty:@"Long Description" value:val];
 	
 	NSString* posterPath = [self safeGet:res key:@"poster_path"];
-	if([posterPath compare:@""] != 0)
+	NSImage* img = nil;
+	if([posterPath compare:@""] == 0 || useITunes)
+	{
+		img = [POPImage getITunesImageForMovie:[tag property:@"Name"]];
+	}
+	
+	if(img == nil && [posterPath compare:@""] != 0)
 	{
 		NSString* urlStr = [[self imageBaseUrl] stringByAppendingFormat:@"w500%@", posterPath];
 		NSURL* imgUrl = [NSURL URLWithString:urlStr];
-		NSImage* img = [[NSImage alloc] initWithContentsOfURL:imgUrl];
-		[tag setImage:img];
+		img = [[NSImage alloc] initWithContentsOfURL:imgUrl];	
 	}
+	
+	[tag setImage:img];
 	
 	return tag;
 }
@@ -129,7 +137,7 @@
 	return [rtn objectForKey:@"cast"];
 }
 
--(NSArray*) searchMoviesFor:(NSString*)search
+-(NSArray*) searchMoviesFor:(NSString*)search useITunes:(BOOL)useITunes
 {
 	_searchResultsJSON = [self queryURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@", @"http://api.themoviedb.org/3/search/movie?api_key=ae802ff2638e8a186add7079dda29e03&query=", [[search stringByReplacingOccurrencesOfString:@"&" withString:@"and"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]]];//[NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
 	NSArray* res = [_searchResultsJSON objectForKey:@"results"];
@@ -148,6 +156,22 @@
 			[tag setProperty:@"Name" value:[NSString stringWithFormat:@"%@ (%@)", [tag property:@"TV Show"], [tag property:@"Release Date"]]];
 			
 			NSString* posterPath = [self safeGet:dic key:@"poster_path"];
+			NSImage* img = nil;
+			if([posterPath compare:@""] == 0 || useITunes)
+			{
+				img = [POPImage getITunesImageForMovie:[tag property:@"Name"]];
+			}
+			
+			if(img == nil && [posterPath compare:@""] != 0)
+			{
+				NSString* urlStr = [[self imageBaseUrl] stringByAppendingFormat:@"w500%@", posterPath];
+				NSURL* imgUrl = [NSURL URLWithString:urlStr];
+				img = [[NSImage alloc] initWithContentsOfURL:imgUrl];
+			}
+			
+			[tag setImage:img];
+			/*
+			NSString* posterPath = [self safeGet:dic key:@"poster_path"];
 			if([posterPath compare:@""] != 0)
 			{
 				NSString* urlStr = [[self imageBaseUrl] stringByAppendingFormat:@"w500%@", posterPath];
@@ -155,7 +179,7 @@
 				NSImage* img = [[NSImage alloc] initWithContentsOfURL:imgUrl];
 				[tag setImage:img];
 			}
-			
+			*/
 			[rtn addObject:tag];
 		}
 	}

@@ -13,6 +13,8 @@
 
 @interface POPAppDelegate : NSObject <NSApplicationDelegate>
 
+typedef enum preferencesEpisodeCoverArtOption {useUnique, useSeries, useSeriesWatermarked} preferencesEpisodeCoverArtOption;
+
 @property (assign) IBOutlet NSWindow *window;
 @property (unsafe_unretained) IBOutlet POPLoadingWindow *loadWnd;
 @property (weak) IBOutlet NSTableView *mp4FileTagTableView;
@@ -40,6 +42,8 @@
 @property (weak) IBOutlet NSToolbarItem *preferencesButton;
 @property (weak) IBOutlet NSButton *preferencesRenameCheckBox;
 @property (weak) IBOutlet NSButton *preferencesFullAutomationCheckBox;
+@property (weak) IBOutlet NSMatrix *preferencesEpisodeCoverArtMatrix;
+@property (weak) IBOutlet NSButton *preferencesUseITunesCheckBox;
 
 - (IBAction)addMp4Click:(id)sender;
 - (IBAction)removeMp4Click:(id)sender;

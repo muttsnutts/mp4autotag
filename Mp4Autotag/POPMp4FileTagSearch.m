@@ -166,11 +166,17 @@
 	}
 	if(_isMovie){
 		tmdb = [[POPTMDB alloc] init];
-		results = [tmdb searchMoviesFor:search_str];
+		results = [tmdb searchMoviesFor:search_str useITunes:[[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] boolValue]];
 	}
 	else {
+		NSInteger cartt = [[[NSUserDefaults standardUserDefaults] valueForKey:@"episodeCoverArt"] intValue];
+		BOOL uit = [[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] boolValue];
 		tvdb = [[POPTVDB alloc] init];
-		results = [tvdb searchTVFor:serstr season:seastr episode:epistr];
+		results = [tvdb searchTVFor:serstr 
+							 season:seastr 
+							episode:epistr 
+					   coverArtType:cartt 
+						  useITunes:uit];
 	}
 	[tableView reloadData];
 	[tableView selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:NO];
@@ -181,7 +187,7 @@
 	if(idx < [results count]){
 		if(_isMovie && tmdb != nil)
 		{
-			return [tmdb getMp4FileTagWithId:[[results objectAtIndex:idx] dbID]];
+			return [tmdb getMp4FileTagWithId:[[results objectAtIndex:idx] dbID] useITunes:[[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] boolValue]];
 		}
 		else
 		{

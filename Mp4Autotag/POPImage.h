@@ -10,4 +10,6 @@
 
 @interface POPImage : NSObject
 +(void)saveJpg:(NSImage*)img path:(NSString*)path;
++(NSImage*)getITunesImageForSeries:(NSString*)series season:(NSInteger)season; 
++(NSImage*)getITunesImageForMovie:(NSString*)movie;
 @end

@@ -137,19 +137,6 @@
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "Mp4Autotag/POPAppDelegate.m"
-         timestampString = "372922237.492281"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "166"
-         endingLineNumber = "166"
-         landmarkName = "-saveMp4Click:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
          filePath = "Mp4Autotag/POPMp4FileTag.m"
          timestampString = "371741780.786118"
          startingColumnNumber = "9223372036854775807"
@@ -170,32 +157,6 @@
          startingLineNumber = "75"
          endingLineNumber = "75"
          landmarkName = "-searchWithFileTag:tableView:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "Mp4Autotag/POPAppDelegate.m"
-         timestampString = "372953670.280469"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "390"
-         endingLineNumber = "390"
-         landmarkName = "-searchDoneClick:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "Mp4Autotag/POPAppDelegate.m"
-         timestampString = "372953613.330784"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "213"
-         endingLineNumber = "213"
-         landmarkName = "-autotagNext"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -268,11 +229,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Mp4Autotag/POPTVDB.m"
-         timestampString = "371740451.106776"
+         timestampString = "372984801.515478"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "183"
-         endingLineNumber = "183">
+         startingLineNumber = "244"
+         endingLineNumber = "244">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -292,23 +253,23 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Mp4Autotag/POPTVDB.m"
-         timestampString = "371740451.106776"
+         timestampString = "372984801.515478"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "180"
-         endingLineNumber = "180">
+         startingLineNumber = "241"
+         endingLineNumber = "241">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Mp4Autotag/POPTVDB.m"
-         timestampString = "370815458.838359"
+         timestampString = "372984801.515478"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "90"
-         endingLineNumber = "90"
-         landmarkName = "-searchTVFor:season:episode:"
+         startingLineNumber = "97"
+         endingLineNumber = "97"
+         landmarkName = "-searchTVFor:season:episode:coverArtType:useITunes:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -341,26 +302,13 @@
          shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "Mp4Autotag/POPAppDelegate.m"
-         timestampString = "372953670.280469"
+         filePath = "Mp4Autotag/POPTMDB.m"
+         timestampString = "372982952.430919"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "304"
-         endingLineNumber = "304"
-         landmarkName = "-searchResultWindowSearchClick:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "Mp4Autotag/POPAppDelegate.m"
-         timestampString = "372953670.280469"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "340"
-         endingLineNumber = "340"
-         landmarkName = "-customSearchWindowSearchClick:"
+         startingLineNumber = "186"
+         endingLineNumber = "186"
+         landmarkName = "-searchMoviesFor:useITunes:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -368,12 +316,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Mp4Autotag/POPTMDB.m"
-         timestampString = "370836190.662789"
+         timestampString = "372980596.299148"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "162"
-         endingLineNumber = "162"
-         landmarkName = "-searchMoviesFor:"
+         startingLineNumber = "54"
+         endingLineNumber = "54"
+         landmarkName = "-getMp4FileTagWithId:useITunes:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -381,25 +329,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Mp4Autotag/POPTMDB.m"
-         timestampString = "370866035.363508"
+         timestampString = "372982952.430919"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "53"
-         endingLineNumber = "53"
-         landmarkName = "-getMp4FileTagWithId:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "Mp4Autotag/POPTMDB.m"
-         timestampString = "370866177.04702"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "145"
-         endingLineNumber = "145"
-         landmarkName = "-searchMoviesFor:"
+         startingLineNumber = "153"
+         endingLineNumber = "153"
+         landmarkName = "-searchMoviesFor:useITunes:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -439,6 +374,32 @@
          startingLineNumber = "166"
          endingLineNumber = "166"
          landmarkName = "-tableView:draggingSession:endedAtPoint:operation:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Mp4Autotag/POPTVDB.m"
+         timestampString = "372984736.419212"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "20"
+         endingLineNumber = "20"
+         landmarkName = "-queryURL:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Mp4Autotag/POPTVDB.m"
+         timestampString = "372984742.523105"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "21"
+         endingLineNumber = "21"
+         landmarkName = "-queryURL:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

@@ -11,6 +11,10 @@
 
 @interface POPTVDB : NSObject
 -(id) init;
--(NSArray*)searchTVFor:(NSString*)series season:(NSString*)season episode:(NSString*)episode;
+-(NSArray*)searchTVFor:(NSString*)series 
+				season:(NSString*)season 
+			   episode:(NSString*)episode 
+		  coverArtType:(NSInteger)coverArtType
+			 useITunes:(BOOL)useITunes;
 -(POPMp4FileTag*)getMp4FileTagWithId:(int)dbId;
 @end

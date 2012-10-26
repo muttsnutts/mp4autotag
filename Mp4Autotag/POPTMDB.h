@@ -11,6 +11,6 @@
 
 @interface POPTMDB : NSObject
 -(id) init;
--(NSArray*)searchMoviesFor:(NSString*)search;
--(POPMp4FileTag*)getMp4FileTagWithId:(int)dbId;
+-(NSArray*)searchMoviesFor:(NSString*)search useITunes:(BOOL)useITunes;
+-(POPMp4FileTag*)getMp4FileTagWithId:(int)dbId useITunes:(BOOL)useITunes;
 @end

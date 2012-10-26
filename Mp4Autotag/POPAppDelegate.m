@@ -44,6 +44,8 @@
 @synthesize preferencesButton = _preferencesButton;
 @synthesize preferencesRenameCheckBox = _preferencesRenameCheckBox;
 @synthesize preferencesFullAutomationCheckBox = _preferencesFullAutomationCheckBox;
+@synthesize preferencesEpisodeCoverArtMatrix = _preferencesEpisodeCoverArtMatrix;
+@synthesize preferencesUseITunesCheckBox = _preferencesUseITunesCheckBox;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -54,21 +56,36 @@
 	[[self mp4FileTagTableView] setDelegate:(id<NSTableViewDelegate>)mp4FileTagTable];
 	[self refreshButtons];
 	
-	//setup the size of the splits
-	CGFloat hf = [[[NSUserDefaults standardUserDefaults] valueForKey:@"hsplit"] floatValue];
-	CGFloat vf = [[[NSUserDefaults standardUserDefaults] valueForKey:@"vsplit"] floatValue];	
-	NSSize size;
-	if(hf != 0){
-		size = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] frame].size;
-		size.height = hf;
-		[[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] setFrameSize:size];
-		//[[self mp4AutotagWindowSplitViewHorizontal] adjustSubviews];
+	//setup the window size
+	CGFloat wh = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndheight"] floatValue];
+	CGFloat ww = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndwidth"] floatValue];
+	CGFloat wx = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndx"] floatValue];
+	CGFloat wy = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndy"] floatValue];
+	if(wh > 0 && ww > 0){
+		[[self window] setFrame:NSMakeRect(wx, wy, ww, wh) display:NO];
 	}
-	if(vf != 0){
+	
+	//setup the size of the splits
+	CGFloat f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"hsplit1"] floatValue];	
+	NSSize size;
+	if(f != 0){
+		size = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] frame].size;
+		size.height = f;
+		[[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] setFrameSize:size];
+		f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"hsplit2"] floatValue];
+		size = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] frame].size;
+		size.height = f;
+		[[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] setFrameSize:size];
+	}
+	f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"vsplit1"] floatValue];
+	if(f != 0){
 		size = [[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:0] frame].size;
-		size.width = vf;
+		size.width = f;
 		[[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:0] setFrameSize:size];
-		//[[self mp4AutotagWindowSplitViewVertical] adjustSubviews];
+		f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"vsplit2"] floatValue];
+		size = [[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:1] frame].size;
+		size.width = f;
+		[[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:1] setFrameSize:size];
 	}
 }
 
@@ -89,25 +106,19 @@
 	[[NSUserDefaults standardUserDefaults] setValue:wx forKey:@"wndx"];
 	[[NSUserDefaults standardUserDefaults] setValue:wy forKey:@"wndy"];
 	
-	CGFloat hf = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] frame].size.height;
-	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:hf] forKey:@"hsplit"];
-	CGFloat vf = [[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:0] frame].size.width;
-	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:vf] forKey:@"vsplit"];
+	CGFloat f = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] frame].size.height;
+	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:f] forKey:@"hsplit1"];
+	f = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] frame].size.height;
+	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:f] forKey:@"hsplit2"];
+	f = [[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:0] frame].size.width;
+	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:f] forKey:@"vsplit1"];
+	f = [[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:1] frame].size.width;
+	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:f] forKey:@"vsplit2"];
 }
 
 -(void)awakeFromNib
 {
 	[[self mp4FileTagTableView] registerForDraggedTypes:[NSArray arrayWithObjects:NSFilenamesPboardType, nil]]; 
-	
-	//setup the window size
-	CGFloat wh = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndheight"] floatValue];
-	CGFloat ww = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndwidth"] floatValue];
-	CGFloat wx = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndx"] floatValue];
-	CGFloat wy = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndy"] floatValue];
-	if(wh > 0 && ww > 0){
-		[[self window] setFrame:NSMakeRect(wx, wy, ww, wh) display:NO];
-	}
-	
 }
 
 -(void)refreshButtons {
@@ -291,6 +302,10 @@
 	[[self preferencesRenameCheckBox] setState:i];
 	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fullAutomation"] intValue];
 	[[self preferencesFullAutomationCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"episodeCoverArt"] intValue];
+	[[self preferencesEpisodeCoverArtMatrix] setState:YES atRow:i column:0];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] intValue];
+	[[self preferencesUseITunesCheckBox] setState:i];
 	[[NSApplication sharedApplication] beginSheet:[self preferencesWindow] 
 								   modalForWindow:[self window]
 									modalDelegate:self
@@ -430,27 +445,9 @@
 {
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesRenameCheckBox] state]] forKey:@"renameFile"];
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesFullAutomationCheckBox] state]] forKey:@"fullAutomation"];
+	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesEpisodeCoverArtMatrix] selectedRow]] forKey:@"episodeCoverArt"];
+	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesUseITunesCheckBox] state]] forKey:@"useITunes"];
 	[[self preferencesWindow] close];
 }
+
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

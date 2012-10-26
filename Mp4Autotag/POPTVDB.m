@@ -8,6 +8,7 @@
 
 #import "POPTVDB.h"
 #import "POPXMLReader.h"
+#import "POPImage.h"
 
 @implementation POPTVDB
 -(id) init;{
@@ -23,7 +24,11 @@
 }
 
 
--(NSArray*)searchTVFor:(NSString*)series season:(NSString*)season episode:(NSString*)episode {
+-(NSArray*)searchTVFor:(NSString*)series 
+				season:(NSString*)season 
+			   episode:(NSString*)episode 
+		  coverArtType:(NSInteger)coverArtType 
+			 useITunes:(BOOL)useITunes{
 	
 	NSMutableArray *rtn = [NSMutableArray array];
 	
@@ -64,7 +69,8 @@
 	NSMutableArray* r4m = [NSMutableArray array];
 	for(int i = 0; i < [seriesIds count]; i++)
 	{
-		url = [NSURL URLWithString:[NSString stringWithFormat: @"http://www.thetvdb.com/api/A8B8C9F3D5621481/series/%@/all", [seriesIds objectAtIndex:i]]];
+		url = [NSURL URLWithString:[NSString stringWithFormat: @"http://www.thetvdb.com/api/A8B8C9F3D5621481/series/%@/all/en.xml", [seriesIds objectAtIndex:i]]];
+		NSLog(@"%@",url);
 		NSDictionary* resAll = [self queryURL:url];
 		
 		NSString* actors = [POPXMLReader safeDictionaryGet:resAll 
@@ -79,6 +85,7 @@
 												 path:[NSArray arrayWithObjects:@"Data", @"Series", @"Network", @"text",nil]];
 		NSString* releaseDate = [POPXMLReader safeDictionaryGet:resAll 
 												   path:[NSArray arrayWithObjects:@"Data", @"Series", @"FirstAired", @"text",nil]];
+		NSString* seriesposter = [NSString stringWithFormat:@"posters/%@-1.jpg",[seriesIds objectAtIndex:i]];
 		
 		id epiobj = [[resAll objectForKey:@"Data"] objectForKey:@"Episode"];
 		int epinum = 0;
@@ -96,6 +103,7 @@
 		if(epiary != nil){
 			for(int i = 0; i < [epiary count]; i++){
 				NSDictionary* epidic = (NSDictionary*)[epiary objectAtIndex:i];
+				NSLog(@"%@",epidic);
 				epinum = [[POPXMLReader safeDictionaryGet:epidic 
 											 path:[NSArray arrayWithObjects:@"EpisodeNumber", @"text",nil]] intValue];
 				seanum = [[POPXMLReader safeDictionaryGet:epidic 
@@ -135,11 +143,64 @@
 				[tag setProperty:@"Media Type" value:@"tvshow"];
 				[tag setProperty:@"Name" value:[NSString stringWithFormat:@"%@ - S%0.2iE%0.2i - %@", tvshow, seanum, epinum, epiname]];
 				[tag setDbID:dbID];
-				if([poster compare:@""] != 0) {
-					NSURL* imgurl = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.thetvdb.com/banners/%@", poster]];
-					NSImage* img = [[NSImage alloc] initWithContentsOfURL:imgurl];
-					[tag setImage:img];
+				
+				NSImage *img = nil;
+				NSURL* imgurl = nil;
+				//now set the image based on using:
+												//season poster, 
+												//episode poster, 
+												//watermarked season poster, 
+												//itunes season poster, or 
+												//itunes season watermarked poster.
+												
+				//first see if we are using episode posters
+				if(coverArtType == 0)
+				{
+					if([poster compare:@""] != 0) {
+						imgurl = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.thetvdb.com/banners/%@", poster]];
+						img = [[NSImage alloc] initWithContentsOfURL:imgurl];
+					}
 				}
+				
+				//If that did not work then we are using season posters
+				if(img == nil)
+				{
+					//now see if we are using itunes
+					BOOL uit = useITunes;
+					if(uit)
+					{
+						//try to get an itunes image
+						img = [POPImage getITunesImageForSeries:tvshow season:seanum];
+						//if not gotten, set useITunes to false
+						if(img == nil) uit = NO;
+					}
+					//if that failed or we are not using iTunes
+					if(!uit)
+					{
+						if([poster compare:@""] != 0) {
+							imgurl = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.thetvdb.com/banners/%@", seriesposter]];
+							img = [[NSImage alloc] initWithContentsOfURL:imgurl];
+						} 
+					}
+				}
+				
+				//if we got an image then lets see if we should watermark it
+				if(img != nil && coverArtType == 2)
+				{
+					[img lockFocus];
+					NSString *wm = [NSString stringWithFormat:@"S%0.2i\nE%0.2i", [[tag property:@"TV Season"] intValue], [[tag property:@"TV Episode"] intValue]];
+					float fs = [img alignmentRect].size.width/3.3;
+					NSDictionary* atts = [NSDictionary dictionaryWithObjectsAndKeys:
+											   [NSColor colorWithCalibratedWhite:0.0 alpha:0.5], NSForegroundColorAttributeName,
+											   [NSFont fontWithName:@"Helvetica-BoldOblique" size:fs], NSFontAttributeName, [NSNumber numberWithFloat:0.0], NSObliquenessAttributeName,
+											   nil ];
+					[wm drawInRect:[img alignmentRect] withAttributes:atts];
+					[img unlockFocus];
+				}
+				
+				//set img to the tag...
+				[tag setImage:img];
+				
 				if(epinum == episearchnum && seanum == seasearchnum){
 					if([series compare:tvshow options:NSCaseInsensitiveSearch] == 0)
 						[r1m insertObject:tag atIndex:0];
