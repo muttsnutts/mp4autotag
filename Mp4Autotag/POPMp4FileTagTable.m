@@ -12,6 +12,7 @@
 {
 	NSTableView* _tableView;
 	NSTextField* _currentFilenameLabel;
+	POPAppDelegate* _parent;
 }
 
 @synthesize mp4tags = _mp4tags;
@@ -19,17 +20,15 @@
 @synthesize propertyImageView = _propertyImageView;
 @synthesize loadWnd = _loadWnd;
 
--(id) initWithViews:(NSTableView*)tablev 
-			tagView:(NSTableView*)propv 
-		  imageView:(NSImageCell*)imgv 
-currentFilenameLabel:(NSTextField*)currentFilenameLabel 
-			loadWnd:(POPLoadingWindow*)loadWnd{
+-(id) initWithParent:(POPAppDelegate*)parent 
+{	
 	_mp4tags = [NSMutableArray array];
-	_propertyView = propv;
-	_propertyImageView = imgv;
-	_loadWnd = loadWnd;
-	_tableView = tablev;
-	_currentFilenameLabel = currentFilenameLabel;
+	_propertyView = [parent mp4FileTagView];
+	_propertyImageView = [parent mp4FileTagImage];
+	_loadWnd = [parent loadWnd];
+	_tableView = [parent mp4FileTagTableView];
+	_currentFilenameLabel = [parent currentFilenameLabel];
+	_parent = parent;
 	return [super init];
 }
 
@@ -199,6 +198,7 @@ objectValueForTableColumn:(NSTableColumn*)aTableColumn
 		}
 		[_propertyView reloadData];
 	}
+	if(_parent != nil) [_parent refreshButtons];
 }
 
 - (void)removeMp4FileTagAt:(int)idx {

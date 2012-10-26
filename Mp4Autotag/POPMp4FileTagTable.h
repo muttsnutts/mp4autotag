@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "POPAppDelegate.h"
 #import "POPMp4FileTag.h"
 #import "POPLoadingWindow.h"
 
@@ -17,7 +18,7 @@
 @property (readwrite) NSImageCell* propertyImageView;
 @property (readwrite) POPLoadingWindow* loadWnd;
 
--(id) initWithViews:(NSTableView*)tablev tagView:(NSTableView*)propv imageView:(NSImageCell*)imgv currentFilenameLabel:(NSTextField*)currentFilenameLabel loadWnd:(POPLoadingWindow*)loadWnd; 
+-(id) initWithParent:(id)parent; 
 -(void) addMp4FileTag:(POPMp4FileTag*)tag at:(int)idx;
 -(void) addMp4Files:(NSArray*) urls atIndex:(unsigned int)atIdx;
 -(void) removeMp4FileTagAt:(int)idx;
