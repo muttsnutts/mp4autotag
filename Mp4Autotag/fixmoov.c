@@ -308,8 +308,11 @@ int fixMOOV(char* file)
 	rtn = fixMOOVFILE(file, tmpFilename);
 	if(rtn == 0)
 	{
-		//unlink(file);
-		rename(tmpFilename, file);
+		if(rename(tmpFilename, file) != 0) 
+		{
+			perror("Unable to use rename.");
+		}
 	}
+	unlink(tmpFilename);
 	return rtn;
 }
