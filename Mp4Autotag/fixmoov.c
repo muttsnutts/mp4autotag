@@ -308,7 +308,7 @@ int fixMOOV(char* file)
 	rtn = fixMOOVFILE(file, tmpFilename);
 	if(rtn == 0)
 	{
-		unlink(file);
+		//unlink(file);
 		rename(tmpFilename, file);
 	}
 	return rtn;
