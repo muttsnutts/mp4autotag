@@ -104,6 +104,8 @@
 {
 	[_loadWnd show:@"Adding files..."];
 	[self addMp4FileWalk:urls atIndex:atIdx];
+	NSIndexSet *indexSet = [NSIndexSet indexSetWithIndex:atIdx];
+	[_tableView selectRowIndexes:indexSet byExtendingSelection:NO];
 	[self reloadAll];
 	[_loadWnd hide];
 }

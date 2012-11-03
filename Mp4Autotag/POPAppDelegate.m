@@ -8,6 +8,7 @@
 
 #import "POPAppDelegate.h"
 #import "POPMp4FileTagSearch.h"
+#import "fixmoov.h"
 
 @implementation POPAppDelegate
 {
@@ -46,6 +47,9 @@
 @synthesize preferencesFullAutomationCheckBox = _preferencesFullAutomationCheckBox;
 @synthesize preferencesEpisodeCoverArtMatrix = _preferencesEpisodeCoverArtMatrix;
 @synthesize preferencesUseITunesCheckBox = _preferencesUseITunesCheckBox;
+@synthesize dropFileHereImageWell = _dropFileHereImageWell;
+@synthesize mp4FileTagsTableScrollView = _mp4FileTagsTableScrollView;
+@synthesize preferencesFixForNetworkCheckBox = _preferencesFixForNetworkCheckBox;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -55,15 +59,6 @@
 	[[self mp4FileTagTableView] setDataSource:(id<NSTableViewDataSource>)mp4FileTagTable];
 	[[self mp4FileTagTableView] setDelegate:(id<NSTableViewDelegate>)mp4FileTagTable];
 	[self refreshButtons];
-	
-	//setup the window size
-	CGFloat wh = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndheight"] floatValue];
-	CGFloat ww = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndwidth"] floatValue];
-	CGFloat wx = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndx"] floatValue];
-	CGFloat wy = [[[NSUserDefaults standardUserDefaults] valueForKey:@"wndy"] floatValue];
-	if(wh > 0 && ww > 0){
-		[[self window] setFrame:NSMakeRect(wx, wy, ww, wh) display:NO];
-	}
 	
 	//setup the size of the splits
 	CGFloat f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"hsplit1"] floatValue];	
@@ -97,15 +92,6 @@
 - (void)applicationWillTerminate:(NSNotification *)aNotification
 {
 	//save out the userdefaults...
-	NSNumber *wh = [NSNumber numberWithFloat:[[self window] frame].size.height];
-	NSNumber *ww = [NSNumber numberWithFloat:[[self window] frame].size.width];
-	NSNumber *wx = [NSNumber numberWithFloat:[[self window] frame].origin.x];
-	NSNumber *wy = [NSNumber numberWithFloat:[[self window] frame].origin.y];
-	[[NSUserDefaults standardUserDefaults] setValue:wh forKey:@"wndheight"];
-	[[NSUserDefaults standardUserDefaults] setValue:ww forKey:@"wndwidth"];
-	[[NSUserDefaults standardUserDefaults] setValue:wx forKey:@"wndx"];
-	[[NSUserDefaults standardUserDefaults] setValue:wy forKey:@"wndy"];
-	
 	CGFloat f = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] frame].size.height;
 	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:f] forKey:@"hsplit1"];
 	f = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] frame].size.height;
@@ -118,12 +104,15 @@
 
 -(void)awakeFromNib
 {
-	[[self mp4FileTagTableView] registerForDraggedTypes:[NSArray arrayWithObjects:NSFilenamesPboardType, nil]]; 
+	[[self mp4FileTagTableView] registerForDraggedTypes:[NSArray arrayWithObjects:NSFilenamesPboardType, nil]];
+	[[self dropFileHereImageWell] registerForDraggedTypes:[NSArray arrayWithObjects:NSFilenamesPboardType, nil]];
 }
 
 -(void)refreshButtons {
 	if([_mp4FileTagTableView numberOfRows] > 0)
 	{
+		//[[self dropFileHereImageWell] setHidden:YES];
+		[[self mp4FileTagsTableScrollView] setAlphaValue:1.0];
 		[[self autotagAllButton] setAction:@selector(autotagAllClick:)];
 		[[self saveAllButton] setAction:@selector(saveAllMp4Click:)];
 		if([_mp4FileTagTableView selectedRow] >= 0)
@@ -144,6 +133,8 @@
 		[[self removeButton] setAction:nil];
 		[[self autotagButton] setAction:nil];
 		[[self saveButton] setAction:nil];
+		//[[self dropFileHereImageWell] setHidden:NO];
+		[[self mp4FileTagsTableScrollView] setAlphaValue:0.3];
 	}
 }
 
@@ -306,6 +297,8 @@
 	[[self preferencesEpisodeCoverArtMatrix] setState:YES atRow:i column:0];
 	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] intValue];
 	[[self preferencesUseITunesCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fixForNetwork"] intValue];
+	[[self preferencesFixForNetworkCheckBox] setState:i];
 	[[NSApplication sharedApplication] beginSheet:[self preferencesWindow] 
 								   modalForWindow:[self window]
 									modalDelegate:self
@@ -415,6 +408,9 @@
 			[_loadWnd show:[NSString stringWithFormat:@"Merging tag and saving ...\"%@\"\nRename to...\"%@\"", [otag filename], [NSString stringWithFormat:@"%@.mp4", [ntag property:@"Name"]]]];
 			[otag mergeData:ntag];
 			[otag save];
+			if([[[NSUserDefaults standardUserDefaults] valueForKey:@"fixForNetwork"] intValue]) {
+				fixMOOV((char*)[[otag filename] cStringUsingEncoding:NSASCIIStringEncoding]);
+			}
 			if([[[NSUserDefaults standardUserDefaults] valueForKey:@"renameFile"] intValue]) {
 				[otag rename];
 			}
@@ -447,6 +443,7 @@
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesFullAutomationCheckBox] state]] forKey:@"fullAutomation"];
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesEpisodeCoverArtMatrix] selectedRow]] forKey:@"episodeCoverArt"];
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesUseITunesCheckBox] state]] forKey:@"useITunes"];
+	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesFixForNetworkCheckBox] state]] forKey:@"fixForNetwork"];
 	[[self preferencesWindow] close];
 }
 

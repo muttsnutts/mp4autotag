@@ -44,6 +44,9 @@ typedef enum preferencesEpisodeCoverArtOption {useUnique, useSeries, useSeriesWa
 @property (weak) IBOutlet NSButton *preferencesFullAutomationCheckBox;
 @property (weak) IBOutlet NSMatrix *preferencesEpisodeCoverArtMatrix;
 @property (weak) IBOutlet NSButton *preferencesUseITunesCheckBox;
+@property (weak) IBOutlet NSImageView *dropFileHereImageWell;
+@property (weak) IBOutlet NSScrollView *mp4FileTagsTableScrollView;
+@property (weak) IBOutlet NSButton *preferencesFixForNetworkCheckBox;
 
 - (IBAction)addMp4Click:(id)sender;
 - (IBAction)removeMp4Click:(id)sender;
@@ -53,9 +56,9 @@ typedef enum preferencesEpisodeCoverArtOption {useUnique, useSeries, useSeriesWa
 - (IBAction)autotagSelectedClick:(id)sender;
 - (IBAction)preferencesClick:(id)sender;
 - (IBAction)searchResultWindowSearchClick:(id)sender;
+- (IBAction)autotagAllClick:(id)sender;
 - (IBAction)searchTagClick:(id)sender;
 - (IBAction)searchDoneClick:(id)sender;
-- (IBAction)autotagAllClick:(id)sender;
 - (IBAction)customSearchWindowSearchClick:(id)sender;
 - (IBAction)customSearchWindowCloseClick:(id)sender;
 - (IBAction)preferencesWindowCloseClick:(id)sender;

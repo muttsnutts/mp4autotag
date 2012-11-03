@@ -72,7 +72,7 @@
 		
 		//start search logic for file name...
 		//if file is of type /.*\([0-9]{4}\) *\.mp4$/ then it is a movie
-		 rgx = [NSRegularExpression regularExpressionWithPattern:@"^.*[\\( ][0-9]{4}\\){0,1} *$" 
+		rgx = [NSRegularExpression regularExpressionWithPattern:@"\\({0,1}[0-9]{4}\\){0,1}" 
 														 options:NSRegularExpressionCaseInsensitive 
 														   error:&error];
 		int nm = [rgx numberOfMatchesInString:search_str 

@@ -154,7 +154,7 @@
 												//itunes season watermarked poster.
 												
 				//first see if we are using episode posters
-				if(coverArtType == 0)
+				if(coverArtType < 2)
 				{
 					if([poster compare:@""] != 0) {
 						imgurl = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.thetvdb.com/banners/%@", poster]];
@@ -185,14 +185,22 @@
 				}
 				
 				//if we got an image then lets see if we should watermark it
-				if(img != nil && coverArtType == 2)
+				if(img != nil && (coverArtType == 1 || coverArtType == 3))
 				{
 					[img lockFocus];
-					NSString *wm = [NSString stringWithFormat:@"S%0.2i\nE%0.2i", [[tag property:@"TV Season"] intValue], [[tag property:@"TV Episode"] intValue]];
-					float fs = [img alignmentRect].size.width/3.3;
+					NSString *wm = [NSString stringWithFormat:@"S%0.2iE%0.2i", [[tag property:@"TV Season"] intValue], [[tag property:@"TV Episode"] intValue]];
+					float fs = [img alignmentRect].size.width/4.3;
+					if([img alignmentRect].size.height < [img alignmentRect].size.width)
+					{
+						fs = [img alignmentRect].size.height/4.3;
+					}
+					NSMutableParagraphStyle *style = [[NSMutableParagraphStyle defaultParagraphStyle] mutableCopy];
+					[style setAlignment:NSRightTextAlignment];
 					NSDictionary* atts = [NSDictionary dictionaryWithObjectsAndKeys:
-											   [NSColor colorWithCalibratedWhite:0.0 alpha:0.5], NSForegroundColorAttributeName,
-											   [NSFont fontWithName:@"Helvetica-BoldOblique" size:fs], NSFontAttributeName, [NSNumber numberWithFloat:0.0], NSObliquenessAttributeName,
+											   [NSColor colorWithCalibratedWhite:0.0 alpha:0.3], NSForegroundColorAttributeName,
+											   [NSColor colorWithCalibratedRed:1.0 green:1.0 blue:1.0 alpha:0.3], NSBackgroundColorAttributeName,
+											   [NSFont fontWithName:@"Helvetica-BoldOblique" size:fs], NSFontAttributeName,
+											   style, NSParagraphStyleAttributeName,
 											   nil ];
 					[wm drawInRect:[img alignmentRect] withAttributes:atts];
 					[img unlockFocus];

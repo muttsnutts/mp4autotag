@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2202681644297900067C31 /* dropfilehere.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A2202671644297900067C31 /* dropfilehere.png */; };
+		0A22026B1644A35E00067C31 /* fixmoov.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A22026A1644A35E00067C31 /* fixmoov.c */; };
 		0A522AF1163A03AA00859624 /* autotag_all.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A522AEF163A03A900859624 /* autotag_all.png */; };
 		0A522AF2163A03AA00859624 /* save_all.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A522AF0163A03A900859624 /* save_all.png */; };
 		0A522AF5163A047800859624 /* gear2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A522AF4163A047800859624 /* gear2.png */; };
@@ -46,6 +48,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A2202671644297900067C31 /* dropfilehere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropfilehere.png; sourceTree = "<group>"; };
+		0A22026A1644A35E00067C31 /* fixmoov.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fixmoov.c; sourceTree = "<group>"; };
+		0A22026C1644A43D00067C31 /* fixmoov.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fixmoov.h; sourceTree = "<group>"; };
 		0A522AEF163A03A900859624 /* autotag_all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = autotag_all.png; sourceTree = "<group>"; };
 		0A522AF0163A03A900859624 /* save_all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save_all.png; sourceTree = "<group>"; };
 		0A522AF4163A047800859624 /* gear2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear2.png; sourceTree = "<group>"; };
@@ -121,6 +126,7 @@
 				0A522AF0163A03A900859624 /* save_all.png */,
 				0A8E77C11617CC510027EB83 /* autotag.icns */,
 				0A8E77BF1617CB6F0027EB83 /* autotag.png */,
+				0A2202671644297900067C31 /* dropfilehere.png */,
 				0A7E57001614F8480011A8D5 /* minus.png */,
 				0A7E56FC1614F53D0011A8D5 /* rename.png */,
 				0A7E57061614FD720011A8D5 /* save.png */,
@@ -213,6 +219,8 @@
 				0A61524816285A9E00B41F2C /* POPImage.m */,
 				0A6581F516192A6800959142 /* POPXMLReader.m */,
 				0AD6637B1614B4D2005EA39C /* Supporting Files */,
+				0A22026A1644A35E00067C31 /* fixmoov.c */,
+				0A22026C1644A43D00067C31 /* fixmoov.h */,
 			);
 			path = Mp4Autotag;
 			sourceTree = "<group>";
@@ -303,6 +311,7 @@
 				0A522AF1163A03AA00859624 /* autotag_all.png in Resources */,
 				0A522AF2163A03AA00859624 /* save_all.png in Resources */,
 				0A522AF5163A047800859624 /* gear2.png in Resources */,
+				0A2202681644297900067C31 /* dropfilehere.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +334,7 @@
 				0A6581F616192A6800959142 /* POPXMLReader.m in Sources */,
 				0A6581FA16192CCA00959142 /* POPTVDB.m in Sources */,
 				0A61524916285A9E00B41F2C /* POPImage.m in Sources */,
+				0A22026B1644A35E00067C31 /* fixmoov.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
