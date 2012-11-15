@@ -188,7 +188,7 @@
 				if(img != nil && (coverArtType == 1 || coverArtType == 3))
 				{
 					[img lockFocus];
-					NSString *wm = [NSString stringWithFormat:@"S%0.2iE%0.2i", [[tag property:@"TV Season"] intValue], [[tag property:@"TV Episode"] intValue]];
+					NSString *wm = [NSString stringWithFormat:@"S%0.2iE%0.2i ", [[tag property:@"TV Season"] intValue], [[tag property:@"TV Episode"] intValue]];
 					float fs = [img alignmentRect].size.width/4.3;
 					if([img alignmentRect].size.height < [img alignmentRect].size.width)
 					{
@@ -199,8 +199,8 @@
 					NSDictionary* atts = [NSDictionary dictionaryWithObjectsAndKeys:
 											   [NSColor colorWithCalibratedWhite:0.0 alpha:0.3], NSForegroundColorAttributeName,
 											   [NSColor colorWithCalibratedRed:1.0 green:1.0 blue:1.0 alpha:0.3], NSBackgroundColorAttributeName,
-											   [NSFont fontWithName:@"Helvetica-BoldOblique" size:fs], NSFontAttributeName,
 											   style, NSParagraphStyleAttributeName,
+											   [NSFont fontWithName:@"Helvetica-Bold" size:fs], NSFontAttributeName,
 											   nil ];
 					[wm drawInRect:[img alignmentRect] withAttributes:atts];
 					[img unlockFocus];

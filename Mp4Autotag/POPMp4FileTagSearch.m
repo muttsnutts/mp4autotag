@@ -40,7 +40,8 @@
 -(id) searchWithFileTag:(POPMp4FileTag *)tag 
 			tableView:(NSTableView*)tv {
 	NSError *error;
-	NSRegularExpression* rgx;	
+	NSRegularExpression* rgx;
+	int nm;
 	tableView = tv;
 	results = [NSArray array];
 	_isMovie = true;
@@ -72,17 +73,17 @@
 		
 		//start search logic for file name...
 		//if file is of type /.*\([0-9]{4}\) *\.mp4$/ then it is a movie
-		rgx = [NSRegularExpression regularExpressionWithPattern:@"\\({0,1}[0-9]{4}\\){0,1}" 
+		/*rgx = [NSRegularExpression regularExpressionWithPattern:@"\\({0,1}[0-9]{4}\\){0,1}" 
 														 options:NSRegularExpressionCaseInsensitive 
 														   error:&error];
-		int nm = [rgx numberOfMatchesInString:search_str 
+		nm = [rgx numberOfMatchesInString:search_str 
 									  options:0 
 										range:NSMakeRange(0, [search_str length])];
 		if(nm) {
 			//we have a definate movie
 			_isMovie = true;
 		}
-		else {
+		else {*/
 			//set default series string
 			serstr = [tag property:@"TV Show"];
 			
@@ -163,8 +164,10 @@
 				}
 			}
 		}
-	}
+	//}
 	if(_isMovie){
+		//get the year and then just what is in front of the year...
+		
 		tmdb = [[POPTMDB alloc] init];
 		results = [tmdb searchMoviesFor:search_str useITunes:[[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] boolValue]];
 	}

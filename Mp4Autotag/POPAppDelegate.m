@@ -216,7 +216,7 @@
 	if(attags_idx < [attags count]) {
 		POPMp4FileTag* tag = [attags objectAtIndex:attags_idx];
 		attags_idx = attags_idx + 1;
-		[[self seachFilenameLabel] setStringValue:[tag filename]];
+		[[self seachFilenameLabel] setStringValue:[[tag filename] lastPathComponent]];
 		[[self searchTableView] setDataSource:nil];
 		[[self searchTableView] reloadData];
 		[_loadWnd show:[NSString stringWithFormat:@"Searching for %@...", [tag filename]]];
@@ -255,9 +255,6 @@
 		}
 		return true;
 	}
-	if(fa){
-		[_loadWnd hide];
-	}
 	[[NSApplication sharedApplication] endSheet:[self searchResultWindow] returnCode:0];
 	return false;
 }
@@ -272,6 +269,7 @@
 								   didEndSelector:@selector(searchResultSheetEnded:returnCode:contextInfo:) 
 									  contextInfo:(void*)[self searchResultWindow]];
 	[self autotagNext];
+	if(fa) [_loadWnd hide];
 }
 - (IBAction)autotagSelectedClick:(id)sender {
 	int idx = [[self mp4FileTagTableView] selectedRow];

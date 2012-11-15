@@ -11,6 +11,7 @@
 @implementation POPLoadingWindow 
 {
 	NSModalSession session;
+	NSArray* sessions;
 	NSMutableArray* msgStack;	
 }
 @synthesize msgLabel;
@@ -25,7 +26,7 @@
 }
 
 -(void) addMsg:(NSString*)msg {
-	[msgStack addObject:(id)msg];
+	[msgStack addObject:msg];
 	[[self msgLabel] setStringValue:msg];
 }
 
@@ -46,11 +47,11 @@
 
 -(void) show:(NSString*)msg {
 	[self addMsg:msg];
+	[[self msgLabel] setNeedsDisplay:YES];
 	if(session == nil)
 	{
 		session = [NSApp beginModalSessionForWindow:self];
 	} 
-	
 }
 
 @end
