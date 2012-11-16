@@ -1,6 +1,8 @@
 require 'json'
 
-class Show < WEBrick::HTTPServlet::AbstractServlet
+require './lib/search_movie.rb'
+
+class MovieServlet < WEBrick::HTTPServlet::AbstractServlet
   def do_GET req, res
     status = 200
     content_type = 'text/plain'
@@ -8,12 +10,15 @@ class Show < WEBrick::HTTPServlet::AbstractServlet
     
     begin
       path = req.path
-      paths = path.split('/show/')
+      paths = path.split('/movie/')
       if(paths.count != 2)
         raise "ARGUMENT ERROR: MUST INCLUDE AN <id>"
       else
         idstr = URI.unescape(paths[1])
-        body = idstr.to_json
+        img_base_url = SearchMovie.get_img_base
+        tag = SearchMovie.movie_with_id idstr
+        tag['Image Path'] = img_base_url + "w500" + tag["Image Path"]
+        body = tag.to_json
       end
     rescue Exception => e
       body = {"ERROR" => e.to_s}.to_json
@@ -22,6 +27,10 @@ class Show < WEBrick::HTTPServlet::AbstractServlet
     res.status = status
     res['Content-Type'] = content_type
     res.body = body
+  end
+
+  def dbug(str)
+    puts "[%s] DEBUG  %s. (movie_servlet.rb)" % [Time.now.to_s.sub(/ [\-\+][0-9]{4}$/, ''), str]
   end
 end
   

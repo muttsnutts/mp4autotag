@@ -1,9 +1,9 @@
 #!/usr/local/bin/ruby
 
 require 'webrick'
-require './lib/search.rb'
-require './lib/show.rb'
-require './lib/movie.rb'
+require './lib/search_servlet.rb'
+require './lib/show_servlet.rb'
+require './lib/movie_servlet.rb'
 
 class MP4AutotagServer
   def initialize
@@ -24,9 +24,9 @@ class MP4AutotagServer
   def start
     trap("INT"){ @server.shutdown }
     puts "[%s] INFO  Running on %s(%s:%s)" % [self.now, @server_name, @ip_addr, @port]
-    @server.mount '/search', Search
-    @server.mount '/movie', Movie
-    @server.mount '/show', Show
+    @server.mount '/search', SearchServlet
+    @server.mount '/movie', MovieServlet
+    @server.mount '/show', ShowServlet
     @server.start
   end
 end

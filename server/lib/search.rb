@@ -1,29 +1,9 @@
-require 'json'
+require './lib/search_movie.rb'
+require './lib/search_show.rb'
 require './lib/tag.rb'
 
-class Search < WEBrick::HTTPServlet::AbstractServlet
-  def do_GET req, res
-    status = 200
-    content_type = 'text/plain'
-    body = ''
-    
-    begin
-      path = req.path
-      paths = path.split('/search')
-      if(paths.count != 2)
-        raise "ARGUMENT ERROR: MUST INCLUDE A <filename>"
-      else
-        body = self.search(URI.unescape(paths[1])).to_json
-      end
-    rescue Exception => e
-      body = {"ERROR" => e.to_s}.to_json
-    end
-    
-    res.status = status
-    res['Content-Type'] = content_type
-    res.body = body
-  end
-  def search(search_path)
+class Search
+  def Search::search(search_path)
     #part out the search path
     pathparts = search_path.split('/')
     #remove the filename
@@ -71,7 +51,7 @@ class Search < WEBrick::HTTPServlet::AbstractServlet
       if((md = /s([0-9]+)/i.match(basestr)) != nil)
         seastr = md[1]
         #see if we have a series name...
-        if((md = /(.+) s[0-9]+e[0-9]+/i.match(basestr)) != nil)
+        if((md = /(.+) s[0-9]+ *e[0-9]+/i.match(basestr)) != nil)
           serstr = md[1].strip
         end
       end
@@ -103,34 +83,41 @@ class Search < WEBrick::HTTPServlet::AbstractServlet
     if(is_movie == false && serstr == '' && parentdir_str != nil)
       serstr = parentdir_str
     end
-    rtn = nil
+    rtn = []
     #if we have a movie, do a movie search
     if(is_movie)
-      movstr = ''
-      yearstr = ''
-      if((md = /(.+) \({0,1}([0-9]{4})\){0,1}/i.match(basestr)) != nil)
-        movstr = md[1]
-        yearstr = md[2]
-      else
-        movstr = basestr
-      end
-      rtn = self.movie_search({'basestr' => basestr, 'movstr' => movstr, 'yearstr' => yearstr})
+      rtn = Search.movie_search(basestr)
     #otherwise do a show search
     else
-      rtn = self.show_search({'basestr' => basestr, 'serstr' => serstr, 'seastr' => seastr, 'epistr' => epistr})
+      rtn = Search.show_search(basestr, serstr, seastr, epistr)
+    end
+    #if we still have nothing, and we did not do a movie search...
+    if(rtn.count == 0 && !is_movie)
+      rtn = Search.movie_search(basestr)
     end
     return rtn
   end
-  def movie_search(search)
-    search['is_movie'] = true
-    tag = Tag::create_tag
-    tag["Name"]["value"] = "%s (%s)" % [search['movstr'], search['yearstr']]
-    tag["Media Type"]["value"] = "movie"
-    return tag
+  def Search::movie_search(basestr)
+    movstr = ''
+    yearstr = ''
+    if((md = /(.+) {0,1}\({0,1}([0-9]{4})\){0,1}/i.match(basestr)) != nil)
+      movstr = md[1].chomp("(")
+      movstr.chomp!(" ")
+      yearstr = md[2].chomp
+    else
+      movstr = basestr
+    end
+    Search.dbug "MOVIE SEARCH: basestr = \"%s\", movstr = \"%s\", yearstr = \"%s\"" % 
+                          [basestr, movstr, yearstr]
+    return SearchMovie.search({'basestr' => basestr, 'movstr' => movstr, 'yearstr' => yearstr})
   end
-  def show_search(search)
-    search['is_movie'] = false
-    return search
+  def Search::show_search(basestr, serstr, seastr, epistr)
+    Search.dbug "SHOW SEARCH: basestr = \"%s\", serstr = \"%s\", seastr.to_i = \"%i\", epistr.to_i = \"%i\"" % 
+                          [basestr, serstr, seastr.to_i, epistr.to_i]
+    return SearchShow.search({'basestr' => basestr, 'serstr' => serstr, 'seastr' => seastr, 'epistr' => epistr})
+  end
+  def Search::dbug(str)
+    puts "[%s] DEBUG  %s. (search.rb)" % [Time.now.to_s.sub(/ [\-\+][0-9]{4}$/, ''), str]
   end
 end
   

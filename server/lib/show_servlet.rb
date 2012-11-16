@@ -1,6 +1,6 @@
 require 'json'
 
-class Movie < WEBrick::HTTPServlet::AbstractServlet
+class ShowServlet < WEBrick::HTTPServlet::AbstractServlet
   def do_GET req, res
     status = 200
     content_type = 'text/plain'
@@ -8,7 +8,7 @@ class Movie < WEBrick::HTTPServlet::AbstractServlet
     
     begin
       path = req.path
-      paths = path.split('/movie/')
+      paths = path.split('/show/')
       if(paths.count != 2)
         raise "ARGUMENT ERROR: MUST INCLUDE AN <id>"
       else
