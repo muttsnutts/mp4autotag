@@ -113,6 +113,8 @@ class SearchMovie
     return json['images']['base_url']
   end
   def SearchMovie::dbug(str)
-    puts "[%s] DEBUG  %s. (search_movie.rb)" % [Time.now.to_s.sub(/ [\-\+][0-9]{4}$/, ''), str]
+    if $DEBUG_POP
+      puts "[%s] DEBUG  %s. (search_movie.rb)" % [Time.now.to_s.sub(/ [\-\+][0-9]{4}$/, ''), str]
+    end
   end
 end

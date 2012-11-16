@@ -30,7 +30,9 @@ class MovieServlet < WEBrick::HTTPServlet::AbstractServlet
   end
 
   def dbug(str)
-    puts "[%s] DEBUG  %s. (movie_servlet.rb)" % [Time.now.to_s.sub(/ [\-\+][0-9]{4}$/, ''), str]
+    if $DEBUG_POP
+      puts "[%s] DEBUG  %s. (movie_servlet.rb)" % [Time.now.to_s.sub(/ [\-\+][0-9]{4}$/, ''), str]
+    end
   end
 end
   

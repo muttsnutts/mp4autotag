@@ -5,6 +5,8 @@ require './lib/search_servlet.rb'
 require './lib/show_servlet.rb'
 require './lib/movie_servlet.rb'
 
+$DEBUG_POP = true
+
 class MP4AutotagServer
   def initialize
     @port = 8080
