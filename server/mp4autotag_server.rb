@@ -1,20 +1,32 @@
 #!/usr/local/bin/ruby
 
 require 'webrick'
-require './mp4autotag_search.rb'
+require './lib/search.rb'
+require './lib/show.rb'
+require './lib/movie.rb'
 
 class MP4AutotagServer
   def initialize
+    @port = 8080
+    @doc_root = Dir::pwd
+    @server_name = Socket.gethostname
+    @ip_addr = IPSocket.getaddress(@server_name)
     @server = WEBrick::HTTPServer.new(
       {
-        :Port         => 8080,
-        :DocumentRoot => Dir::pwd
+        :Port         => @port,
+        :DocumentRoot => @doc_root
       }
     )
   end
+  def now
+    return Time.now.to_s.sub(/ [\-\+][0-9]{4}$/, '')
+  end
   def start
     trap("INT"){ @server.shutdown }
-    @server.mount '/search', MP4AutotagSearch
+    puts "[%s] INFO  Running on %s(%s:%s)" % [self.now, @server_name, @ip_addr, @port]
+    @server.mount '/search', Search
+    @server.mount '/movie', Movie
+    @server.mount '/show', Show
     @server.start
   end
 end

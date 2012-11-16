@@ -1,6 +1,7 @@
 require 'json'
+require './lib/tag.rb'
 
-class MP4AutotagSearch < WEBrick::HTTPServlet::AbstractServlet
+class Search < WEBrick::HTTPServlet::AbstractServlet
   def do_GET req, res
     status = 200
     content_type = 'text/plain'
@@ -45,36 +46,42 @@ class MP4AutotagSearch < WEBrick::HTTPServlet::AbstractServlet
         raise "json is the only format currently supported."
       end
       filename_str.chomp!(ext)
-    end   
-    base_str = filename_str.chomp(File.extname(filename_str)).gsub(/[\.\-_\+]/, ' ')
+    end
+    ext = File.extname(filename_str)
+    md = /(\.mp4)|(\.m4v)|(\.mov)|(\.mkv)|(\.ogg)|(\.avi)|(\.flv)|(\.m1v)|(\.m2v)|(\.mpeg)|(\.roq)|(\.rm)|(\.swf)|(\.wmv)/.match(ext)
+    if(md != nil) 
+      basestr = filename_str.chomp(File.extname(filename_str)).gsub(/[\.\-_\+]/, ' ')
+    else
+      basestr = filename_str.gsub(/[\.\-\_\+]/, ' ')
+    end
     serstr = ''
     seastr = '0'
     epistr = '0'
     is_movie = true
-    #check to see if this base_str is a show
+    #check to see if this basestr is a show
     #first check for / e([0-9]+)/i
-    if((md = /e([0-9]+)/i.match(base_str)) != nil)
+    if((md = /e([0-9]+)/i.match(basestr)) != nil)
       is_movie = false
       epistr = md[1]
       #see if we have a series name...
-      if((md = /(.+) e[0-9]+/i.match(base_str)) != nil)
+      if((md = /(.+) e[0-9]+/i.match(basestr)) != nil)
         serstr = md[1].strip
       end
       #see if there is a /s([0-9]+)/i for a season...
-      if((md = /s([0-9]+)/i.match(base_str)) != nil)
+      if((md = /s([0-9]+)/i.match(basestr)) != nil)
         seastr = md[1]
         #see if we have a series name...
-        if((md = /(.+) s[0-9]+e[0-9]+/i.match(base_str)) != nil)
+        if((md = /(.+) s[0-9]+e[0-9]+/i.match(basestr)) != nil)
           serstr = md[1].strip
         end
       end
     #maybe we have a / ([0-9]+)x([0-9]+)/i, could be a SxE...
-    elsif((md = /([0-9]+)x([0-9]+)/i.match(base_str)) != nil)
+    elsif((md = /([0-9]+)x([0-9]+)/i.match(basestr)) != nil)
       is_movie = false
       epistr = md[2]
       seastr = md[1]
       #see if we have a series name...
-      if((md = /(.+) [0-9]+x[0-9]+/i.match(base_str)) != nil)
+      if((md = /(.+) [0-9]+x[0-9]+/i.match(basestr)) != nil)
         serstr = md[1].strip
       end
     #maybe we have a /([0-9]{4})/ could be a date, or a SSEE...
@@ -96,27 +103,33 @@ class MP4AutotagSearch < WEBrick::HTTPServlet::AbstractServlet
     if(is_movie == false && serstr == '' && parentdir_str != nil)
       serstr = parentdir_str
     end
-    
+    rtn = nil
     #if we have a movie, do a movie search
     if(is_movie)
-      movie_name = ''
-      year_str = ''
-      if((md = /(.+) \({0,1}([0-9]{4})\){0,1}/i.match(base_str)) != nil)
-        movie_name = md[1]
-        year_str = md[2]
+      movstr = ''
+      yearstr = ''
+      if((md = /(.+) \({0,1}([0-9]{4})\){0,1}/i.match(basestr)) != nil)
+        movstr = md[1]
+        yearstr = md[2]
       else
-        movie_name = base_str
+        movstr = basestr
       end
-      return self.movie_search({'base_str' => base_str, 'movie_name' => movie_name, 'movie_year' => year_str})
+      rtn = self.movie_search({'basestr' => basestr, 'movstr' => movstr, 'yearstr' => yearstr})
     #otherwise do a show search
     else
-      return self.show_search({'base_str' => base_str, 'serstr' => serstr, 'seastr' => seastr, 'epistr' => epistr})
+      rtn = self.show_search({'basestr' => basestr, 'serstr' => serstr, 'seastr' => seastr, 'epistr' => epistr})
     end
+    return rtn
   end
   def movie_search(search)
-    return search
+    search['is_movie'] = true
+    tag = Tag::create_tag
+    tag["Name"]["value"] = "%s (%s)" % [search['movstr'], search['yearstr']]
+    tag["Media Type"]["value"] = "movie"
+    return tag
   end
   def show_search(search)
+    search['is_movie'] = false
     return search
   end
 end
