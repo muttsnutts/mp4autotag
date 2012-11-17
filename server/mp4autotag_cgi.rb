@@ -2,6 +2,8 @@
 
 require 'cgi'
 require 'uri'
+
+$LOAD_PATH.unshift("./lib")
 require 'json'
 
 require './lib/search.rb'
@@ -10,8 +12,8 @@ $DEBUG_POP = false
 
 cgi = CGI.new
 search_str = cgi['search']
-if(search_str == nil)
-  cgi.out("text/plain") { {"ERROR" => "MUST HAVE SEARCH STRING"}.json }
+if(search_str == "")
+  cgi.out("text/html") { File.read('mp4autotag_cgi.html') }
   exit
 end
 
