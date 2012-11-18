@@ -39,7 +39,6 @@
 
 -(id) searchWithFileTag:(POPMp4FileTag *)tag 
 			tableView:(NSTableView*)tv {
-	bool use_proxy = false;
 	NSError *error;
 	NSRegularExpression* rgx;
 	int nm;
@@ -66,7 +65,8 @@
 			search_str = [tag property:@"Name"];
 		}
 	}
-	else if (use_proxy) {
+	else if ([[[NSUserDefaults standardUserDefaults] valueForKey:@"usePopmedicProxy"] intValue] == NSOnState) {
+		//call the proxy and set the results...
 		
 	}
 	else {

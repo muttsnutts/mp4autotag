@@ -180,19 +180,6 @@
          timestampString = "374899934.616617"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "42"
-         endingLineNumber = "42"
-         landmarkName = "-searchWithFileTag:tableView:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "Mp4Autotag/POPMp4FileTagSearch.m"
-         timestampString = "374899934.616617"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
          startingLineNumber = "125"
          endingLineNumber = "125"
          landmarkName = "-searchWithFileTag:tableView:"
