@@ -50,6 +50,7 @@
 @synthesize dropFileHereImageWell = _dropFileHereImageWell;
 @synthesize mp4FileTagsTableScrollView = _mp4FileTagsTableScrollView;
 @synthesize preferencesFixForNetworkCheckBox = _preferencesFixForNetworkCheckBox;
+@synthesize preferencesProxySearchCheckBox = _preferencesProxySearchCheckBox;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {

@@ -39,6 +39,7 @@
 
 -(id) searchWithFileTag:(POPMp4FileTag *)tag 
 			tableView:(NSTableView*)tv {
+	bool use_proxy = false;
 	NSError *error;
 	NSRegularExpression* rgx;
 	int nm;
@@ -64,6 +65,9 @@
 			_isMovie = true;
 			search_str = [tag property:@"Name"];
 		}
+	}
+	else if (use_proxy) {
+		
 	}
 	else {
 		//set the search string by the filename.
@@ -169,7 +173,8 @@
 		//get the year and then just what is in front of the year...
 		
 		tmdb = [[POPTMDB alloc] init];
-		results = [tmdb searchMoviesFor:search_str useITunes:[[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] boolValue]];
+		results = [tmdb searchMoviesFor:search_str 
+							  useITunes:[[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] boolValue]];
 	}
 	else {
 		NSInteger cartt = [[[NSUserDefaults standardUserDefaults] valueForKey:@"episodeCoverArt"] intValue];

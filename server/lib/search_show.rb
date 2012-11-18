@@ -66,7 +66,7 @@ class SearchShow
         tag['Composer']['value'] = writer
         tag['Album Artist']['value'] = director
         tag['Name']['value'] = "%s - S%0.2iE%0.2i - %s" % [tvshow, seanum, epinum, epiname]
-        tag['dbid'] = epiid
+        tag['dbid'] = epiid.to_s
         #get the full image path...
         if(poster != nil)
           tag['Image Path'] = $SHOW_BANNERS_URL_FMT % [poster]

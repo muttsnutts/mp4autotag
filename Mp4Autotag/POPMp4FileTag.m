@@ -24,6 +24,8 @@
 @synthesize image = _image;
 @synthesize dbID = _dbID;
 @synthesize customSeriesSearch = _customSeriesSearch;
+@synthesize seriesImageUrl = _seriesImageUrl;
+@synthesize imageUrl = _imageUrl;
 
 -(id) init {
 	_filename = @"";
@@ -31,6 +33,8 @@
 	_image = nil;
 	_dbID = 0;
 	_customSeriesSearch = NO;
+	_seriesImageUrl = nil;
+	_imageUrl = nil;
 	numFlags = [NSArray arrayWithObjects:@"-b", @"-d",@"-D",@"-H",@"-I",@"-l",@"-L",@"-M",@"-n",@"-t",@"-T",@"-y", nil];
 	allowedMediaTypes = [NSArray arrayWithObjects:@"tvshow", @"movie", @"music", nil];
 	keysOrder = [NSArray arrayWithObjects:
@@ -159,6 +163,24 @@
 		];
 	
 	return [super init];
+}
+
+-(id) initWithDictionary:(NSDictionary*)dic {
+	POPMp4FileTag* rtn = [self init];
+	for(int i = 0; i < [[_properties allKeys] count]; i++) {
+		NSString* key = [[_properties allKeys] objectAtIndex:i];
+		NSDictionary* d = [dic objectForKey:key];
+		NSString* val = [d objectForKey:@"value"]; 
+		[rtn setProperty:key value:val];
+	}
+	[rtn setDbID:[[dic objectForKey:@"dbid"] intValue]];
+	[rtn setSeriesImageUrl:[dic objectForKey:@"Series Image Path"]];
+	[rtn setImageUrl:[dic objectForKey:@"Image Path"]];
+	if([rtn imageUrl] != nil)
+	{
+		[rtn setImage:[[NSImage alloc] initWithContentsOfURL:[NSURL URLWithString:[rtn imageUrl]]]]; 
+	}
+	return rtn;
 }
 
 -(id) initWithFile:(NSString*)filename {

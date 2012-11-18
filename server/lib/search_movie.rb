@@ -86,7 +86,7 @@ class SearchMovie
     tag = Tag.create_tag
     if(json != nil)
       tag["Media Type"]['value'] = "movie"
-      tag["dbid"] = SearchMovie::get_safe(json, 'id')
+      tag["dbid"] = SearchMovie::get_safe(json, 'id').to_s
       tag["cnID"]['value'] = SearchMovie::get_safe(json, 'id')
       tag["Short Description"]['value'] = SearchMovie::get_safe(json, 'overview')
       tag['Release Date']['value'] = SearchMovie::get_safe(json, 'release_date')
@@ -101,7 +101,7 @@ class SearchMovie
       tag['Artist']['value'] = artists.join('|')
       genres = []
       g = SearchMovie::get_safe(json, 'genres')
-      if(g == '')
+      if(g != '')
         g.each do |genre|
           genres << genre["name"]
         end

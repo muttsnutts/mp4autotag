@@ -17,8 +17,12 @@
 @property (readwrite) int dbID;
 @property (readwrite) bool customSeriesSearch;
 
+@property (readwrite) NSString* seriesImageUrl;
+@property (readwrite) NSString* imageUrl;
+
 -(id) init;
 -(id) initWithFile:(NSString*)filename;
+-(id) initWithDictionary:(NSDictionary*)dic;
 -(bool) mergeData:(POPMp4FileTag*)data;
 -(bool) save;
 -(NSString*) property:(NSString*)prop;
