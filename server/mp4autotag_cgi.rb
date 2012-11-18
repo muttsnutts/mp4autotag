@@ -9,6 +9,7 @@ require 'json'
 require './lib/search.rb'
 
 $DEBUG_POP = false
+$OUT_FMT = '.json'
 
 cgi = CGI.new
 search_str = cgi['search']

@@ -86,27 +86,37 @@ class SearchMovie
     tag = Tag.create_tag
     if(json != nil)
       tag["Media Type"]['value'] = "movie"
-      tag["dbid"] = json['id']
-      tag["cnID"]['value'] = json['id']
-      tag["Short Description"]['value'] = json['overview']
-      tag['Release Date']['value'] = json['release_date']
-      tag['TV Show']['value'] = json['title']
-      tag['Album']['value'] = json['title']
-      tag['Name']['value'] = "%s (%i)" % [json['title'], json['release_date'].to_i]
+      tag["dbid"] = SearchMovie::get_safe(json, 'id')
+      tag["cnID"]['value'] = SearchMovie::get_safe(json, 'id')
+      tag["Short Description"]['value'] = SearchMovie::get_safe(json, 'overview')
+      tag['Release Date']['value'] = SearchMovie::get_safe(json, 'release_date')
+      tag['TV Show']['value'] = SearchMovie::get_safe(json, 'title')
+      tag['Album']['value'] = SearchMovie::get_safe(json, 'title')
+      tag['Name']['value'] = "%s (%i)" % [SearchMovie::get_safe(json, 'title'), SearchMovie::get_safe(json, 'release_date').to_i]
       artists = []
-      ja = SearchMovie.cast_query_array(json['id'])
+      ja = SearchMovie.cast_query_array(SearchMovie::get_safe(json, 'id'))
       ja.each do |artist|
         artists << artist["name"]
       end
       tag['Artist']['value'] = artists.join('|')
       genres = []
-      json['genres'].each do |genre|
-        genres << genre["name"]
+      g = SearchMovie::get_safe(json, 'genres')
+      if(g == '')
+        g.each do |genre|
+          genres << genre["name"]
+        end
       end
       tag['Genre']['value'] = genres.join("|")
-      tag['Image Path'] = json['poster_path']
+      tag['Image Path'] = SearchMovie::get_safe(json, 'poster_path')
     end
     return tag
+  end
+  def SearchMovie::get_safe(json, key)
+    rtn = json[key]
+    if rtn != nil
+      return rtn
+    end
+    return ''
   end
   def SearchMovie::get_img_base
     json = JSON.load(SearchMovie.query($MOVIE_CONFIG))

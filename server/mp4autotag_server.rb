@@ -6,6 +6,7 @@ require './lib/show_servlet.rb'
 require './lib/movie_servlet.rb'
 
 $DEBUG_POP = true
+$OUT_FMT = ".json"
 
 class MP4AutotagServer
   def initialize

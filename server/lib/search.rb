@@ -22,9 +22,10 @@ class Search
     ext = File.extname(filename_str)
     md = /(\.xml)|(\.json)|(\.txt)|(\.html)/i.match(ext)
     if(md != nil)
-      if(/\.json/i.match(md.to_s) == nil)
-        raise "json is the only format currently supported."
-      end
+      $OUT_FMT = md[1]
+      #if(/\.json/i.match(md.to_s) == nil)
+      #  raise "json is the only format currently supported."
+      #end
       filename_str.chomp!(ext)
     end
     ext = File.extname(filename_str)
