@@ -18,4 +18,6 @@ if(search_str == "")
   exit
 end
 
-cgi.out("text/plain") { Search.search(URI.unescape(search_str)).to_json }
+#if(/\.json/i.match($OUT_FMT) != nil)
+  cgi.out("text/plain") { Search.search(URI.unescape(search_str)).to_json }
+#end
