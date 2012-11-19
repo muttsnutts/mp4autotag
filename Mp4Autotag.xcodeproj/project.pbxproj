@@ -19,9 +19,6 @@
 		0A3220E116599CB700DE3601 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3220D616599CB700DE3601 /* save.png */; };
 		0A3220E216599CB700DE3601 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3220D716599CB700DE3601 /* search.png */; };
 		0A61524916285A9E00B41F2C /* POPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61524816285A9E00B41F2C /* POPImage.m */; };
-		0A61525316285B1D00B41F2C /* mp4art in Resources */ = {isa = PBXBuildFile; fileRef = 0A61525016285B1D00B41F2C /* mp4art */; };
-		0A61525416285B1D00B41F2C /* mp4info in Resources */ = {isa = PBXBuildFile; fileRef = 0A61525116285B1D00B41F2C /* mp4info */; };
-		0A61525516285B1D00B41F2C /* mp4tags in Resources */ = {isa = PBXBuildFile; fileRef = 0A61525216285B1D00B41F2C /* mp4tags */; };
 		0A6581F616192A6800959142 /* POPXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6581F516192A6800959142 /* POPXMLReader.m */; };
 		0A6581FA16192CCA00959142 /* POPTVDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6581F916192CCA00959142 /* POPTVDB.m */; };
 		0A8E77AB161760CA0027EB83 /* POPTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E77AA161760CA0027EB83 /* POPTask.m */; };
@@ -29,6 +26,9 @@
 		0A8E77C5161877AC0027EB83 /* POPFileMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E77C4161877AC0027EB83 /* POPFileMan.m */; };
 		0A8E77CE1618A1510027EB83 /* POPMp4FileTagSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E77CD1618A1510027EB83 /* POPMp4FileTagSearch.m */; };
 		0A8E77D11618A7F70027EB83 /* POPTMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E77D01618A7F70027EB83 /* POPTMDB.m */; };
+		0A9FF4E61659A55E009B044C /* mp4art in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FF4E31659A55E009B044C /* mp4art */; };
+		0A9FF4E71659A55E009B044C /* mp4info in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FF4E41659A55E009B044C /* mp4info */; };
+		0A9FF4E81659A55E009B044C /* mp4tags in Resources */ = {isa = PBXBuildFile; fileRef = 0A9FF4E51659A55E009B044C /* mp4tags */; };
 		0AAC9B97161718980067F41E /* POPLoadingWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAC9B96161718980067F41E /* POPLoadingWindow.m */; };
 		0AAC9B9C16173DB30067F41E /* POPMp4FileTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAC9B9B16173DB30067F41E /* POPMp4FileTag.m */; };
 		0AD663751614B4D2005EA39C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD663741614B4D2005EA39C /* Cocoa.framework */; };
@@ -54,9 +54,6 @@
 		0A3220D716599CB700DE3601 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = search.png; path = Mp4Autotag/art/search.png; sourceTree = "<group>"; };
 		0A61524716285A9E00B41F2C /* POPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPImage.h; sourceTree = "<group>"; };
 		0A61524816285A9E00B41F2C /* POPImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPImage.m; sourceTree = "<group>"; };
-		0A61525016285B1D00B41F2C /* mp4art */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mp4art; sourceTree = "<group>"; };
-		0A61525116285B1D00B41F2C /* mp4info */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mp4info; sourceTree = "<group>"; };
-		0A61525216285B1D00B41F2C /* mp4tags */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mp4tags; sourceTree = "<group>"; };
 		0A6581F416192A6800959142 /* POPXMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPXMLReader.h; sourceTree = "<group>"; };
 		0A6581F516192A6800959142 /* POPXMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPXMLReader.m; sourceTree = "<group>"; };
 		0A6581F816192CCA00959142 /* POPTVDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPTVDB.h; sourceTree = "<group>"; };
@@ -71,6 +68,9 @@
 		0A8E77CD1618A1510027EB83 /* POPMp4FileTagSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPMp4FileTagSearch.m; sourceTree = "<group>"; };
 		0A8E77CF1618A7F70027EB83 /* POPTMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPTMDB.h; sourceTree = "<group>"; };
 		0A8E77D01618A7F70027EB83 /* POPTMDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPTMDB.m; sourceTree = "<group>"; };
+		0A9FF4E31659A55E009B044C /* mp4art */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mp4art; path = bin/mp4art; sourceTree = "<group>"; };
+		0A9FF4E41659A55E009B044C /* mp4info */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mp4info; path = bin/mp4info; sourceTree = "<group>"; };
+		0A9FF4E51659A55E009B044C /* mp4tags */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = mp4tags; path = bin/mp4tags; sourceTree = "<group>"; };
 		0AAC9B95161718980067F41E /* POPLoadingWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPLoadingWindow.h; sourceTree = "<group>"; };
 		0AAC9B96161718980067F41E /* POPLoadingWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPLoadingWindow.m; sourceTree = "<group>"; };
 		0AAC9B9A16173DB30067F41E /* POPMp4FileTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPMp4FileTag.h; sourceTree = "<group>"; };
@@ -122,9 +122,9 @@
 		0AAC9BA31617564C0067F41E /* Binaries */ = {
 			isa = PBXGroup;
 			children = (
-				0A61525016285B1D00B41F2C /* mp4art */,
-				0A61525116285B1D00B41F2C /* mp4info */,
-				0A61525216285B1D00B41F2C /* mp4tags */,
+				0A9FF4E31659A55E009B044C /* mp4art */,
+				0A9FF4E41659A55E009B044C /* mp4info */,
+				0A9FF4E51659A55E009B044C /* mp4tags */,
 			);
 			name = Binaries;
 			path = Mp4Autotag;
@@ -267,9 +267,6 @@
 				0AD6637F1614B4D2005EA39C /* InfoPlist.strings in Resources */,
 				0AD663851614B4D2005EA39C /* Credits.rtf in Resources */,
 				0AD6638B1614B4D3005EA39C /* MainMenu.xib in Resources */,
-				0A61525316285B1D00B41F2C /* mp4art in Resources */,
-				0A61525416285B1D00B41F2C /* mp4info in Resources */,
-				0A61525516285B1D00B41F2C /* mp4tags in Resources */,
 				0A3220D916599CB700DE3601 /* dropfilehere.png in Resources */,
 				0A3220DA16599CB700DE3601 /* save_all.png in Resources */,
 				0A3220DB16599CB700DE3601 /* autotag_all.png in Resources */,
@@ -280,6 +277,9 @@
 				0A3220E016599CB700DE3601 /* plus.png in Resources */,
 				0A3220E116599CB700DE3601 /* save.png in Resources */,
 				0A3220E216599CB700DE3601 /* search.png in Resources */,
+				0A9FF4E61659A55E009B044C /* mp4art in Resources */,
+				0A9FF4E71659A55E009B044C /* mp4info in Resources */,
+				0A9FF4E81659A55E009B044C /* mp4tags in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

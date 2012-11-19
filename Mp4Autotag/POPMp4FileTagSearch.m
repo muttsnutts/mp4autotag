@@ -42,6 +42,8 @@
 	NSError *error;
 	NSRegularExpression* rgx;
 	int nm;
+	int use_proxy = [[[NSUserDefaults standardUserDefaults] valueForKey:@"usePopmedicProxy"] intValue];
+	bool isCustomSearch = [[tag filename] compare:@""] == 0;
 	tableView = tv;
 	results = [NSArray array];
 	_isMovie = true;
@@ -51,43 +53,77 @@
 	serstr = @"";
 	[tableView setDataSource:(id<NSTableViewDataSource>)self];	
 	
-	if([[tag filename] compare:@""] == 0) {
-		//start search logic for custom search...
-		if([tag property:@"Media Type"] == @"tvshow")
-		{
-			_isMovie = false;
-			serstr = [tag property:@"TV Show"];
-			seastr = [tag property:@"TV Season"];
-			epistr = [tag property:@"TV Episode"];
-		}
-		else {
-			_isMovie = true;
-			search_str = [tag property:@"Name"];
-		}
-	}
-	else if ([[[NSUserDefaults standardUserDefaults] valueForKey:@"usePopmedicProxy"] intValue] == NSOnState) {
-		//call the proxy and set the results...
-		
-	}
-	else {
+	if (use_proxy == NSOnState) {
 		//set the search string by the filename.
 		search_str = [[[tag filename] lastPathComponent] stringByDeletingPathExtension];
 		search_str = [search_str stringByReplacingOccurrencesOfString:@"." withString:@" "];
 		search_str = [search_str stringByReplacingOccurrencesOfString:@"_" withString:@" "];
-		
-		//start search logic for file name...
-		//if file is of type /.*\([0-9]{4}\) *\.mp4$/ then it is a movie
-		/*rgx = [NSRegularExpression regularExpressionWithPattern:@"\\({0,1}[0-9]{4}\\){0,1}" 
-														 options:NSRegularExpressionCaseInsensitive 
-														   error:&error];
-		nm = [rgx numberOfMatchesInString:search_str 
-									  options:0 
-										range:NSMakeRange(0, [search_str length])];
-		if(nm) {
-			//we have a definate movie
-			_isMovie = true;
+		//call the proxy and set the results...
+		NSURL *url;
+		if(isCustomSearch){
+			if([tag property:@"Media Type"] == @"tvshow")
+			{
+				_isMovie = false;
+				serstr = [tag property:@"TV Show"];
+				seastr = [tag property:@"TV Season"];
+				epistr = [tag property:@"TV Episode"];
+				search_str = [NSString stringWithFormat:@"%@ S%@E%@", serstr, seastr, epistr];
+				url = [NSURL URLWithString:[NSString stringWithFormat: @"http://popmedic.com/cgi/mp4autotag_cgi.rb?search=%@", [search_str stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]];
+			}
+			else {
+				_isMovie = true;
+				search_str = [tag property:@"Name"];
+				url = [NSURL URLWithString:[NSString stringWithFormat: @"http://popmedic.com/cgi/mp4autotag_cgi.rb?search=%@", [search_str stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]];
+			}
 		}
-		else {*/
+		else {
+			url = [NSURL URLWithString:[NSString stringWithFormat: @"http://popmedic.com/cgi/mp4autotag_cgi.rb?search=%@", [[tag filename] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]];
+		}
+		NSLog(@"%@",url);
+		NSError* error;
+		//NSLog(@"movieURL: %@", searchUrl);
+		NSData* data = [NSData dataWithContentsOfURL:url];
+		NSMutableArray* rtn = [NSMutableArray array];
+		if(data != nil) 
+		{
+			NSObject *res = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
+			if([res isKindOfClass:[NSArray class]])
+			{
+				NSArray* resa = (NSArray*)res;
+				for(int i = 0; i < [resa count]; i++)
+				{
+					NSDictionary* dt = [resa objectAtIndex:i];
+					POPMp4FileTag* tag1 = [[POPMp4FileTag alloc] initWithDictionary:dt];
+					[rtn addObject:tag1];
+				}
+			}
+			else if([res isKindOfClass:[NSDictionary class]]){
+				NSLog(@"%@", res);
+			}
+		}
+		results = (NSArray*)rtn;
+	}
+	else {
+		if(isCustomSearch) {
+			//start search logic for custom search...
+			if([tag property:@"Media Type"] == @"tvshow")
+			{
+				_isMovie = false;
+				serstr = [tag property:@"TV Show"];
+				seastr = [tag property:@"TV Season"];
+				epistr = [tag property:@"TV Episode"];
+			}
+			else {
+				_isMovie = true;
+				search_str = [tag property:@"Name"];
+			}
+		}
+		else {
+			//start search logic for file name...
+			//set the search string by the filename.
+			search_str = [[[tag filename] lastPathComponent] stringByDeletingPathExtension];
+			search_str = [search_str stringByReplacingOccurrencesOfString:@"." withString:@" "];
+			search_str = [search_str stringByReplacingOccurrencesOfString:@"_" withString:@" "];
 			//set default series string
 			serstr = [tag property:@"TV Show"];
 			
@@ -168,23 +204,23 @@
 				}
 			}
 		}
-	//}
-	if(_isMovie){
-		//get the year and then just what is in front of the year...
-		
-		tmdb = [[POPTMDB alloc] init];
-		results = [tmdb searchMoviesFor:search_str 
-							  useITunes:[[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] boolValue]];
-	}
-	else {
-		NSInteger cartt = [[[NSUserDefaults standardUserDefaults] valueForKey:@"episodeCoverArt"] intValue];
-		BOOL uit = [[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] boolValue];
-		tvdb = [[POPTVDB alloc] init];
-		results = [tvdb searchTVFor:serstr 
-							 season:seastr 
-							episode:epistr 
-					   coverArtType:cartt 
-						  useITunes:uit];
+		if(_isMovie){
+			//get the year and then just what is in front of the year...
+			
+			tmdb = [[POPTMDB alloc] init];
+			results = [tmdb searchMoviesFor:search_str 
+								  useITunes:[[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] boolValue]];
+		}
+		else {
+			NSInteger cartt = [[[NSUserDefaults standardUserDefaults] valueForKey:@"episodeCoverArt"] intValue];
+			BOOL uit = [[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] boolValue];
+			tvdb = [[POPTVDB alloc] init];
+			results = [tvdb searchTVFor:serstr 
+								 season:seastr 
+								episode:epistr 
+						   coverArtType:cartt 
+							  useITunes:uit];
+		}
 	}
 	[tableView reloadData];
 	[tableView selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:NO];
