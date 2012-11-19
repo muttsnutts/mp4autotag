@@ -22,7 +22,7 @@ class Search
     ext = File.extname(filename_str)
     md = /(\.xml)|(\.json)|(\.txt)|(\.html)/i.match(ext)
     if(md != nil)
-      $OUT_FMT = md[1]
+      $OUT_FMT = md[0]
       #if(/\.json/i.match(md.to_s) == nil)
       #  raise "json is the only format currently supported."
       #end
@@ -116,6 +116,39 @@ class Search
     Search.dbug "SHOW SEARCH: basestr = \"%s\", serstr = \"%s\", seastr.to_i = \"%i\", epistr.to_i = \"%i\"" % 
                           [basestr, serstr, seastr.to_i, epistr.to_i]
     return SearchShow.search({'basestr' => basestr, 'serstr' => serstr, 'seastr' => seastr, 'epistr' => epistr})
+  end
+  def Search::to_html(res)
+    html = "<html><head><title>" << __FILE__ << "</title></head><body>" << 
+           "<h1>" << __FILE__ << ":</h1><h2>results</h2><table>"
+    if(res.count > 0)
+      row = res[0]
+      keys = row.keys
+      html << "<thead><tr>"
+      keys.each do |key|
+        html << "<th>" << key << "</th>"
+      end
+      html << "</tr></thead><tbody>"
+      res.each do |tag|
+        html << "<tr>"
+        keys.each do |key|
+          if(key.casecmp("Image Path") == 0 || key.casecmp("Series Image Path") == 0)
+            html << "<td><img src=\"" << tag[key] << "\" height=\"120px\" /></td>"
+          elsif(key.casecmp("dbid") == 0)
+            html << "<td>" << tag[key] << "</td>"
+          else
+            if(tag[key].is_a? Hash)
+              val = tag[key]['value']
+              if(val != nil)
+                html << "<td>" << val.to_s << "</td>"
+              end
+            end
+          end
+        end
+        html << "</tr>"
+      end
+    end
+    html << "</tbody></table></body></html>"
+    return html
   end
   def Search::dbug(str)
     if $DEBUG_POP

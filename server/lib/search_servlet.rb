@@ -13,7 +13,15 @@ class SearchServlet < WEBrick::HTTPServlet::AbstractServlet
         raise "ARGUMENT ERROR: MUST INCLUDE A <filename>"
       else
         self.dbug "SEARCHING ON: %s" % [URI.unescape(paths[1])]
-        body = Search.search(URI.unescape(paths[1])).to_json
+        r = Search.search(URI.unescape(paths[1]))
+        if(/\.json/i.match($OUT_FMT) != nil)
+          body = r.to_json
+        elsif(/\.html/i.match($OUT_FMT) != nil)
+          content_type = 'text/html'
+          body = Search.to_html(r)
+        else
+          body = r.to_json
+        end
       end
     rescue Exception => e
       body = {"ERROR" => e.to_s}.to_json

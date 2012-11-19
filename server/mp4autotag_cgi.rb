@@ -18,6 +18,24 @@ if(search_str == "")
   exit
 end
 
-#if(/\.json/i.match($OUT_FMT) != nil)
-  cgi.out("text/plain") { Search.search(URI.unescape(search_str)).to_json }
-#end
+res = Search.search(URI.unescape(search_str))
+
+if(/\.json/i.match($OUT_FMT) != nil)
+  cgi.out("text/plain") { res.to_json }
+elsif(/\.html/i.match($OUT_FMT) != nil)
+  html = "<html><head><title>mp4autotag_cgi</title></head><body>" << 
+         "<h1>mp4autotag_cgi:</h1><h2>results</h2><table>"
+  if(res.count > 0)
+    row = res[0]
+    keys = row.keys
+    html << "<thead><tr>"
+    keys.each do |key|
+      html << "<th>" << key << "</th>"
+    end
+    html << "</tr></thead><tbody>"
+  end
+  html << "</tbody></table></body></html>"
+  cgi.out("text/html") { html }
+else
+   cgi.out("text/plain") { res.to_json }
+end
