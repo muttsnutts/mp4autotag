@@ -43,6 +43,8 @@
 	NSRegularExpression* rgx;
 	int nm;
 	int use_proxy = [[[NSUserDefaults standardUserDefaults] valueForKey:@"usePopmedicProxy"] intValue];
+	int use_itunes = [[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] intValue];
+	int coverArtType = [[[NSUserDefaults standardUserDefaults] valueForKey:@"episodeCoverArt"] intValue];
 	bool isCustomSearch = [[tag filename] compare:@""] == 0;
 	tableView = tv;
 	results = [NSArray array];
@@ -68,16 +70,16 @@
 				seastr = [tag property:@"TV Season"];
 				epistr = [tag property:@"TV Episode"];
 				search_str = [NSString stringWithFormat:@"%@ S%@E%@", serstr, seastr, epistr];
-				url = [NSURL URLWithString:[NSString stringWithFormat: @"http://popmedic.com/cgi/mp4autotag_cgi.rb?search=%@", [search_str stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]];
+				url = [NSURL URLWithString:[NSString stringWithFormat: @"http://popmedic.com/cgi/mp4autotag_cgi.rb?search=%@&use_itunes=%i", [search_str stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding], use_itunes]];
 			}
 			else {
 				_isMovie = true;
 				search_str = [tag property:@"Name"];
-				url = [NSURL URLWithString:[NSString stringWithFormat: @"http://popmedic.com/cgi/mp4autotag_cgi.rb?search=%@", [search_str stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]];
+				url = [NSURL URLWithString:[NSString stringWithFormat: @"http://popmedic.com/cgi/mp4autotag_cgi.rb?search=%@&use_itunes=%i", [search_str stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding], use_itunes]];
 			}
 		}
 		else {
-			url = [NSURL URLWithString:[NSString stringWithFormat: @"http://popmedic.com/cgi/mp4autotag_cgi.rb?search=%@", [[tag filename] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]];
+			url = [NSURL URLWithString:[NSString stringWithFormat: @"http://popmedic.com/cgi/mp4autotag_cgi.rb?search=%@&use_itunes=%i", [[tag filename] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding], use_itunes]];
 		}
 		NSLog(@"%@",url);
 		NSError* error;
@@ -94,6 +96,28 @@
 				{
 					NSDictionary* dt = [resa objectAtIndex:i];
 					POPMp4FileTag* tag1 = [[POPMp4FileTag alloc] initWithDictionary:dt];
+					//if we got an image then lets see if we should watermark it
+					NSImage* img = [tag1 image];
+					if([[tag1 property:@"Media Type"] compare:@"tvshow" options:NSCaseInsensitiveSearch] == 0 && img != nil && (coverArtType == 1 || coverArtType == 3))
+					{
+						[img lockFocus];
+						NSString *wm = [NSString stringWithFormat:@"S%0.2iE%0.2i ", [[tag property:@"TV Season"] intValue], [[tag property:@"TV Episode"] intValue]];
+						float fs = [img alignmentRect].size.width/4.3;
+						if([img alignmentRect].size.height < [img alignmentRect].size.width)
+						{
+							fs = [img alignmentRect].size.height/4.3;
+						}
+						NSMutableParagraphStyle *style = [[NSMutableParagraphStyle defaultParagraphStyle] mutableCopy];
+						[style setAlignment:NSRightTextAlignment];
+						NSDictionary* atts = [NSDictionary dictionaryWithObjectsAndKeys:
+											  [NSColor colorWithCalibratedWhite:0.0 alpha:0.3], NSForegroundColorAttributeName,
+											  [NSColor colorWithCalibratedRed:1.0 green:1.0 blue:1.0 alpha:0.3], NSBackgroundColorAttributeName,
+											  style, NSParagraphStyleAttributeName,
+											  [NSFont fontWithName:@"Helvetica-Bold" size:fs], NSFontAttributeName,
+											  nil ];
+						[wm drawInRect:[img alignmentRect] withAttributes:atts];
+						[img unlockFocus];
+					}
 					[rtn addObject:tag1];
 				}
 			}
@@ -209,17 +233,15 @@
 			
 			tmdb = [[POPTMDB alloc] init];
 			results = [tmdb searchMoviesFor:search_str 
-								  useITunes:[[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] boolValue]];
+								  useITunes:use_itunes];
 		}
 		else {
-			NSInteger cartt = [[[NSUserDefaults standardUserDefaults] valueForKey:@"episodeCoverArt"] intValue];
-			BOOL uit = [[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] boolValue];
 			tvdb = [[POPTVDB alloc] init];
 			results = [tvdb searchTVFor:serstr 
 								 season:seastr 
 								episode:epistr 
-						   coverArtType:cartt 
-							  useITunes:uit];
+						   coverArtType:coverArtType 
+							  useITunes:use_itunes];
 		}
 	}
 	[tableView reloadData];

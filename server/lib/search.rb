@@ -1,9 +1,10 @@
 require './lib/search_movie.rb'
 require './lib/search_show.rb'
+require './lib/search_itunes.rb'
 require './lib/tag.rb'
 
 class Search
-  def Search::search(search_path)
+  def Search::search(search_path, use_itunes=0)
     #part out the search path
     pathparts = search_path.split('/')
     #remove the filename
@@ -85,9 +86,18 @@ class Search
       serstr = parentdir_str
     end
     rtn = []
+    movstr = ''
+    yearstr= ''
     #if we have a movie, do a movie search
     if(is_movie)
-      rtn = Search.movie_search(basestr)
+      if((md = /(.+) {0,1}\({0,1}([0-9]{4})\){0,1}/i.match(basestr)) != nil)
+        movstr = md[1].chomp("(")
+        movstr.chomp!(" ")
+        yearstr = md[2].chomp
+      else
+        movstr = basestr
+      end
+      rtn = Search.movie_search(basestr, movstr, yearstr)
     #otherwise do a show search
     else
       rtn = Search.show_search(basestr, serstr, seastr, epistr)
@@ -96,18 +106,28 @@ class Search
     if(rtn.count == 0 && !is_movie)
       rtn = Search.movie_search(basestr)
     end
+
+    #now if it is a use_itunes request, 
+    if(use_itunes == 1)
+      #get the images from itunes
+      rtn.each do |tag|
+        if(tag["Media Type"]["value"] == 'tvshow')
+          img_path = SearchITunes.get_image({"serstr" => tag["TV Show"]['value'], "seastr" => tag['TV Season']['value']}, false)
+        else
+          img_path = SearchITunes.get_image({"movstr" => tag["TV Show"]['value'], "yearstr" => tag['Release Date']['value'].to_i().to_s()}, true)
+        end
+        #self.dbug(img_path)
+        if(img_path!=nil)
+          if(img_path != "")
+            tag["Image Path"] = img_path
+          end
+        end
+      end
+    end
+    
     return rtn
   end
-  def Search::movie_search(basestr)
-    movstr = ''
-    yearstr = ''
-    if((md = /(.+) {0,1}\({0,1}([0-9]{4})\){0,1}/i.match(basestr)) != nil)
-      movstr = md[1].chomp("(")
-      movstr.chomp!(" ")
-      yearstr = md[2].chomp
-    else
-      movstr = basestr
-    end
+  def Search::movie_search(basestr, movstr, yearstr)
     Search.dbug "MOVIE SEARCH: basestr = \"%s\", movstr = \"%s\", yearstr = \"%s\"" % 
                           [basestr, movstr, yearstr]
     return SearchMovie.search({'basestr' => basestr, 'movstr' => movstr, 'yearstr' => yearstr})
@@ -118,11 +138,14 @@ class Search
     return SearchShow.search({'basestr' => basestr, 'serstr' => serstr, 'seastr' => seastr, 'epistr' => epistr})
   end
   def Search::to_html(res)
-    html = "<html><head><title>" << __FILE__ << "</title></head><body>" << 
-           "<h1>" << __FILE__ << ":</h1><h2>results</h2><table>"
+    html = "<html><head><title>mp4autotag_server</title></head><body><table>"
     if(res.count > 0)
       row = res[0]
-      keys = row.keys
+      #keys = row.keys
+      keys = ["Name","Image Path","Series Image Path","TV Show","TV Season","TV Episode",
+              "Media Type","Genre","Artist","Composer","Release Date","Album",
+              "Track","Grouping","Comments","Album Artist","Copyright","TV Network",
+              "TV Episode Number","Short Description","cnID","dbid"]
       html << "<thead><tr>"
       keys.each do |key|
         html << "<th>" << key << "</th>"
@@ -132,7 +155,12 @@ class Search
         html << "<tr>"
         keys.each do |key|
           if(key.casecmp("Image Path") == 0 || key.casecmp("Series Image Path") == 0)
-            html << "<td><img src=\"" << tag[key] << "\" height=\"120px\" /></td>"
+            val = tag[key]
+            if(val != nil)
+              html << "<td><img src=\"" << val << "\" height=\"120px\" /></td>"
+            else
+              html << "<td></td>"
+            end
           elsif(key.casecmp("dbid") == 0)
             html << "<td>" << tag[key] << "</td>"
           else
@@ -140,6 +168,8 @@ class Search
               val = tag[key]['value']
               if(val != nil)
                 html << "<td>" << val.to_s << "</td>"
+              else
+                html << "<td></td>"
               end
             end
           end
