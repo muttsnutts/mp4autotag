@@ -50,6 +50,7 @@
 @synthesize dropFileHereImageWell = _dropFileHereImageWell;
 @synthesize mp4FileTagsTableScrollView = _mp4FileTagsTableScrollView;
 @synthesize preferencesFixForNetworkCheckBox = _preferencesFixForNetworkCheckBox;
+@synthesize preferencesProxySearchCheckBox = _preferencesProxySearchCheckBox;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -59,6 +60,20 @@
 	[[self mp4FileTagTableView] setDataSource:(id<NSTableViewDataSource>)mp4FileTagTable];
 	[[self mp4FileTagTableView] setDelegate:(id<NSTableViewDelegate>)mp4FileTagTable];
 	[self refreshButtons];
+	
+	//set up preferences
+	NSInteger i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"renameFile"] intValue];
+	[[self preferencesRenameCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fullAutomation"] intValue];
+	[[self preferencesFullAutomationCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"episodeCoverArt"] intValue];
+	[[self preferencesEpisodeCoverArtMatrix] setState:YES atRow:i column:0];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] intValue];
+	[[self preferencesUseITunesCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fixForNetwork"] intValue];
+	[[self preferencesFixForNetworkCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"usePopmedicProxy"] intValue];
+	[[self preferencesProxySearchCheckBox] setState:i];
 	
 	//setup the size of the splits
 	CGFloat f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"hsplit1"] floatValue];	
@@ -297,6 +312,8 @@
 	[[self preferencesUseITunesCheckBox] setState:i];
 	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fixForNetwork"] intValue];
 	[[self preferencesFixForNetworkCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"usePopmedicProxy"] intValue];
+	[[self preferencesProxySearchCheckBox] setState:i];
 	[[NSApplication sharedApplication] beginSheet:[self preferencesWindow] 
 								   modalForWindow:[self window]
 									modalDelegate:self
@@ -442,6 +459,7 @@
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesEpisodeCoverArtMatrix] selectedRow]] forKey:@"episodeCoverArt"];
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesUseITunesCheckBox] state]] forKey:@"useITunes"];
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesFixForNetworkCheckBox] state]] forKey:@"fixForNetwork"];
+	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesProxySearchCheckBox] state]] forKey:@"usePopmedicProxy"];
 	[[self preferencesWindow] close];
 }
 
