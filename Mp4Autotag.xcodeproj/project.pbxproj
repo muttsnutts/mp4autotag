@@ -21,6 +21,8 @@
 		0A61524916285A9E00B41F2C /* POPImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A61524816285A9E00B41F2C /* POPImage.m */; };
 		0A6581F616192A6800959142 /* POPXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6581F516192A6800959142 /* POPXMLReader.m */; };
 		0A6581FA16192CCA00959142 /* POPTVDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6581F916192CCA00959142 /* POPTVDB.m */; };
+		0A85B7BB165E92D200D5127E /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A85B7BA165E92D200D5127E /* Sparkle.framework */; };
+		0A85B7BE165E933400D5127E /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0A85B7BA165E92D200D5127E /* Sparkle.framework */; };
 		0A8E77AB161760CA0027EB83 /* POPTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E77AA161760CA0027EB83 /* POPTask.m */; };
 		0A8E77BD16177CFF0027EB83 /* POPMp4FileTagTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E77BC16177CFF0027EB83 /* POPMp4FileTagTable.m */; };
 		0A8E77C5161877AC0027EB83 /* POPFileMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E77C4161877AC0027EB83 /* POPFileMan.m */; };
@@ -38,6 +40,19 @@
 		0AD663881614B4D2005EA39C /* POPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD663871614B4D2005EA39C /* POPAppDelegate.m */; };
 		0AD6638B1614B4D3005EA39C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AD663891614B4D3005EA39C /* MainMenu.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A85B7BD165E931A00D5127E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0A85B7BE165E933400D5127E /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A22026A1644A35E00067C31 /* fixmoov.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fixmoov.c; sourceTree = "<group>"; };
@@ -58,6 +73,7 @@
 		0A6581F516192A6800959142 /* POPXMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPXMLReader.m; sourceTree = "<group>"; };
 		0A6581F816192CCA00959142 /* POPTVDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPTVDB.h; sourceTree = "<group>"; };
 		0A6581F916192CCA00959142 /* POPTVDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPTVDB.m; sourceTree = "<group>"; };
+		0A85B7BA165E92D200D5127E /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		0A8E77A9161760CA0027EB83 /* POPTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPTask.h; sourceTree = "<group>"; };
 		0A8E77AA161760CA0027EB83 /* POPTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPTask.m; sourceTree = "<group>"; };
 		0A8E77BB16177CFF0027EB83 /* POPMp4FileTagTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPMp4FileTagTable.h; sourceTree = "<group>"; };
@@ -96,6 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AD663751614B4D2005EA39C /* Cocoa.framework in Frameworks */,
+				0A85B7BB165E92D200D5127E /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +169,7 @@
 		0AD663731614B4D2005EA39C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A85B7BA165E92D200D5127E /* Sparkle.framework */,
 				0AD663741614B4D2005EA39C /* Cocoa.framework */,
 				0AD663761614B4D2005EA39C /* Other Frameworks */,
 			);
@@ -223,6 +241,7 @@
 				0AD6636C1614B4D2005EA39C /* Sources */,
 				0AD6636D1614B4D2005EA39C /* Frameworks */,
 				0AD6636E1614B4D2005EA39C /* Resources */,
+				0A85B7BD165E931A00D5127E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -386,6 +405,10 @@
 		0AD6638F1614B4D3005EA39C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mp4Autotag/Mp4Autotag-Prefix.pch";
 				INFOPLIST_FILE = "Mp4Autotag/Mp4Autotag-Info.plist";
@@ -398,6 +421,10 @@
 		0AD663901614B4D3005EA39C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mp4Autotag/Mp4Autotag-Prefix.pch";
 				INFOPLIST_FILE = "Mp4Autotag/Mp4Autotag-Info.plist";

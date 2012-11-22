@@ -101,7 +101,7 @@
 					if([[tag1 property:@"Media Type"] compare:@"tvshow" options:NSCaseInsensitiveSearch] == 0 && img != nil && (coverArtType == 1 || coverArtType == 3))
 					{
 						[img lockFocus];
-						NSString *wm = [NSString stringWithFormat:@"S%0.2iE%0.2i ", [[tag property:@"TV Season"] intValue], [[tag property:@"TV Episode"] intValue]];
+						NSString *wm = [NSString stringWithFormat:@"S%0.2iE%0.2i ", [[tag1 property:@"TV Season"] intValue], [[tag1 property:@"TV Episode"] intValue]];
 						float fs = [img alignmentRect].size.width/4.3;
 						if([img alignmentRect].size.height < [img alignmentRect].size.width)
 						{
