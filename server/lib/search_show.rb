@@ -20,8 +20,14 @@ class SearchShow
     r4m = []
     #get all the different series matches...
     xmldoc = SearchShow.series_with_name(seriesname)
-    #run though the series...
+    #run though the series...(only do 4 series for search, otherwise we get a 500)
+    series_loop_idx = 0
+    series_loop_n = 100
     xmldoc.elements.each('Data/Series') do |series|
+      if series_loop_idx > series_loop_n
+        self.dbug "BREAKING OUT OF SERIES LOOP XML"
+        break
+      end
       #get all the episodes for this series...
       serdoc = SearchShow.series_with_id(series.elements['seriesid'].get_text.value.strip)
       #set this series info..
@@ -34,6 +40,9 @@ class SearchShow
       #go though all the episodes
       self.dbug "SETTING ALL EPISODES FOR: %s" % [tvshow] 
       serdoc.elements.each('Data/Episode') do |episode|
+        if(series_loop_idx > series_loop_n)
+          break
+        end
         epinum = SearchShow.safe_get(episode.elements['EpisodeNumber']).to_i
         seanum = SearchShow.safe_get(episode.elements['SeasonNumber']).to_i
         absnum = SearchShow.safe_get(episode.elements['absolute_number']).to_i
@@ -78,15 +87,20 @@ class SearchShow
         if(epinum == s_epinum && seanum == s_seanum)
           if(seriesname.casecmp(tvshow) == 0)
 						r1m.unshift(tag)
+						series_loop_idx += 100
 					else
 						r1m << tag;
+						series_loop_idx += 10
 					end
 				elsif(epinum == s_epinum)
 					r2m << tag
+					series_loop_idx += 5
 				elsif(absnum == s_epinum)
 					r3m << tag;
+					series_loop_idx += 3
 				elsif(seanum == s_seanum)
 					r4m << tag;
+					series_loop_idx += 1
 				end
       end
     end
