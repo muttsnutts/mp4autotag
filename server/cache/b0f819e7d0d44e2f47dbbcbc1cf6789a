@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data><Series>
+  <id>85811</id>
+  <Actors>||</Actors>
+  <Airs_DayOfWeek></Airs_DayOfWeek>
+  <Airs_Time></Airs_Time>
+  <ContentRating></ContentRating>
+  <FirstAired>2009-03-12</FirstAired>
+  <Genre>|Talk Show|</Genre>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Network>BBC Four</Network>
+  <NetworkID></NetworkID>
+  <Overview>I've Never Seen Star Wars is a comedy chat show broadcast on BBC Four (2009 episodes) and BBC Two (2011 episodes), first broadcast on 12 March 2009. Created and produced by Bill Dare, each episode features a celebrity guest trying out new experiences.  The title comes from the fact that Dare has never seen the Star Wars films</Overview>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <Runtime>30</Runtime>
+  <SeriesID></SeriesID>
+  <SeriesName>I've Never Seen Star Wars</SeriesName>
+  <Status>Ended</Status>
+  <added>2009-03-20 23:36:41</added>
+  <addedBy>6875</addedBy>
+  <banner>graphical/85811-g.jpg</banner>
+  <fanart></fanart>
+  <lastupdated>1336990313</lastupdated>
+  <poster>posters/85811-1.jpg</poster>
+  <zap2it_id></zap2it_id>
+</Series>
+<Episode>
+  <id>4228486</id>
+  <Combined_episodenumber>1</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>John Spencer</Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Stephen Fry</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2011-12-27</FirstAired>
+  <GuestStars>Jo Brand|Stephen Fry</GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A Christmas comedy treat with Stephen Fry - much loved actor, screenwriter, author, presenter, comedian, scholar and sage and yet, surprisingly, a complete stranger to ear piercing, boxing, the sitcom Only Fools and Horses and the assembly of flat pack furniture. 
+
+In a show which encourages its guests to try things they really should have attempted by now, host Jo Brand introduces Stephen to all of these brand new experiences and asks him to score his responses - with intriguing results.
+</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1325036397</lastupdated>
+  <seasonid>42531</seasonid>
+  <seriesid>85811</seriesid>
+</Episode>
+<Episode>
+  <id>450821</id>
+  <Combined_episodenumber>1</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Clive Anderson </EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2009-03-12</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/85811/450821.jpg</filename>
+  <lastupdated>1240775643</lastupdated>
+  <seasonid>42541</seasonid>
+  <seriesid>85811</seriesid>
+</Episode>
+<Episode>
+  <id>450831</id>
+  <Combined_episodenumber>2</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>John Humphrys</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2009-03-19</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Marcus Brigstocke hosts a chat show in which he invites his guest John Humphrys to try five new cultural experiences, things he has tended to avoid in the past.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/85811/450831.jpg</filename>
+  <lastupdated>1240775670</lastupdated>
+  <seasonid>42541</seasonid>
+  <seriesid>85811</seriesid>
+</Episode>
+<Episode>
+  <id>470341</id>
+  <Combined_episodenumber>3</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Rory McGrath</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired>2009-03-26</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Marcus Brigstocke invites guest Rory McGrath to try five new cultural experiences, including watching Fawlty Towers, straightening his hair and going to a ballet.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/85811/470341.jpg</filename>
+  <lastupdated>1240775684</lastupdated>
+  <seasonid>42541</seasonid>
+  <seriesid>85811</seriesid>
+</Episode>
+<Episode>
+  <id>500701</id>
+  <Combined_episodenumber>4</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Emily Maitlis</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired>2009-04-02</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/85811/500701.jpg</filename>
+  <lastupdated>1240775695</lastupdated>
+  <seasonid>42541</seasonid>
+  <seriesid>85811</seriesid>
+</Episode>
+<Episode>
+  <id>521011</id>
+  <Combined_episodenumber>5</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Hugh Dennis</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired>2009-04-09</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/85811/521011.jpg</filename>
+  <lastupdated>1240775730</lastupdated>
+  <seasonid>42541</seasonid>
+  <seriesid>85811</seriesid>
+</Episode>
+<Episode>
+  <id>542421</id>
+  <Combined_episodenumber>6</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Nigel Havers</EpisodeName>
+  <EpisodeNumber>6</EpisodeNumber>
+  <FirstAired>2009-04-16</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Marcus Brigstocke hosts a chat show in which he invites his guest Nigel Havers to step out of his comfort zone and try some new experiences for the first time.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/85811/542421.jpg</filename>
+  <lastupdated>1240775744</lastupdated>
+  <seasonid>42541</seasonid>
+  <seriesid>85811</seriesid>
+</Episode>
+<Episode>
+  <id>585611</id>
+  <Combined_episodenumber>7</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>David Davis</EpisodeName>
+  <EpisodeNumber>7</EpisodeNumber>
+  <FirstAired>2009-04-23</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/85811/585611.jpg</filename>
+  <lastupdated>1240775775</lastupdated>
+  <seasonid>42541</seasonid>
+  <seriesid>85811</seriesid>
+</Episode>
+<Episode>
+  <id>635921</id>
+  <Combined_episodenumber>8</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Esther Rantzen</EpisodeName>
+  <EpisodeNumber>8</EpisodeNumber>
+  <FirstAired>2009-04-30</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1242062155</lastupdated>
+  <seasonid>42541</seasonid>
+  <seriesid>85811</seriesid>
+</Episode>
+<Episode>
+  <id>4230643</id>
+  <Combined_episodenumber>1</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>John Spencer</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Stephen Fry</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars>Stephen Fry, Jo Brand</GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Host Jo Brand encourages Stephen Fry to try out some new experiences.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/85811/4230643.jpg</filename>
+  <lastupdated>1325249644</lastupdated>
+  <seasonid>481465</seasonid>
+  <seriesid>85811</seriesid>
+</Episode>
+</Data>

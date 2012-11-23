@@ -95,22 +95,12 @@ class SearchShow
   def SearchShow::series_with_id(serid)
     url = $SHOW_SERIES_ID_URL_FMT % serid
     self.dbug "SERIES WITH ID %s (%s)" % [serid, url]
-    return REXML::Document.new(SearchShow.query(url))
+    return REXML::Document.new(Search.query(url))
   end
   def SearchShow::series_with_name(serstr)
     url = $SHOW_SERIES_SEARCH_URL_FMT % URI.escape(serstr)
     self.dbug "SERIES WITH NAME %s (%s)" % [serstr, url]
-    return REXML::Document.new(SearchShow.query(url))
-  end
-  def SearchShow::query(urlstr)
-    str = ''
-    open(urlstr) do |f|
-      str << f.read
-    end
-    if str == ''
-      return nil
-    end
-    return str
+    return REXML::Document.new(Search.query(url))
   end
   def SearchShow::safe_get(xe)
     if(xe != nil)

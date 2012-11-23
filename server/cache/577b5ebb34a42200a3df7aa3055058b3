@@ -1,0 +1,4023 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data><Series>
+  <id>83268</id>
+  <Actors>|Matt Lanter|Ashley Eckstein|James Arnold Taylor|Cat Taber|Tom Kane|Tom Kenny|Nika Frost|Dee Bradley Baker|Matthew Wood|</Actors>
+  <Airs_DayOfWeek>Saturday</Airs_DayOfWeek>
+  <Airs_Time>9:30 AM</Airs_Time>
+  <ContentRating>TV-PG</ContentRating>
+  <FirstAired>2008-10-03</FirstAired>
+  <Genre>|Animation|Children|Science-Fiction|</Genre>
+  <IMDB_ID>tt0458290</IMDB_ID>
+  <Language>en</Language>
+  <Network>Cartoon Network</Network>
+  <NetworkID></NetworkID>
+  <Overview>As the Clone Wars sweep through the galaxy, the heroic Jedi Knights struggle to maintain order and restore peace. More and more systems are falling prey to the forces of the dark side as the Galactic Republic slips further and further under the sway of the Separatists and their never-ending droid army.</Overview>
+  <Rating>8.0</Rating>
+  <RatingCount>121</RatingCount>
+  <Runtime>30</Runtime>
+  <SeriesID>73668</SeriesID>
+  <SeriesName>Star Wars: The Clone Wars</SeriesName>
+  <Status>Continuing</Status>
+  <added>2008-10-03 08:49:02</added>
+  <addedBy>778</addedBy>
+  <banner>graphical/83268-g9.jpg</banner>
+  <fanart>fanart/original/83268-7.jpg</fanart>
+  <lastupdated>1353682875</lastupdated>
+  <poster>posters/83268-9.jpg</poster>
+  <zap2it_id>EP01087361</zap2it_id>
+</Series>
+<Episode>
+  <id>402119</id>
+  <Combined_episodenumber>1</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Dave Filoni</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Clone Wars</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2008-08-14</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1185834</IMDB_ID>
+  <Language>en</Language>
+  <Overview>As the Clone Wars sweep through the galaxy, the heroic Jedi Knights struggle to maintain order and restore peace. More and more systems are falling prey to the forces of the dark side as the Galactic Republic slips further and further under the sway of the Separatists and their never-ending droid army. Anakin Skywalker and his Padawan learner Ahsoka Tano find themselves on a mission with far-reaching consequences, one that brings them face-to-face with crime lord Jabba the Hutt. But Count Dooku and his sinister agents, including the nefarious Asajj Ventress, will stop at nothing to ensure that Anakin and Ahsoka fail at their quest. Meanwhile, on the front lines of the Clone Wars, Obi-Wan Kenobi and Master Yoda lead the massive clone army in a valiant effort to resist the forces of the dark side.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>9</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer>Henry Gilroy|Steven Melching|Scott Murphy</Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season></airsafter_season>
+  <airsbefore_episode>1</airsbefore_episode>
+  <airsbefore_season>1</airsbefore_season>
+  <filename>episodes/83268/402119.jpg</filename>
+  <lastupdated>1313913068</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>393903</id>
+  <Combined_episodenumber>2</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>The Clone Wars preview</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2008-09-26</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ashley Eckstein, voice of Ahsoka Tano, hosts an exclusive behind-the-scenes look at the making of Cartoon Network's newest original series &quot;Star Wars: The Clone Wars.&quot;</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>5.0</Rating>
+  <RatingCount>1</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season></airsafter_season>
+  <airsbefore_episode>1</airsbefore_episode>
+  <airsbefore_season>1</airsbefore_season>
+  <filename>episodes/83268/393903.jpg</filename>
+  <lastupdated>1316802968</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1155001</id>
+  <Combined_episodenumber>3</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>CN Trailer</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season></airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename>episodes/83268/1155001.jpg</filename>
+  <lastupdated>1274480039</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281351</id>
+  <Combined_episodenumber>4</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>The Untold Stories</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A sneak peek into the brand new stories, vehicles, planets and battles of season one of Star Wars: The Clone Wars</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257708396</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281361</id>
+  <Combined_episodenumber>5</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>A New Score</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Composer Kevin Kiner pushes the envelope to create new themes and unique musical styles for the many Star Wars: The Clone Wars worlds and characters in episodes to come.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257709130</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281371</id>
+  <Combined_episodenumber>6</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>The Voices of The Clone Wars</EpisodeName>
+  <EpisodeNumber>6</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>The animated characters perform side by side with a split screen view of the actors in the studio and the matching final animation.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257709225</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281381</id>
+  <Combined_episodenumber>7</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Video Commentary</EpisodeName>
+  <EpisodeNumber>7</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Director Dave Filoni, producer Catherine Winder, writer Henry Gilroy and editor Jason W.A. Tucker discuss bringing the Star Wars legend to the big screen again.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257709264</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281401</id>
+  <Combined_episodenumber>8</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Deleted Scene 1: Through the Tanks</EpisodeName>
+  <EpisodeNumber>8</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin and Ahsoka Navigate through enemy lines.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257709928</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281421</id>
+  <Combined_episodenumber>9</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Deleted Scene 2: Rancor Pit</EpisodeName>
+  <EpisodeNumber>9</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin and Ahsoka battle Asajj Ventress in a rancor pit.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257709980</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281431</id>
+  <Combined_episodenumber>10</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Deleted Scene 3: Platform Droid Fight</EpisodeName>
+  <EpisodeNumber>10</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin and Ahsoka battle droids on a landing platform.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257710097</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281441</id>
+  <Combined_episodenumber>11</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Deleted Scene 4: Cargo Bay</EpisodeName>
+  <EpisodeNumber>11</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ahsoka empties the Twilight's cargo bay.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257710136</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281451</id>
+  <Combined_episodenumber>12</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Launch Trailer</EpisodeName>
+  <EpisodeNumber>12</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season></airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257709528</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281461</id>
+  <Combined_episodenumber>13</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Dark Trailer</EpisodeName>
+  <EpisodeNumber>13</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season></airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257709549</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281471</id>
+  <Combined_episodenumber>14</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>The Clone Wars Videogame Trailer</EpisodeName>
+  <EpisodeNumber>14</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season></airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257709569</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281481</id>
+  <Combined_episodenumber>15</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Webisode 1: Introducing Star Wars The Clone Wars</EpisodeName>
+  <EpisodeNumber>15</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Introducing Star Wars: The Clone Wars.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257710327</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281491</id>
+  <Combined_episodenumber>16</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Webisode 2: Epic Battles</EpisodeName>
+  <EpisodeNumber>16</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A detailed look at the epic battles within Star Wars: The Clone Wars</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1285516950</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281501</id>
+  <Combined_episodenumber>17</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Webisode 3: The Clones are Coming</EpisodeName>
+  <EpisodeNumber>17</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A detailed look at the clone troopers within Star Wars: The Clone Wars.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257710708</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281511</id>
+  <Combined_episodenumber>18</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Webisode 4: Heroes</EpisodeName>
+  <EpisodeNumber>18</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A detailed look at the heroes within Star Wars: The Clone Wars.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257710729</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281521</id>
+  <Combined_episodenumber>19</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Webisode 5: Villains</EpisodeName>
+  <EpisodeNumber>19</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A detailed look at the villains within Star Wars: The Clone Wars.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257710764</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1281531</id>
+  <Combined_episodenumber>20</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Webisode 6: Anakin's Padawan</EpisodeName>
+  <EpisodeNumber>20</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A detailed look at Ahsoka Tano in Star Wars: The Clone Wars.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1257710811</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>2825811</id>
+  <Combined_episodenumber>21</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Season 3 Sneak Peek</EpisodeName>
+  <EpisodeNumber>21</EpisodeNumber>
+  <FirstAired>2008-09-04</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season></airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1284793151</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4423411</id>
+  <Combined_episodenumber>22</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Red Carpet Interviews and Season 5 Sneak Peek</EpisodeName>
+  <EpisodeNumber>22</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season></airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename></filename>
+  <lastupdated>1350951439</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4067821</id>
+  <Combined_episodenumber>101</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>3</EpImgFlag>
+  <EpisodeName>Clone Wars : Volume I</EpisodeName>
+  <EpisodeNumber>101</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer>Henry GILROY, Georges LUCAS, Genndy TARTAKOVSKY</Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season></airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename>episodes/83268/4067821.jpg</filename>
+  <lastupdated>1349004591</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4067831</id>
+  <Combined_episodenumber>102</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>3</EpImgFlag>
+  <EpisodeName>Clone Wars Volume II</EpisodeName>
+  <EpisodeNumber>102</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer>Henry GILROY, Georges LUCAS, Genndy TARTAKOVSKY</Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season></airsafter_season>
+  <airsbefore_episode></airsbefore_episode>
+  <airsbefore_season></airsbefore_season>
+  <filename>episodes/83268/4067831.jpg</filename>
+  <lastupdated>1349004605</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4338566</id>
+  <Combined_episodenumber>103</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Return to Genosis</EpisodeName>
+  <EpisodeNumber>103</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A behind the scenes look at the Genosis episodes</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode>22</airsbefore_episode>
+  <airsbefore_season>1</airsbefore_season>
+  <filename></filename>
+  <lastupdated>1338921389</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4338567</id>
+  <Combined_episodenumber>104</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Magic of the Holocton Episodes</EpisodeName>
+  <EpisodeNumber>104</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A behind the scenes look at Holocron Heist</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode>1</airsbefore_episode>
+  <airsbefore_season>2</airsbefore_season>
+  <filename></filename>
+  <lastupdated>1338921468</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4338570</id>
+  <Combined_episodenumber>105</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Creating Mandalore</EpisodeName>
+  <EpisodeNumber>105</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A behind the scense look at creating the legend that is the Mandalorians</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode>1</airsbefore_episode>
+  <airsbefore_season>2</airsbefore_season>
+  <filename></filename>
+  <lastupdated>1338921523</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4338571</id>
+  <Combined_episodenumber>106</Combined_episodenumber>
+  <Combined_season>0</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Attack of the Zillo Beast</EpisodeName>
+  <EpisodeNumber>106</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A behind the scenes look at the Zilo Beast episodes</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>0</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <airsafter_season>1</airsafter_season>
+  <airsbefore_episode>18</airsbefore_episode>
+  <airsbefore_season>2</airsbefore_season>
+  <filename></filename>
+  <lastupdated>1338921578</lastupdated>
+  <seasonid>35738</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>393233</id>
+  <Combined_episodenumber>1.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>1.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Dave Filoni, Dave Bullock</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Ambush</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2008-10-03</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>While trying to negotiate a treaty for the Republic, Jedi Master Yoda and a handful of clone troopers are ambushed by a Separatist army.</Overview>
+  <ProductionCode>1.08</ProductionCode>
+  <Rating>7.2</Rating>
+  <RatingCount>75</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Steven Melching, Henry Gilroy</Writer>
+  <absolute_number>1</absolute_number>
+  <filename>episodes/83268/393233.jpg</filename>
+  <lastupdated>1353330168</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>393234</id>
+  <Combined_episodenumber>2.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>2.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Dave Filoni</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Rising Malevolence</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2008-10-03</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin and Ashoka have to save Jedi Master Plo Koon and his clone troopers after the Separatist Army uses their devastating new weapon</Overview>
+  <ProductionCode>1.07</ProductionCode>
+  <Rating>7.2</Rating>
+  <RatingCount>56</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Steven Melching</Writer>
+  <absolute_number>2</absolute_number>
+  <filename>episodes/83268/393234.jpg</filename>
+  <lastupdated>1346880379</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>393235</id>
+  <Combined_episodenumber>3.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>3.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Steven Melching</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Shadow of Malevolence</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired>2008-10-10</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin utilizes new long-range Y-wing bombers to lead a strike on General Grievous' warship.</Overview>
+  <ProductionCode>1.09</ProductionCode>
+  <Rating>7.1</Rating>
+  <RatingCount>51</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Brian Kalin O'Connell</Writer>
+  <absolute_number>3</absolute_number>
+  <filename>episodes/83268/393235.jpg</filename>
+  <lastupdated>1346880558</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>393236</id>
+  <Combined_episodenumber>4.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>4.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Brian Kalin O'Connell</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Destroy Malevolence</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired>2008-10-17</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Padmé Amidala and C-3PO are taken hostage by General Grievous, leaving Anakin and Obi-Wan to save the Senator and complete the destruction of the Malevolence.</Overview>
+  <ProductionCode>1.11</ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>50</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Tim Burns</Writer>
+  <absolute_number>4</absolute_number>
+  <filename>episodes/83268/393236.jpg</filename>
+  <lastupdated>1346880593</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>393711</id>
+  <Combined_episodenumber>5.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>5.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Justin Ridge</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Rookies</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired>2008-10-24</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Alone on a distant outpost, clone officers Rex and Cody must inspire their rookie unit to believe in themselves to stave off a Droid Commando invasion. </Overview>
+  <ProductionCode>1.14</ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>45</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Steve Melching</Writer>
+  <absolute_number>5</absolute_number>
+  <filename>episodes/83268/393711.jpg</filename>
+  <lastupdated>1346880613</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>393712</id>
+  <Combined_episodenumber>6.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>6.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Rob Coleman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Downfall of a Droid</EpisodeName>
+  <EpisodeNumber>6</EpisodeNumber>
+  <FirstAired>2008-11-07</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>During a battle with the Separatists R2-D2 is lost and they must find him before the Separatists do because of the military secrets locked inside the droid.</Overview>
+  <ProductionCode>1.05</ProductionCode>
+  <Rating>7.1</Rating>
+  <RatingCount>37</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>George Krstic</Writer>
+  <absolute_number>6</absolute_number>
+  <filename>episodes/83268/393712.jpg</filename>
+  <lastupdated>1346880698</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>403518</id>
+  <Combined_episodenumber>7.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>7.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Rob Coleman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Duel of the Droids</EpisodeName>
+  <EpisodeNumber>7</EpisodeNumber>
+  <FirstAired>2008-11-14</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>R2-D2 is being held at General Grievous' secret listening post. Ahsoka, Anakin and replacement droid R3-S6 go on a dual rescue and sabotage mission.</Overview>
+  <ProductionCode>1.07</ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>37</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Kevin Campbell|Henry Gilroy</Writer>
+  <absolute_number>7</absolute_number>
+  <filename>episodes/83268/403518.jpg</filename>
+  <lastupdated>1346963324</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>403519</id>
+  <Combined_episodenumber>8.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>8.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Jesse Yeh</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Bombad Jedi</EpisodeName>
+  <EpisodeNumber>8</EpisodeNumber>
+  <FirstAired>2008-11-21</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>The Separatists think that Jar Jar Binks is a Jedi Knight, when the comical Gungan and C-3PO fight to save Padmé Amidala from doom at the hands of evil Viceroy Nute Gunray.</Overview>
+  <ProductionCode>1.06</ProductionCode>
+  <Rating>6.8</Rating>
+  <RatingCount>32</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Kevin Rubio|Henry Gilroy|Steven Melching</Writer>
+  <absolute_number>8</absolute_number>
+  <filename>episodes/83268/403519.jpg</filename>
+  <lastupdated>1346963408</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>403520</id>
+  <Combined_episodenumber>9.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>9.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Dave Filoni</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Cloak of Darkness</EpisodeName>
+  <EpisodeNumber>9</EpisodeNumber>
+  <FirstAired>2008-12-05</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>After handing over a captured Nute Gunray to Captain Argyus and his Senate Commandos, Luminara Unduli and Ahsoka Tano must thwart a Separatist boarding, lead by Asajj Ventress.</Overview>
+  <ProductionCode>1.10</ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>34</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Paul Dini</Writer>
+  <absolute_number>9</absolute_number>
+  <filename>episodes/83268/403520.jpg</filename>
+  <lastupdated>1346963865</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>403521</id>
+  <Combined_episodenumber>10.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>10.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Atsushi Takeuchi</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Lair of Grievous</EpisodeName>
+  <EpisodeNumber>10</EpisodeNumber>
+  <FirstAired>2008-12-12</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Kit Fisto and Nahdarr Vebb, chasing Nute Gunray, enter the sanctuary of General Grievous, on the Vassek moon.</Overview>
+  <ProductionCode>1.12</ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>40</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Henry Gilroy</Writer>
+  <absolute_number>10</absolute_number>
+  <filename>episodes/83268/403521.jpg</filename>
+  <lastupdated>1346964066</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>417298</id>
+  <Combined_episodenumber>11.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>11.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Jesse Yeh</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Dooku Captured</EpisodeName>
+  <EpisodeNumber>11</EpisodeNumber>
+  <FirstAired>2009-01-02</FirstAired>
+  <GuestStars>Dooku är fångad</GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin and Obi-Wan's jobs are done for them when space pirates capture Count Dooku. </Overview>
+  <ProductionCode>1.16</ProductionCode>
+  <Rating>7.1</Rating>
+  <RatingCount>25</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Julie Siege</Writer>
+  <absolute_number>11</absolute_number>
+  <filename>episodes/83268/417298.jpg</filename>
+  <lastupdated>1346964128</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>419505</id>
+  <Combined_episodenumber>12.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>12.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Justin Ridge</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Gungan General</EpisodeName>
+  <EpisodeNumber>12</EpisodeNumber>
+  <FirstAired>2009-01-09</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>In order to escape their capture, Anakin and Obi-Wan team up with Jar Jar Binks. As if that wasn't bad enough, they must bring Count Dooku with them to the Jedi Knights.</Overview>
+  <ProductionCode>1.20</ProductionCode>
+  <Rating>7.0</Rating>
+  <RatingCount>33</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Julie Siege</Writer>
+  <absolute_number>12</absolute_number>
+  <filename>episodes/83268/419505.jpg</filename>
+  <lastupdated>1346964220</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>423943</id>
+  <Combined_episodenumber>13.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>13.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Rob Coleman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Jedi Crash</EpisodeName>
+  <EpisodeNumber>13</EpisodeNumber>
+  <FirstAired>2009-01-16</FirstAired>
+  <GuestStars>Jedi Crash</GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>When Anakin suffers from extensive injuries in battle, the Jedi Knights must find help on a hostile planet. However, things are only made worse by Ahsoka's constant attempts at controlling her emotions.</Overview>
+  <ProductionCode>1.22</ProductionCode>
+  <Rating>7.1</Rating>
+  <RatingCount>31</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Katie Lucas</Writer>
+  <absolute_number>13</absolute_number>
+  <filename>episodes/83268/423943.jpg</filename>
+  <lastupdated>1346964338</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>423944</id>
+  <Combined_episodenumber>14.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>14.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Defenders of Peace</EpisodeName>
+  <EpisodeNumber>14</EpisodeNumber>
+  <FirstAired>2009-01-23</FirstAired>
+  <GuestStars>Fredens Försvarare</GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin, Ahsoka and Aayla Secura offer Lurmen a Republic position in the war. Unfortunately, the Separatists also have their eyes on gaining a new ally.</Overview>
+  <ProductionCode>1.24</ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>37</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Bill Canterbury</Writer>
+  <absolute_number>14</absolute_number>
+  <filename>episodes/83268/423944.jpg</filename>
+  <lastupdated>1346964475</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>423945</id>
+  <Combined_episodenumber>15.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>15.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Brian Kalin O'Connell</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Trespass</EpisodeName>
+  <EpisodeNumber>15</EpisodeNumber>
+  <FirstAired>2009-01-30</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>An warring icy planet and its moon find Anakin and Obi-Wan in quite a pickle.</Overview>
+  <ProductionCode>1.25</ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>30</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Steve Melching|Scott Murphy|Henry Gilroy</Writer>
+  <absolute_number>15</absolute_number>
+  <filename>episodes/83268/423945.jpg</filename>
+  <lastupdated>1346964498</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>431037</id>
+  <Combined_episodenumber>16.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>16.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Hidden Enemy</EpisodeName>
+  <EpisodeNumber>16</EpisodeNumber>
+  <FirstAired>2009-02-06</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin and Obi-Wan suspect a traitor is in their midst while on a mission to liberate a planet from a Separatist siege. </Overview>
+  <ProductionCode>2.01</ProductionCode>
+  <Rating>7.2</Rating>
+  <RatingCount>36</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Drew Z. Greenberg</Writer>
+  <absolute_number>16</absolute_number>
+  <filename>episodes/83268/431037.jpg</filename>
+  <lastupdated>1346964591</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>431038</id>
+  <Combined_episodenumber>17.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>17.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Giancarlo Volpe</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Blue Shadow Virus</EpisodeName>
+  <EpisodeNumber>17</EpisodeNumber>
+  <FirstAired>2009-02-13</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Padmé and Jar Jar run into trouble while looking for a Separatist bio-weapons lab, leaving Anakin, Obi-Wan and Ahsoka to rescue them and contain a deadly virus.</Overview>
+  <ProductionCode>1.26</ProductionCode>
+  <Rating>6.8</Rating>
+  <RatingCount>30</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Craig Titley</Writer>
+  <absolute_number>17</absolute_number>
+  <filename>episodes/83268/431038.jpg</filename>
+  <lastupdated>1346964704</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>435753</id>
+  <Combined_episodenumber>18.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>18.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Jesse Yeh</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Mystery of a Thousand Moons</EpisodeName>
+  <EpisodeNumber>18</EpisodeNumber>
+  <FirstAired>2009-02-13</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>The fatal Blue Shadow Virus is released, infecting Ahsoka, Padmé and many Clone Troopers - and giving Anakin and Obi-Wan just 48 hours to find the antidote on a mysterious planet from which no visitor has ever returned.</Overview>
+  <ProductionCode>2.02</ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>31</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Brian Larsen</Writer>
+  <absolute_number>18</absolute_number>
+  <filename>episodes/83268/435753.jpg</filename>
+  <lastupdated>1346964861</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>435903</id>
+  <Combined_episodenumber>19.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>19.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Brian Kalin O'Connell</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Storm Over Ryloth</EpisodeName>
+  <EpisodeNumber>19</EpisodeNumber>
+  <FirstAired>2009-02-27</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ahsoka disobeys Anakin's orders and loses most of her squadron which prompts Anakin to give his Padawan a lesson in respect for authority, and the opportunity for redemption</Overview>
+  <ProductionCode>1.15</ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>32</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>George Krstic, Scott Murphy, Henry Gilroy</Writer>
+  <absolute_number>19</absolute_number>
+  <filename>episodes/83268/435903.jpg</filename>
+  <lastupdated>1346964895</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>435904</id>
+  <Combined_episodenumber>20.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>20.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Justin Ridge</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Innocents of Ryloth</EpisodeName>
+  <EpisodeNumber>20</EpisodeNumber>
+  <FirstAired>2009-03-06</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Upon arriving on Ryloth the Republic discovers that the Separatists have enslaved the entire population.</Overview>
+  <ProductionCode>1.17</ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>39</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Randy Stradley, Henry Gilroy</Writer>
+  <absolute_number>20</absolute_number>
+  <filename>episodes/83268/435904.jpg</filename>
+  <lastupdated>1346964941</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>435905</id>
+  <Combined_episodenumber>21.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>21.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Rob Coleman</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Liberty on Ryloth</EpisodeName>
+  <EpisodeNumber>21</EpisodeNumber>
+  <FirstAired>2009-03-13</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Mace, Obi-Wan, Ahsoka, Anakin and The Republic attempts to capture Wat Tambor before he gains control over the whole planet, will they be able to save the planet in time? </Overview>
+  <ProductionCode>1.19</ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>31</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Henry Gilroy</Writer>
+  <absolute_number>21</absolute_number>
+  <filename>episodes/83268/435905.jpg</filename>
+  <lastupdated>1346965113</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>435906</id>
+  <Combined_episodenumber>22.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber>22.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Giancarlo Volpe</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Hostage Crisis</EpisodeName>
+  <EpisodeNumber>22</EpisodeNumber>
+  <FirstAired>2009-03-20</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>To free crime lord Ziro the Hutt, bounty hunters seize control of the Senate Building and take hostages -- completely unaware that Jedi Knight Anakin Skywalker is still inside. This episode introduces the bounty hunter Cad Bane. </Overview>
+  <ProductionCode>2.04</ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>36</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Eoghan Mahony</Writer>
+  <absolute_number>22</absolute_number>
+  <filename>episodes/83268/435906.jpg</filename>
+  <lastupdated>1346965159</lastupdated>
+  <seasonid>35739</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>532351</id>
+  <Combined_episodenumber>1.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>1.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Justin Ridge</Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>Holocron Heist</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2009-10-02</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0458290</IMDB_ID>
+  <Language>en</Language>
+  <Overview>A lesson learned is a lesson earned.
+
+In order to obtain a Jedi Holocron from the Jedi Temple, Cad Bane hires a bounty hunter to help him. Once inside, Bane must deal with Ahsoka and the rest of the Jedi order.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>48</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>|Paul Dini|Scott Murphy|Henry Gilroy</Writer>
+  <absolute_number>23</absolute_number>
+  <filename>episodes/83268/532351.jpg</filename>
+  <lastupdated>1347565988</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>532361</id>
+  <Combined_episodenumber>2.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>2.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Rob Coleman</Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>Cargo of Doom</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2009-10-02</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Overconfidence is the most dangerous form of carelessness.
+
+Anakin and Ahsoka have Cad Bane cornered over the planet of Devaron. Upon entering the ship, Cad Bane cunningly gets Anakin to open the Holocron.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>30</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>George Krstic</Writer>
+  <absolute_number>24</absolute_number>
+  <filename>episodes/83268/532361.jpg</filename>
+  <lastupdated>1347566005</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1147951</id>
+  <Combined_episodenumber>3.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>3.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Brian Kalin O'Connell</Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>Children of the Force</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired>2009-10-09</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>The first step to correcting a mistake is patience.
+
+Darth Sidious has a new dark assignment: kidnap Force-sensitive children from across the galaxy and bring them to Mustafar.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>40</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Henry Gilroy|Wendy Meracle</Writer>
+  <absolute_number>25</absolute_number>
+  <filename>episodes/83268/1147951.jpg</filename>
+  <lastupdated>1347566022</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1186351</id>
+  <Combined_episodenumber>4.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>4.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>Senate Spy</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired>2009-10-16</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A true heart should never be doubted.
+
+Padme is asked by the Jedi Council to look into a Separatist conspiracy dealing with the Senate. </Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.1</Rating>
+  <RatingCount>34</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Melinda Hsu</Writer>
+  <absolute_number>26</absolute_number>
+  <filename>episodes/83268/1186351.jpg</filename>
+  <lastupdated>1347566042</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1191431</id>
+  <Combined_episodenumber>5.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>5.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Brian Kalin O'Connell</Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>Landing at Point Rain</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired>2009-11-04</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Believe in yourself or no one else will.
+
+Anakin, Ahsoka and Ki-Adi-Mundi lead a landing party to destroy a droid factory on Geonosis. </Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>45</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Brian Larsen</Writer>
+  <absolute_number>27</absolute_number>
+  <filename>episodes/83268/1191431.jpg</filename>
+  <lastupdated>1347566065</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1258111</id>
+  <Combined_episodenumber>6.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>6.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Giancarlo Volpe</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Weapons Factory</EpisodeName>
+  <EpisodeNumber>6</EpisodeNumber>
+  <FirstAired>2009-11-13</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>No gift is more precious than trust.
+
+Luminara and Anakin act as decoys to divert new enemy super tanks, while Padawans Barriss Offee and Ahsoka attempt to destroy a Separatist droid factory.</Overview>
+  <ProductionCode>208</ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>39</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Brian Larsen</Writer>
+  <absolute_number>28</absolute_number>
+  <filename>episodes/83268/1258111.jpg</filename>
+  <lastupdated>1347566086</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1271141</id>
+  <Combined_episodenumber>7.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>7.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Legacy of Terror</EpisodeName>
+  <EpisodeNumber>7</EpisodeNumber>
+  <FirstAired>2009-11-20</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Sometimes, accepting help is harder than offering it.
+
+When Luminara goes missing, Obi-Wan and Ki-Adi-Mundi lead a platoon of clones in search of her. When the search leads to a mysterious lair, the Jedi are faced with a horde of undead warriors.</Overview>
+  <ProductionCode>209</ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>40</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Eoghan Mahony</Writer>
+  <absolute_number>29</absolute_number>
+  <filename>episodes/83268/1271141.jpg</filename>
+  <lastupdated>1347566234</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1366491</id>
+  <Combined_episodenumber>8.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>8.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Brain Invaders</EpisodeName>
+  <EpisodeNumber>8</EpisodeNumber>
+  <FirstAired>2009-12-04</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Attachment is not compassion
+
+When Geonosian brain worms take control of their supply ship, Ahsoka and Barriss must battle to stop the vessel from unleashing the deadly plague upon the galaxy and the clones. </Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>37</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Drew Z. Greenberg|Andrew Kreisberg</Writer>
+  <absolute_number>30</absolute_number>
+  <filename>episodes/83268/1366491.jpg</filename>
+  <lastupdated>1347566270</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1371171</id>
+  <Combined_episodenumber>9.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>2</DVD_discid>
+  <DVD_episodenumber>9.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Giancarlo Volpe</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Grievous Intrigue</EpisodeName>
+  <EpisodeNumber>9</EpisodeNumber>
+  <FirstAired>2010-01-01</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>For everything you gain, you lose something else.
+
+A Jedi Master is taken hostage and tortured by General Grievous. Anakin, Obi-Wan and Adi Gallia devise a daring rescue plan, but they soon realize the General has a plan of his own.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.2</Rating>
+  <RatingCount>41</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Ben Edlund</Writer>
+  <absolute_number>31</absolute_number>
+  <filename>episodes/83268/1371171.jpg</filename>
+  <lastupdated>1347566294</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1412531</id>
+  <Combined_episodenumber>10.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>2</DVD_discid>
+  <DVD_episodenumber>10.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Robert Dalva</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Deserter</EpisodeName>
+  <EpisodeNumber>10</EpisodeNumber>
+  <FirstAired>2010-01-01</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>It is the quest for honor that makes one honorable.
+
+After escaping to the planet Saleucami, Grievous searches for a ship to get offworld. Meanwhile, Rex is wounded by a commando droid sniper and meets a deserter at the farm where he takes shelter.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>24</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Carl Ellsworth</Writer>
+  <absolute_number>32</absolute_number>
+  <filename>episodes/83268/1412531.jpg</filename>
+  <lastupdated>1347566319</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1550581</id>
+  <Combined_episodenumber>11.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>2</DVD_discid>
+  <DVD_episodenumber>11.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Giancarlo Volpe</Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>Lightsaber Lost</EpisodeName>
+  <EpisodeNumber>11</EpisodeNumber>
+  <FirstAired>2010-01-22</FirstAired>
+  <GuestStars>Gregory Baldwin as Tera Sinube, Police Droid and Aqualish</GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Easy isn't always simple
+
+When a wily pickpocket steals Ahsoka's lightsaber, she enlists the help of an ancient Jedi to track down her weapon and reclaim her honor.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.0</Rating>
+  <RatingCount>34</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Drew Z. Greenberg</Writer>
+  <absolute_number>33</absolute_number>
+  <filename>episodes/83268/1550581.jpg</filename>
+  <lastupdated>1347566342</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1550591</id>
+  <Combined_episodenumber>12.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>2</DVD_discid>
+  <DVD_episodenumber>12.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Kyle Dunlevy</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Mandalore Plot</EpisodeName>
+  <EpisodeNumber>12</EpisodeNumber>
+  <FirstAired>2010-01-29</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>If you ignore the past, you jeopardize your future.
+
+Diplomacy or deception? The Council of Neutral Systems speaks for over 1,500 worlds who want to stay out of the war. But rumors have reached the Republic Senate suggesting that the Council's new leader -- Duchess Satine of Mandalore -- is secretly building her own army to fight for the Separatist cause!
+
+Now, Jedi Master Obi-Wan Kenobi has been sent to Mandalore to discover the truth behind these claims…</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>37</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Melinda Hsu</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/1550591.jpg</filename>
+  <lastupdated>1347566365</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1668181</id>
+  <Combined_episodenumber>13.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>2</DVD_discid>
+  <DVD_episodenumber>13.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Brian Kalin O' Connell</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Voyage of Temptation</EpisodeName>
+  <EpisodeNumber>13</EpisodeNumber>
+  <FirstAired>2010-02-05</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Fear not for the future, weep not for the past.
+
+As the Jedi and their clones defend Duchess Satine from assassination attempts, Anakin discovers that Obi-Wan and the Duchess have a history together.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.2</Rating>
+  <RatingCount>39</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Paul Dini|Scott Murphy|Henry Gilroy</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/1668181.jpg</filename>
+  <lastupdated>1347566389</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1668191</id>
+  <Combined_episodenumber>14.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>2</DVD_discid>
+  <DVD_episodenumber>14.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Brian Kalin O' Connell</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Duchess of Mandalore</EpisodeName>
+  <EpisodeNumber>14</EpisodeNumber>
+  <FirstAired>2010-02-12</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>In war, truth is the first casualty.
+
+On Coruscant, Duchess Satine is framed for the creation of a Mandalorian terrorist group. On the run from Republic authorities, Satine and Obi-Wan set off to discover the group's true origins.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>40</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Drew Z. Greenberg</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/1668191.jpg</filename>
+  <lastupdated>1347566407</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1668201</id>
+  <Combined_episodenumber>15.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>2</DVD_discid>
+  <DVD_episodenumber>15.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Brian Kalin O' Connell</Director>
+  <EpImgFlag>3</EpImgFlag>
+  <EpisodeName>Senate Murders</EpisodeName>
+  <EpisodeNumber>15</EpisodeNumber>
+  <FirstAired>2010-03-19</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1558191</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Searching for the truth is easy. Accepting the truth is hard.
+
+When a Senator dies under suspicious circumstances, Padmé sets out to find the person responsible.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>6.7</Rating>
+  <RatingCount>38</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Drew Z. Greenberg</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/1668201.jpg</filename>
+  <lastupdated>1347566438</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1725761</id>
+  <Combined_episodenumber>16.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>3</DVD_discid>
+  <DVD_episodenumber>16.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Kyle Dunlevy</Director>
+  <EpImgFlag>3</EpImgFlag>
+  <EpisodeName>Cat and Mouse</EpisodeName>
+  <EpisodeNumber>16</EpisodeNumber>
+  <FirstAired>2010-03-26</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A wise leader knows when to follow.
+
+A highly seasoned strategist stands between the Republic fleet and beleaguered Republic forces on Christophisis. Anakin finds himself in command of an advanced prototype stealth ship with orders to ferry supplies to the weary troops on the planet below. Will he obey orders, or use the stealth ship to launch a sneak attack on the Separatist blockade? </Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>42</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Brian Larsen</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/1725761.jpg</filename>
+  <lastupdated>1347566455</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1771741</id>
+  <Combined_episodenumber>17.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>3</DVD_discid>
+  <DVD_episodenumber>17.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>3</EpImgFlag>
+  <EpisodeName>Bounty Hunters</EpisodeName>
+  <EpisodeNumber>17</EpisodeNumber>
+  <FirstAired>2010-04-02</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Courage makes heroes, but trust builds friendship.
+
+Hondo Onaka has returned! Anakin, Obi-Wan and Ahsoka must team up with bounty hunters to stop his raids against a town of innocent spice farmers.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>43</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Carl Ellsworth</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/1771741.jpg</filename>
+  <lastupdated>1347566480</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1992481</id>
+  <Combined_episodenumber>18.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>3</DVD_discid>
+  <DVD_episodenumber>18.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Giancarlo Volpe</Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>Zillo Beast</EpisodeName>
+  <EpisodeNumber>18</EpisodeNumber>
+  <FirstAired>2010-04-09</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Choose what is right, not what is easy
+
+The Republic's newest droid-disrupting weapon awakens a monstrous, near-invincible Zillo Beast from its underground hibernation. The Jedi face a dilemma: save the beast as the last specimen of its kind, or help the Dugs kill it and secure a treaty for critical fuel supplies? </Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>52</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Craig Titley</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/1992481.jpg</filename>
+  <lastupdated>1347566526</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1992491</id>
+  <Combined_episodenumber>19.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>3</DVD_discid>
+  <DVD_episodenumber>19.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>The Zillo Beast Strikes Back</EpisodeName>
+  <EpisodeNumber>19</EpisodeNumber>
+  <FirstAired>2010-04-16</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>he most dangerous beast is the beast within.
+
+When the Zillo Beast is brought back to Coruscant in hopes of learning the secret of its impenetrable armor, it instead breaks loose and rampages across the city-planet. As the clones prepare to kill it with poison gas, the Jedi are again trapped in a moral conflict between the value of its life and that of the planet's civilian populace</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>50</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Steven Melching</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/1992491.jpg</filename>
+  <lastupdated>1347566585</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1992501</id>
+  <Combined_episodenumber>20.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>3</DVD_discid>
+  <DVD_episodenumber>20.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Death Trap</EpisodeName>
+  <EpisodeNumber>20</EpisodeNumber>
+  <FirstAired>2010-04-23</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Who my father was matters less than my memory of him.
+
+A young boy wages war against the Jedi Knights who left him orphaned, bitter and alone. Along the way, he enlists the aid of some of the galaxy's most ruthless and deadly bounty hunters.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>43</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Doug Petrie</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/1992501.jpg</filename>
+  <lastupdated>1347566604</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1992511</id>
+  <Combined_episodenumber>21.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>3</DVD_discid>
+  <DVD_episodenumber>21.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Giancarlo Volpe</Director>
+  <EpImgFlag>3</EpImgFlag>
+  <EpisodeName>R2 Come Home</EpisodeName>
+  <EpisodeNumber>21</EpisodeNumber>
+  <FirstAired>2010-04-30</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Adversity is friendship's truest test.
+
+Anakin Skywalker and Mace Windu are trapped in the crumbling ruins of a crashed ship while searching for survivors, and only R2-D2 can get out a message to save them... if he can elude vicious gundarks and, worse yet, a crew of determined bounty hunters led by Boba Fett and Aurra Sing. </Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>45</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Eoghan Mahony</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/1992511.jpg</filename>
+  <lastupdated>1347566649</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>1992521</id>
+  <Combined_episodenumber>22.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>3</DVD_discid>
+  <DVD_episodenumber>22.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director>Dave Filoni</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Lethal Trackdown</EpisodeName>
+  <EpisodeNumber>22</EpisodeNumber>
+  <FirstAired>2010-04-30</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Revenge is a confession of pain.
+
+While Anakin and Mace Windu recover from their injuries, Plo Kloon and Ahsoka chase Boba Fett from the underworld of Coruscant to the planet Florrum. Boba's revenge scheme finally leads to a climactic battle, and the life of a Republic admiral hangs in the balance.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>27</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer>Dave Filoni</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/1992521.jpg</filename>
+  <lastupdated>1347566682</lastupdated>
+  <seasonid>52381</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>2240111</id>
+  <Combined_episodenumber>1</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Dave Filoni</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Clone Cadets</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2010-09-17</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707609</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Five headstrong clone cadets of Domino Squad struggle to complete their training on the ocean planet of Kamino. Unable to work together as a team, they must learn to embrace their future as soldiers before they are drummed out of the academy. Their trainers, Bric, El-Les, and Jedi Master Shaak Ti control their fate.</Overview>
+  <ProductionCode>3.01</ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>60</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Cameron Litvack</Writer>
+  <absolute_number>45</absolute_number>
+  <filename>episodes/83268/2240111.jpg</filename>
+  <lastupdated>1347566722</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>2825051</id>
+  <Combined_episodenumber>2</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Kyle Dunlevy</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>ARC Troopers</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2010-09-17</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707620</IMDB_ID>
+  <Language>en</Language>
+  <Overview>After receiving important insider intelligence data warning of a Separatist attack on Kamino, Obi-Wan Kenobi and Anakin Skywalker arrive to save this important stronghold of the Old Republic. With a startling surprise, the ingenious General Grievous, exotic Asajj Ventress and the dreaded droid machine military attack Kamino with the goal to end Kamino's ability to create new clone troops.</Overview>
+  <ProductionCode>3.02</ProductionCode>
+  <Rating>7.9</Rating>
+  <RatingCount>37</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Cameron Litvack</Writer>
+  <absolute_number>46</absolute_number>
+  <filename>episodes/83268/2825051.jpg</filename>
+  <lastupdated>1347566963</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>2825061</id>
+  <Combined_episodenumber>3</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Brian Kalin O'Conell</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Supply Lines</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired>2010-09-24</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707624</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ryloth is under siege. Trapped on the surface, Jedi Master Di rallies the local forces with the help of Cham Syndulla. Desperate to save them, Senator Bail Organa and Representative Jar Jar Binks are dispatched to the planet of Toydaria, where they must convince the King Katuunko to send aid.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>60</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>|Steven Melching|Eoghan Mahony|</Writer>
+  <absolute_number>47</absolute_number>
+  <filename>episodes/83268/2825061.jpg</filename>
+  <lastupdated>1347566982</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>2825071</id>
+  <Combined_episodenumber>4</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Kyle Dunlevy</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Sphere of Influence</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired>2010-10-01</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707625</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Chairman Papanoida's family is kidnapped and held for ransom. Ahsoka must team up with the Senator from Pantora, Riyo Chuchi, to aid the new chairman in recovering his family before the Trade Federation can unduly influence the future of his planet.</Overview>
+  <ProductionCode>2.25</ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>55</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>|Katie Lucas|Steve Melching|</Writer>
+  <absolute_number>48</absolute_number>
+  <filename>episodes/83268/2825071.jpg</filename>
+  <lastupdated>1347567007</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>2858561</id>
+  <Combined_episodenumber>5</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Giancarlo Volpe</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Corruption</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired>2010-10-08</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707626</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Padmé, on a diplomatic mission to Mandalore, guarantees the pacifist planet the Republic's full protection, but she and Duchess Satine soon find something sinister lurking beneath the planet's serene facade.</Overview>
+  <ProductionCode>3.04</ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>49</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Cameron Litvack</Writer>
+  <absolute_number>49</absolute_number>
+  <filename>episodes/83268/2858561.jpg</filename>
+  <lastupdated>1347567030</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>2858571</id>
+  <Combined_episodenumber>6</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Giancarlo Volpe</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Academy</EpisodeName>
+  <EpisodeNumber>6</EpisodeNumber>
+  <FirstAired>2010-10-15</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707627</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ahsoka is assigned to teach a class at the cadet academy on Mandalore. Soon after she arrives, Duchess Satine's zealous nephew and his classmates uncover a nefarious plot.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>46</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>|Katie Lucas|Steve Melching|Drew Z. Greenberg|</Writer>
+  <absolute_number>50</absolute_number>
+  <filename>episodes/83268/2858571.jpg</filename>
+  <lastupdated>1347567047</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>2858581</id>
+  <Combined_episodenumber>7</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Kyle Dunlevy</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Assassin</EpisodeName>
+  <EpisodeNumber>7</EpisodeNumber>
+  <FirstAired>2010-10-22</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707628</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Tasked to protect Senator Padmé Amidala during a political mission to Alderaan, Padawan Ahsoka Tano is plagued by recurring visions of the recently-deceased bounty hunter, Aurra Sing.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>53</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>|Katie Lucas|Drew Z. Greenberg|</Writer>
+  <absolute_number>51</absolute_number>
+  <filename>episodes/83268/2858581.jpg</filename>
+  <lastupdated>1347567069</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3040671</id>
+  <Combined_episodenumber>8</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Brian Kalin O' Connell</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Evil Plans</EpisodeName>
+  <EpisodeNumber>8</EpisodeNumber>
+  <FirstAired>2010-11-05</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707629</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Look out Threepio! While on an important shopping trip on Coruscant, C-3PO is kidnapped by the sinister bounty hunter Cad Bane in a dastardly plot to free Ziro The Hutt. Can R2-D2 help his counterpart escape in time to warn the Jedi?</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.2</Rating>
+  <RatingCount>47</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>|Steve Mitchell|Craig Van Sickle|</Writer>
+  <absolute_number>52</absolute_number>
+  <filename>episodes/83268/3040671.jpg</filename>
+  <lastupdated>1347567087</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3040681</id>
+  <Combined_episodenumber>9</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Hunt for Ziro</EpisodeName>
+  <EpisodeNumber>9</EpisodeNumber>
+  <FirstAired>2010-11-12</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707630</IMDB_ID>
+  <Language>en</Language>
+  <Overview>The Hutt Council is after Ziro. But the Hutts aren't the only ones! Will they catch up with the treacherous Hutt, or can Obi-Wan Kenobi and Jedi Master Quinlan Vos bring him to justice?</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>48</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>|Steve Mitchell|Craig Van Sickle|</Writer>
+  <absolute_number>53</absolute_number>
+  <filename>episodes/83268/3040681.jpg</filename>
+  <lastupdated>1347567112</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3040691</id>
+  <Combined_episodenumber>10</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Kyle Dunlevy</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Heroes on Both Sides</EpisodeName>
+  <EpisodeNumber>10</EpisodeNumber>
+  <FirstAired>2010-11-19</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707610</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Padme Amidala and Ahsoka Tano travel to Raxus in an attempt to forge a peace agreement with Separatists. As Padme enlists the help of a former mentor, Mina Bonteri, Ahsoka learns some valuable lessons about the realities of war.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>52</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Daniel Arkin</Writer>
+  <absolute_number>54</absolute_number>
+  <filename>episodes/83268/3040691.jpg</filename>
+  <lastupdated>1347567138</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3040701</id>
+  <Combined_episodenumber>11</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Duwayne Dunham</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Pursuit of Peace</EpisodeName>
+  <EpisodeNumber>11</EpisodeNumber>
+  <FirstAired>2010-12-03</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707611</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Senators Padme Amidala, Bail Organa, and Onacanda Farr come under fire for opposing a bill that would appropriate funds for millions of new clone troopers, but cripple the Republic.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>46</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Daniel Arkin</Writer>
+  <absolute_number>55</absolute_number>
+  <filename>episodes/83268/3040701.jpg</filename>
+  <lastupdated>1347567448</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3436841</id>
+  <Combined_episodenumber>12</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Giancarlo Volpe</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Nightsisters</EpisodeName>
+  <EpisodeNumber>12</EpisodeNumber>
+  <FirstAired>2011-01-07</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707612</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Darth Sidious orders Count Dooku to eliminate his apprentice, Asajj Ventress. Ventress survives Dooku's assassination attempt, and flees to the planet of Dathomir to enlist her kinswomen - the mystical Nightsisters - to assist her in a campaign of vengeance against her former master.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>53</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Katie Lucas</Writer>
+  <absolute_number>56</absolute_number>
+  <filename>episodes/83268/3436841.jpg</filename>
+  <lastupdated>1347567469</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3472601</id>
+  <Combined_episodenumber>13</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Kyle Dunlevy</Director>
+  <EpImgFlag>3</EpImgFlag>
+  <EpisodeName>Monster</EpisodeName>
+  <EpisodeNumber>13</EpisodeNumber>
+  <FirstAired>2011-01-14</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707613</IMDB_ID>
+  <Language>en</Language>
+  <Overview>When Count Dooku calls upon the Nightsisters seeking a replacement for Ventress, she and her kin seize the opportunity to exact revenge. Ventress visits the far side of Dathomir and the males of the planet seeking the most brutal and powerful warrior among them. Through their witchcraft, the Nightsisters transform Savage Opress into a monstrous killer designed to turn on his new master.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>51</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Katie Lucas</Writer>
+  <absolute_number>57</absolute_number>
+  <filename>episodes/83268/3472601.jpg</filename>
+  <lastupdated>1347567513</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3472721</id>
+  <Combined_episodenumber>14</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Giancarlo Volpe</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Witches of the Mist</EpisodeName>
+  <EpisodeNumber>14</EpisodeNumber>
+  <FirstAired>2011-01-21</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707614</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin and Obi-Wan, sent to track down the mysterious figure behind the deaths of several Jedi, soon find themselves on the trail of the monstrous apprentice that Ventress has created: Savage Opress. However, Dooku and Ventress also discover that this new apprentice has a will of his own...</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>53</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Katie Lucas</Writer>
+  <absolute_number>58</absolute_number>
+  <filename>episodes/83268/3472721.jpg</filename>
+  <lastupdated>1347567528</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3472731</id>
+  <Combined_episodenumber>15</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Overlords</EpisodeName>
+  <EpisodeNumber>15</EpisodeNumber>
+  <FirstAired>2011-01-28</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707615</IMDB_ID>
+  <Language>en</Language>
+  <Overview>A mysterious force draws Anakin, Obi-Wan and Ahsoka to a distant planet, and its inhabitants -- a family of exceptionally powerful Force-wielders -- in an attempt to determine whether Anakin is truly the Chosen One.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>58</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Christian Taylor</Writer>
+  <absolute_number>59</absolute_number>
+  <filename>episodes/83268/3472731.jpg</filename>
+  <lastupdated>1347567567</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3472751</id>
+  <Combined_episodenumber>16</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Brian Kalin O'Connell</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Altar of Mortis</EpisodeName>
+  <EpisodeNumber>16</EpisodeNumber>
+  <FirstAired>2011-02-04</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707616</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Before the Jedi can leave Mortis, the Son takes Ahsoka captive in an attempt to entice Anakin into joining him to use their combined strength to overpower his Father and Sister. To this end, the Son casts Ahsoka under the spell of the dark side.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>57</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Christian Taylor</Writer>
+  <absolute_number>60</absolute_number>
+  <filename>episodes/83268/3472751.jpg</filename>
+  <lastupdated>1347567596</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3674851</id>
+  <Combined_episodenumber>17</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Ghosts of Mortis</EpisodeName>
+  <EpisodeNumber>17</EpisodeNumber>
+  <FirstAired>2011-02-11</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707617</IMDB_ID>
+  <Language>en</Language>
+  <Overview>The Jedi remain stranded on Mortis, and the Son aligned with the dark side of the Force renews his efforts to convert Anakin as the Jedi prepare for a decisive confrontation.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>55</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Christian Taylor</Writer>
+  <absolute_number>61</absolute_number>
+  <filename>episodes/83268/3674851.jpg</filename>
+  <lastupdated>1347567622</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3674861</id>
+  <Combined_episodenumber>18</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Kyle Dunlevy</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Citadel</EpisodeName>
+  <EpisodeNumber>18</EpisodeNumber>
+  <FirstAired>2011-02-18</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707618</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Obi-Wan Kenobi and Anakin lead a rescue team deep into a heavily guarded Separatist prison in an effort to rescue a captive Jedi, but they get trapped by droids and are introduced to the ruthless warden dedicated to preventing anyone's escape.</Overview>
+  <ProductionCode>317</ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>57</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Matt Michnovetz</Writer>
+  <absolute_number>62</absolute_number>
+  <filename>episodes/83268/3674861.jpg</filename>
+  <lastupdated>1347567746</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3674871</id>
+  <Combined_episodenumber>19</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Kyle Dunlevy</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Counter Attack</EpisodeName>
+  <EpisodeNumber>19</EpisodeNumber>
+  <FirstAired>2011-03-04</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707619</IMDB_ID>
+  <Language>en</Language>
+  <Overview>With freed prisoners in their possession and the brutal warden attempting desperately to thwart them, Obi-Wan and Anakin search for a way out of the Citadel and back to Coruscant. The prison, however, has more traps, perils and pitfalls in store for them than they had imagined and they must work past their differences if they are to escape. Their bid to board their shuttle fails when heavy weapons fire destroys the escape craft. Trooper Echo dies in the blast. The escapees then flee to the caves and call for rescue from the Jedi Temple on Coruscant.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.9</Rating>
+  <RatingCount>53</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Matt Michnovetz</Writer>
+  <absolute_number>63</absolute_number>
+  <filename>episodes/83268/3674871.jpg</filename>
+  <lastupdated>1347567683</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3674881</id>
+  <Combined_episodenumber>20</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Citadel Rescue</EpisodeName>
+  <EpisodeNumber>20</EpisodeNumber>
+  <FirstAired>2011-03-11</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707621</IMDB_ID>
+  <Language>en</Language>
+  <Overview>After their ship and only way off the planet is destroyed, Anakin and Obi-Wan must lead the escaped prisoners across Lola Sayu's perilous landscape as Plo Koon commands a task force of four cruisers and their fighters through the Separatist defenses in a daring rescue. Even Piell is ravaged by anooba tracking beasts, but before he dies, he passes on his Nexus Routes coordinates to Ahsoka. When the survivors return to Coruscant, Ahsoka knows half the intel, and refuses to disclose it to anyone but the Jedi Council, while Tarkin refuses to hand over his half to anyone other than the Chancellor.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.9</Rating>
+  <RatingCount>51</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Matt Michnovetz</Writer>
+  <absolute_number>64</absolute_number>
+  <filename>episodes/83268/3674881.jpg</filename>
+  <lastupdated>1352504719</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3674891</id>
+  <Combined_episodenumber>21</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Dave Filoni</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Padawan Lost</EpisodeName>
+  <EpisodeNumber>21</EpisodeNumber>
+  <FirstAired>2011-03-18</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707622</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ahsoka finds herself trapped on a Trandoshan moon, prey in an elaborate and cruel hunt.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>47</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Bonnie Mark</Writer>
+  <absolute_number>65</absolute_number>
+  <filename>episodes/83268/3674891.jpg</filename>
+  <lastupdated>1347567769</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>3674901</id>
+  <Combined_episodenumber>22</Combined_episodenumber>
+  <Combined_season>3</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Dave Filoni</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Wookiee Hunt</EpisodeName>
+  <EpisodeNumber>22</EpisodeNumber>
+  <FirstAired>2011-03-25</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt1707623</IMDB_ID>
+  <Language>en</Language>
+  <Overview>As Ashoka and her allies struggle to evade the Trandoshan hunters, their efforts receive an unexpected boost when a new captive, Chewbacca the Wookiee, arrives.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>49</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer>Bonnie Mark</Writer>
+  <absolute_number>66</absolute_number>
+  <filename>episodes/83268/3674901.jpg</filename>
+  <lastupdated>1347567784</lastupdated>
+  <seasonid>249271</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153384</id>
+  <Combined_episodenumber>1</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Duwayne Dunham</Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>Water War</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2011-09-16</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2024230</IMDB_ID>
+  <Language>en</Language>
+  <Overview>When the king of Mon Cala is assassinated, talks break down between the Mon Calamari people and the Quarren, co-inhabitants of the aquatic world. To stop a civil war, the Republic sends Padmé Amidala and Anakin Skywalker, but unbeknownst to them, the Quarren are already being backed by the Separatists. Now the Jedi must protect Mon Cala's new leader, the young Prince Lee-Char, from the attack.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>41</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer>Jose Molina</Writer>
+  <absolute_number>67</absolute_number>
+  <filename>episodes/83268/4153384.jpg</filename>
+  <lastupdated>1347568374</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153385</id>
+  <Combined_episodenumber>2</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Brian Kalin O'Connell</Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>Gungan Attack</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2011-09-16</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2024229</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin Skywalker and the rest of his Jedi team have been overrun by the Separatist surprise attacks led by Riff Tamson while Prince Lee-Char and Ahsoka must evade capture on their own. Unable to summon more Republic aid, Yoda calls upon the help of the powerful and amphibious Gungan Grand Army, but whether they will be enough to stop the Separatist siege is uncertain. An incensed Tamson doubles his efforts in tracking down Prince Lee-Char, unleashing the reinforcements given to him by Count Dooku in an assault that churns the oceans.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>16</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer>Jose Molina</Writer>
+  <absolute_number>68</absolute_number>
+  <filename>episodes/83268/4153385.jpg</filename>
+  <lastupdated>1347569676</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153386</id>
+  <Combined_episodenumber>3</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>Prisoners</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired>2011-09-23</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2024226</IMDB_ID>
+  <Language>en</Language>
+  <Overview>The Republic and Gungan forces have been captured by Riff Tamson and his Karkarodon enforcers. Now, it is up to Ahsoka and the young Prince Lee-Char to unite the fractured people of Mon Cala and drive out the Separatist invaders.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>42</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>69</absolute_number>
+  <filename>episodes/83268/4153386.jpg</filename>
+  <lastupdated>1347568499</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153387</id>
+  <Combined_episodenumber>4</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Shadow Warrior</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired>2011-09-30</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2024227</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Jar Jar must fill in for Boss Lyonie and sway his people from rising against the Naboo.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>42</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153387.jpg</filename>
+  <lastupdated>1347569370</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153388</id>
+  <Combined_episodenumber>5</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Mercy Mission</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired>2011-10-07</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2024228</IMDB_ID>
+  <Language>en</Language>
+  <Overview>A mission to save the planet Aleen and its people is launched by the droids.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.2</Rating>
+  <RatingCount>40</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153388.jpg</filename>
+  <lastupdated>1347569808</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153389</id>
+  <Combined_episodenumber>6</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Nomad Droids</EpisodeName>
+  <EpisodeNumber>6</EpisodeNumber>
+  <FirstAired>2011-10-14</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2069533</IMDB_ID>
+  <Language>en</Language>
+  <Overview>C-3P0 and R2-D2 encounter danger at every turn when they visit two hostile worlds and have a run-in with pirates.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>39</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153389.jpg</filename>
+  <lastupdated>1347569911</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153390</id>
+  <Combined_episodenumber>7</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Darkness on Umbara</EpisodeName>
+  <EpisodeNumber>7</EpisodeNumber>
+  <FirstAired>2011-10-28</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2069532</IMDB_ID>
+  <Language>en</Language>
+  <Overview>The clones face a deadly mission to take control of the Umbaran capitol while under the temporary command of Pong Krell.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>32</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153390.jpg</filename>
+  <lastupdated>1349419550</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153391</id>
+  <Combined_episodenumber>8</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The General</EpisodeName>
+  <EpisodeNumber>8</EpisodeNumber>
+  <FirstAired>2011-11-04</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2071926</IMDB_ID>
+  <Language>en</Language>
+  <Overview>General Krell orders Captain Rex and the clone troopers of the 501st legion to conquer a heavily fortified Umbaran airbase, and will not accept anything less than victory.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>30</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153391.jpg</filename>
+  <lastupdated>1349419565</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153392</id>
+  <Combined_episodenumber>9</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Plan of Dissent</EpisodeName>
+  <EpisodeNumber>9</EpisodeNumber>
+  <FirstAired>2011-11-11</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2098416</IMDB_ID>
+  <Language>en</Language>
+  <Overview>After the Republic conquers an Umbaran airbase, General Krell orders Rex and his men on towards the heavily fortified capital. Realizing there's a better plan, several clone troopers disobey orders to carry out a rogue, covert operation. </Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>35</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153392.jpg</filename>
+  <lastupdated>1349419581</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153393</id>
+  <Combined_episodenumber>10</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Carnage of Krell</EpisodeName>
+  <EpisodeNumber>10</EpisodeNumber>
+  <FirstAired>2011-11-18</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2098413</IMDB_ID>
+  <Language>en</Language>
+  <Overview>With two of his men facing execution for disobeying orders, Captain Rex is forced to confront his overly aggressive commander, General Krell, in the conclusion to the action-packed battle for Umbara. Risking charges of mutiny, Rex must make a dark choice as the true face of the enemy emerges.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.9</Rating>
+  <RatingCount>37</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153393.jpg</filename>
+  <lastupdated>1349419597</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153394</id>
+  <Combined_episodenumber>11</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Kidnapped</EpisodeName>
+  <EpisodeNumber>11</EpisodeNumber>
+  <FirstAired>2011-11-25</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2098415</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Zygerrian slavers are behind the sudden disappearance of an entire colony of people on the planet Kiros. As Anakin and Ahsoka rush to defuse a series of bombs planted by the slavers, Obi-Wan must fight with their imposing leader.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>34</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153394.jpg</filename>
+  <lastupdated>1349419615</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153395</id>
+  <Combined_episodenumber>12</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Slaves of the Republic</EpisodeName>
+  <EpisodeNumber>12</EpisodeNumber>
+  <FirstAired>2011-12-02</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2098417</IMDB_ID>
+  <Language>en</Language>
+  <Overview>To locate the missing colonists, Anakin, Obi-Wan and Ahsoka go undercover to infiltrate the slavers on Zygerria. Anakin struggles with his emotions as a wily Zygerrian queen forces him to take questionable actions in order to carry out his mission.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>33</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153395.jpg</filename>
+  <lastupdated>1347571536</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153396</id>
+  <Combined_episodenumber>13</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Escape from Kadavo</EpisodeName>
+  <EpisodeNumber>13</EpisodeNumber>
+  <FirstAired>2012-01-06</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2098414</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin tries to convince the Zygerrian Queen that she too is a slave and pawn in an evil Separatist plot. Meanwhile, Obi-Wan toils in the slave camps of Kadavo, a grim situation that grows increasingly bleak.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>29</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153396.jpg</filename>
+  <lastupdated>1347571645</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153397</id>
+  <Combined_episodenumber>14</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>A Friend in Need</EpisodeName>
+  <EpisodeNumber>14</EpisodeNumber>
+  <FirstAired>2012-01-13</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2132032</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Peace talks between the Republic and the Seperatists are interrupted by Lux Bonteri, who accuses Count Dooku of murdering his mother. Rescued by Ahsoka from Seperatist custody, Bonteri involves her in his risky plan to avenge his mother's death - by revealing Dooku's location to the Mandalorian splinter group Death Watch.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>34</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153397.jpg</filename>
+  <lastupdated>1347572931</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153398</id>
+  <Combined_episodenumber>15</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Deception</EpisodeName>
+  <EpisodeNumber>15</EpisodeNumber>
+  <FirstAired>2012-01-20</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2132036</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Obi-Wan fakes his own death and goes undercover in a Republic prison, in order to gather information on a plot to kidnap Chancellor Palpatine from a convict named Moralo Eval. While there, he learns that another prisoner, notorious bounty hunter Cad Bane, is also involved. Anakin seeks vengance over the death of his former master.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>8.0</Rating>
+  <RatingCount>31</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153398.jpg</filename>
+  <lastupdated>1347573019</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153399</id>
+  <Combined_episodenumber>16</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Friends and Enemies</EpisodeName>
+  <EpisodeNumber>16</EpisodeNumber>
+  <FirstAired>2012-01-27</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Having escaped from prison, Obi-Wan, Cad Bane, and Moralo Eval flee across the galaxy, pursued by Anakin and Ahsoka. Obi-Wan must devise a way to get the information about the kidnapping plot to his fellow Jedi without blowing his cover.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.8</Rating>
+  <RatingCount>29</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153399.jpg</filename>
+  <lastupdated>1347573116</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153400</id>
+  <Combined_episodenumber>17</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Kyle Dunlevy</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Box</EpisodeName>
+  <EpisodeNumber>17</EpisodeNumber>
+  <FirstAired>2012-02-03</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2132040</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Moralo Eval brings Cad Bane and Obi-Wan Kenobi (disguised as Rako Hardeen) to Count Dooku's palace on Serenno. Along with ten other bounty hunters, Kenobi and Bane are placed in The Box, a massive cube filled with deadly challenges, designed by Eval himself to whittle down the galaxy's twelve greatest bounty hunters to an elite team of five to carry out the plan to kidnap Palpatine.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>8.0</Rating>
+  <RatingCount>30</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer>Brent Friedman</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153400.jpg</filename>
+  <lastupdated>1347573194</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153401</id>
+  <Combined_episodenumber>18</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Danny Keller</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Crisis on Naboo</EpisodeName>
+  <EpisodeNumber>18</EpisodeNumber>
+  <FirstAired>2012-02-10</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2132035</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Supreme Chancellor Palpatine goes to Naboo guarded by Jedi knights, meanwhile Cad Bane, a disguised Obi-Wan and a pack of bounty hunters put their plan into action.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>8.0</Rating>
+  <RatingCount>29</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer>Brent Friedman</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153401.jpg</filename>
+  <lastupdated>1347573289</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153402</id>
+  <Combined_episodenumber>19</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Massacre</EpisodeName>
+  <EpisodeNumber>19</EpisodeNumber>
+  <FirstAired>2012-02-24</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2132038</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Count Dooku is determined to have revenge against the Nightsisters of Dathomir after their betrayal with Savage Opress. General Grievous launches an all-out droid attack against the magic-wielding witches, and Mother Talzin trys to convince Asajj Ventress to rejoin the Nightsisters after she left years ago. Ventress and Mother Talzin lead the defense with all the dark powers at their command.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>26</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153402.jpg</filename>
+  <lastupdated>1347573424</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153403</id>
+  <Combined_episodenumber>20</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Kyle Dunlevy</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Bounty</EpisodeName>
+  <EpisodeNumber>20</EpisodeNumber>
+  <FirstAired>2012-03-02</FirstAired>
+  <GuestStars>|Daniel Logan|Simon Pegg|</GuestStars>
+  <IMDB_ID>tt2132033</IMDB_ID>
+  <Language>en</Language>
+  <Overview>An aimless Asajj Ventress joins a team of bounty hunters under the leadership of young Boba Fett. On an alien world, they undertake a dangerous but profitable mission that tests the limits of their skills, and the strength of Asajj’s character.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>26</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer>Katie Lucas</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153403.jpg</filename>
+  <lastupdated>1347574982</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153404</id>
+  <Combined_episodenumber>21</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Bosco Ng</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Brothers</EpisodeName>
+  <EpisodeNumber>21</EpisodeNumber>
+  <FirstAired>2012-03-09</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2132034</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Savage Opress finally finds his long lost brother, and it turns out to be the resurrected Darth Maul, who's living in a state of madness on an Outer Rim planet.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>25</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer>Katie Lucas</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153404.jpg</filename>
+  <lastupdated>1347575521</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4153405</id>
+  <Combined_episodenumber>22</Combined_episodenumber>
+  <Combined_season>4</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Brian Kalin O'Connell</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Revenge</EpisodeName>
+  <EpisodeNumber>22</EpisodeNumber>
+  <FirstAired>2012-03-16</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt2132039</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Fueled by pure hatred, Darth Maul and his brother Savage Opress set out to take revenge on the Jedi who killed him: Obi-Wan Kenobi. Kenobi receives the aid of an unlikely ally - Asajj Ventress.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>8.0</Rating>
+  <RatingCount>26</RatingCount>
+  <SeasonNumber>4</SeasonNumber>
+  <Writer>Katie Lucas</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4153405.jpg</filename>
+  <lastupdated>1347575472</lastupdated>
+  <seasonid>472097</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4382250</id>
+  <Combined_episodenumber>1</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Revival</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2012-09-29</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Maul and Savage Opress continue to wreak havoc in the galaxy. The Sith brothers recruit a cutthroat band of pirates. Obi-Wan Kenobi leads the Jedi hunt for Maul.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.9</Rating>
+  <RatingCount>16</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer>Chris Collins</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4382250.jpg</filename>
+  <lastupdated>1350908582</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4382251</id>
+  <Combined_episodenumber>2</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Dave Filoni</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>A War on Two Fronts</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2012-10-06</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin, Obi-Wan, Ahsoka and Rex go to Onderon to train insurgent rebels (including Lux Bonteri) to take back the capital city of Iziz from the rule of a duplicitous king.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>10</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4382251.jpg</filename>
+  <lastupdated>1351277770</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4382252</id>
+  <Combined_episodenumber>3</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Steward Lee</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Front Runners</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired>2012-10-13</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ahsoka takes command of the rebel army on Onderon as the first battle for the capital city takes place.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>12</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer>Chris Collins</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4382252.jpg</filename>
+  <lastupdated>1351923558</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4382253</id>
+  <Combined_episodenumber>4</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Soft War</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired>2012-10-20</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>A surprising ally comes forward to help the rebels prevent the execution of Onderon’s true king.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.4</Rating>
+  <RatingCount>10</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4382253.jpg</filename>
+  <lastupdated>1352556693</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4382254</id>
+  <Combined_episodenumber>5</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Bosco Ng</Director>
+  <EpImgFlag>3</EpImgFlag>
+  <EpisodeName>Tipping Points</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired>2012-10-27</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>The rebels take control of Onderon as the king falls, but their victory comes with a sobering cost.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.3</Rating>
+  <RatingCount>11</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer>Chris Collins</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4382254.jpg</filename>
+  <lastupdated>1353149331</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4382255</id>
+  <Combined_episodenumber>6</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>The Gathering</EpisodeName>
+  <EpisodeNumber>6</EpisodeNumber>
+  <FirstAired>2012-11-03</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ahsoka and Yoda take a group of younglings to a cave on Ilum so they can create their own Lightsabers. But something dark heads their way. </Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.7</Rating>
+  <RatingCount>10</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4382255.jpg</filename>
+  <lastupdated>1352066010</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4382256</id>
+  <Combined_episodenumber>7</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>A Test of Strength</EpisodeName>
+  <EpisodeNumber>7</EpisodeNumber>
+  <FirstAired>2012-11-10</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>The younglings' ship is attacked by Hondo's pirates when they return from Illum.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>10</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4382256.jpg</filename>
+  <lastupdated>1352663219</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4382257</id>
+  <Combined_episodenumber>8</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director>Brian Kalin O'Connell</Director>
+  <EpImgFlag>2</EpImgFlag>
+  <EpisodeName>Bound for Rescue</EpisodeName>
+  <EpisodeNumber>8</EpisodeNumber>
+  <FirstAired>2012-11-17</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ahsoka and the younglings are separated and must reunite before Hondo attempts to hold her for ransom. General Grievous clashes with Obi-Wan Kenobi for the system where Florrum is.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating>7.6</Rating>
+  <RatingCount>8</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer>Christian Taylor</Writer>
+  <absolute_number></absolute_number>
+  <filename>episodes/83268/4382257.jpg</filename>
+  <lastupdated>1353318031</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403102</id>
+  <Combined_episodenumber>9</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>A Necessary Bond</EpisodeName>
+  <EpisodeNumber>9</EpisodeNumber>
+  <FirstAired>2012-11-24</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview>General Grievous attacks Hondo on Florrum, so Ahsoka and Hondo must make amends in order to survive this encounter.</Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1353272228</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403103</id>
+  <Combined_episodenumber>10</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Secret Weapons</EpisodeName>
+  <EpisodeNumber>10</EpisodeNumber>
+  <FirstAired>2012-12-01</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1353272474</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403104</id>
+  <Combined_episodenumber>11</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>A Sunny Day in the Void</EpisodeName>
+  <EpisodeNumber>11</EpisodeNumber>
+  <FirstAired>2012-12-08</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1353272516</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403105</id>
+  <Combined_episodenumber>12</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Missing in Action</EpisodeName>
+  <EpisodeNumber>12</EpisodeNumber>
+  <FirstAired>2013-01-05</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1353272554</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403106</id>
+  <Combined_episodenumber>13</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Eminence</EpisodeName>
+  <EpisodeNumber>13</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1353272576</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403107</id>
+  <Combined_episodenumber>14</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Shades of Reason</EpisodeName>
+  <EpisodeNumber>14</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1353272596</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403108</id>
+  <Combined_episodenumber>15</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>The Lawless</EpisodeName>
+  <EpisodeNumber>15</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1353272615</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403109</id>
+  <Combined_episodenumber>16</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Mysteries of the Rodar Wizards</EpisodeName>
+  <EpisodeNumber>16</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1348252538</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403110</id>
+  <Combined_episodenumber>17</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Ghosts of Rage</EpisodeName>
+  <EpisodeNumber>17</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1348252545</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403111</id>
+  <Combined_episodenumber>18</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Terror on Alderaan</EpisodeName>
+  <EpisodeNumber>18</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1348252552</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403112</id>
+  <Combined_episodenumber>19</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Roar of the Wookiees</EpisodeName>
+  <EpisodeNumber>19</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1348252559</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403113</id>
+  <Combined_episodenumber>20</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Kyber Crystal Revelation</EpisodeName>
+  <EpisodeNumber>20</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1348252568</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403114</id>
+  <Combined_episodenumber>21</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Desperation of Grentarik</EpisodeName>
+  <EpisodeNumber>21</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1348252576</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+<Episode>
+  <id>4403115</id>
+  <Combined_episodenumber>22</Combined_episodenumber>
+  <Combined_season>5</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid></DVD_discid>
+  <DVD_episodenumber></DVD_episodenumber>
+  <DVD_season></DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>The Final Sacrifice</EpisodeName>
+  <EpisodeNumber>22</EpisodeNumber>
+  <FirstAired></FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID></IMDB_ID>
+  <Language>en</Language>
+  <Overview></Overview>
+  <ProductionCode></ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>5</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number></absolute_number>
+  <filename></filename>
+  <lastupdated>1348252586</lastupdated>
+  <seasonid>498845</seasonid>
+  <seriesid>83268</seriesid>
+</Episode>
+</Data>

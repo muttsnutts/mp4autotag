@@ -16,7 +16,7 @@ class SearchITunes
       urlstr = $ITUNES_GET_SHOW_URL_FMT % [URI.escape(search["serstr"]), URI.escape(search["seastr"]).to_i]
     end
     dbug("CONNECT: %s" % urlstr)
-    res = JSON.load(query(urlstr))
+    res = JSON.load(Search.query(urlstr))
     if(SearchITunes.is_res(res))
       rtn = SearchITunes.get_safe(res, "artworkUrl100", 0)
       if(rtn != nil)
@@ -27,16 +27,6 @@ class SearchITunes
       #self.dbug("RETURN %s" % rtn)
       return rtn
     end
-  end
-  def SearchITunes::query(urlstr)
-    str = ''
-    open(urlstr) do |f|
-      str << f.read
-    end
-    if str == ''
-      return nil
-    end
-    return str
   end
   def SearchITunes::get_safe(obj, prop, at)
     if(!SearchITunes.is_res(obj))

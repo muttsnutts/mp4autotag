@@ -1,3 +1,5 @@
+require 'digest/md5'
+
 require './lib/search_movie.rb'
 require './lib/search_show.rb'
 require './lib/search_itunes.rb'
@@ -179,6 +181,32 @@ class Search
     end
     html << "</tbody></table></body></html>"
     return html
+  end
+  def Search::query(urlstr)
+    str = ''
+    cfn = "./cache/" << Digest::MD5.hexdigest(urlstr)
+    
+    if(File.exists?(cfn))
+      dbug "CACHE FILE EXISTS: %s" % cfn
+      cf = File.open(cfn, "rb")
+      str << cf.read
+      cf.close
+      dbug "CACHE READ: %s" % cfn
+    else
+      dbug "CACHE FILE DOESN'T EXISTS: %s" % cfn
+      open(urlstr) do |f|
+        str << f.read
+      end
+      if str == ''
+        return nil
+      else
+        cf = File.open(cfn, "wb")
+        cf.write(str)
+        cf.close
+        dbug "CACHE WRITE: %s" % cfn
+      end
+    end
+    return str
   end
   def Search::dbug(str)
     if $DEBUG_POP

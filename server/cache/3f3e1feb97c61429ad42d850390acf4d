@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data><Series>
+  <id>72244</id>
+  <Actors>|André Sogliuzzo|Anthony Daniels|Corey Burton|Frank Welker|Grey Delisle|James Arnold Taylor|Mat Lucas|Matthew Wood|Nick Jameson|Tom Kane|</Actors>
+  <Airs_DayOfWeek></Airs_DayOfWeek>
+  <Airs_Time></Airs_Time>
+  <ContentRating>TV-Y7</ContentRating>
+  <FirstAired>2003-11-01</FirstAired>
+  <Genre>|Animation|Science-Fiction|</Genre>
+  <IMDB_ID>tt0361243</IMDB_ID>
+  <Language>en</Language>
+  <Network>Cartoon Network</Network>
+  <NetworkID></NetworkID>
+  <Overview>2003.  Star Wars: Clone Wars picks up where the theatrical feature Star Wars: Episode II: Attack of the Clones left off as an epic civil war pits the Republic against the separatist movement led by the Dark Side of the Force's mastermind Darth Sidious.</Overview>
+  <Rating>8.0</Rating>
+  <RatingCount>13</RatingCount>
+  <Runtime>3</Runtime>
+  <SeriesID>17291</SeriesID>
+  <SeriesName>Star Wars: Clone Wars</SeriesName>
+  <Status>Ended</Status>
+  <added></added>
+  <addedBy></addedBy>
+  <banner>graphical/17291-g.jpg</banner>
+  <fanart>fanart/original/72244-2.jpg</fanart>
+  <lastupdated>1347894146</lastupdated>
+  <poster>posters/72244-1.jpg</poster>
+  <zap2it_id></zap2it_id>
+</Series>
+<Episode>
+  <id>79050</id>
+  <Combined_episodenumber>1.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>1.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Genndy Tartakovsky</Director>
+  <EpImgFlag>3</EpImgFlag>
+  <EpisodeName>Chapter 1</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2003-11-07</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859523</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Three months after the battle of Geonosis, the Clone Wars rage across the galaxy. Obi-Wan Kenobi is given the task of leading the assault on Muunilinst while Anakin Skywalker gets command over the space forces. Anakin bids farewell to his secret wife, senator Amidala.</Overview>
+  <ProductionCode>101</ProductionCode>
+  <Rating>7.5</Rating>
+  <RatingCount>2</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer>Darrick Bachman, Bryan Andrews</Writer>
+  <absolute_number>1</absolute_number>
+  <filename>episodes/72244/79050.jpg</filename>
+  <lastupdated>1326278058</lastupdated>
+  <seasonid>3775</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79051</id>
+  <Combined_episodenumber>2.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>2.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director>Genndy Tartakovsky</Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 2</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2003-11-10</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859524</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Obi-Wan's elite ARC Troopers are shot down over the capitol of Muunilinst as the assault on the Banking Clan's home planet begins.</Overview>
+  <ProductionCode>102</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>2</absolute_number>
+  <filename>episodes/72244/79051.jpg</filename>
+  <lastupdated>1326278081</lastupdated>
+  <seasonid>3775</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79052</id>
+  <Combined_episodenumber>3.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>3.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 3</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired>2003-11-11</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859525</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Pinned down by droid enemy fire, the ARC troopers must make use of their specialist training to reach their target.</Overview>
+  <ProductionCode>103</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>3</absolute_number>
+  <filename>episodes/72244/79052.jpg</filename>
+  <lastupdated>1326278093</lastupdated>
+  <seasonid>3775</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79053</id>
+  <Combined_episodenumber>5.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>5.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 4</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired>2003-11-12</FirstAired>
+  <GuestStars>|Daran Norris|</GuestStars>
+  <IMDB_ID>tt0859526</IMDB_ID>
+  <Language>en</Language>
+  <Overview>With the battle of Muunilinst raging in space as well as on land, San Hill orders Durge and his IG-lancer droids to defend the city.</Overview>
+  <ProductionCode>104</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>5</absolute_number>
+  <filename>episodes/72244/79053.jpg</filename>
+  <lastupdated>1326278106</lastupdated>
+  <seasonid>3775</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79054</id>
+  <Combined_episodenumber>4.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>4.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 5</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired>2003-11-13</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859528</IMDB_ID>
+  <Language>en</Language>
+  <Overview>On Mon Calamari, Kit Fisto and his Scuba Troopers defends the Calamari council against Manta Droid sub fighters army of the Quarren Isolation league. Mon Calamari Knights riding giant Keelkana's provide the Republic forces with back up.</Overview>
+  <ProductionCode>105</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>6</absolute_number>
+  <filename>episodes/72244/79054.jpg</filename>
+  <lastupdated>1326278123</lastupdated>
+  <seasonid>3775</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79055</id>
+  <Combined_episodenumber>6.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>6.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 6</EpisodeName>
+  <EpisodeNumber>6</EpisodeNumber>
+  <FirstAired>2003-11-14</FirstAired>
+  <GuestStars>|Grey Delisle|</GuestStars>
+  <IMDB_ID>tt0859529</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Count Dooku arrives on Rattatak to witness the gladiator fights at the &quot;Cauldron&quot;. A force sensitive woman beats every opponent in the Arena and claims to be a Sith.</Overview>
+  <ProductionCode>106</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>6</absolute_number>
+  <filename>episodes/72244/79055.jpg</filename>
+  <lastupdated>1326278157</lastupdated>
+  <seasonid>3775</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79056</id>
+  <Combined_episodenumber>7.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>7.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>1</EpImgFlag>
+  <EpisodeName>Chapter 7</EpisodeName>
+  <EpisodeNumber>7</EpisodeNumber>
+  <FirstAired>2003-11-17</FirstAired>
+  <GuestStars>|Grey Delisle|Nick Jameson|</GuestStars>
+  <IMDB_ID>tt0859530</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Dooku submits Assaij Ventress to a test with the lightsaber before sending her on her way to find and eliminate Anakin Skywalker.</Overview>
+  <ProductionCode>107</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>7</absolute_number>
+  <filename>episodes/72244/79056.jpg</filename>
+  <lastupdated>1326278146</lastupdated>
+  <seasonid>3775</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79057</id>
+  <Combined_episodenumber>8.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>8.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 8</EpisodeName>
+  <EpisodeNumber>8</EpisodeNumber>
+  <FirstAired>2003-11-18</FirstAired>
+  <GuestStars>|Daran Norris|</GuestStars>
+  <IMDB_ID>tt0859531</IMDB_ID>
+  <Language>en</Language>
+  <Overview>General Kenobi and his troopers mount up on speeder bikes to take on Bounty Hunter Durge and the droid forces from the InterGalactic Banking Clan.</Overview>
+  <ProductionCode>108</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>8</absolute_number>
+  <filename>episodes/72244/79057.jpg</filename>
+  <lastupdated>1326278175</lastupdated>
+  <seasonid>3775</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79058</id>
+  <Combined_episodenumber>9.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>9.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 9</EpisodeName>
+  <EpisodeNumber>9</EpisodeNumber>
+  <FirstAired>2003-11-19</FirstAired>
+  <GuestStars>|Daran Norris|</GuestStars>
+  <IMDB_ID>tt0859527</IMDB_ID>
+  <Language>en</Language>
+  <Overview>General Kenobi and the ARC Troopers capture the Banking Clan's headquarters but Durge remains in pursuit, displaying almost unstoppable regenerative powers.</Overview>
+  <ProductionCode>109</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>9</absolute_number>
+  <filename>episodes/72244/79058.jpg</filename>
+  <lastupdated>1326278191</lastupdated>
+  <seasonid>3775</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79059</id>
+  <Combined_episodenumber>10.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>10.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 10</EpisodeName>
+  <EpisodeNumber>10</EpisodeNumber>
+  <FirstAired>2003-11-20</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859532</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin once again proves himself to be the best star fighter in the galaxy battling Geonosian fighters above Muunilinst.</Overview>
+  <ProductionCode>110</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>1</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>10</absolute_number>
+  <filename>episodes/72244/79059.jpg</filename>
+  <lastupdated>1326278663</lastupdated>
+  <seasonid>3775</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79060</id>
+  <Combined_episodenumber>11.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>11.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 11</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2004-03-26</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859533</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin chases a mysterious rogue pilot (Asajj Ventress) piloting a Geonosian Fanblade Starfighter and against his masters orders, pursues her into hyperspace.</Overview>
+  <ProductionCode>111</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>11</absolute_number>
+  <filename>episodes/72244/79060.jpg</filename>
+  <lastupdated>1326278685</lastupdated>
+  <seasonid>3776</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79061</id>
+  <Combined_episodenumber>12.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>12.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 12</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2004-03-29</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859534</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Young Paxi Sylo looks on as Mace Windu battles Seperatist droids backed up by enormous seismic tanks on Dantooine.</Overview>
+  <ProductionCode>112</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>12</absolute_number>
+  <filename>episodes/72244/79061.jpg</filename>
+  <lastupdated>1326278698</lastupdated>
+  <seasonid>3776</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79062</id>
+  <Combined_episodenumber>13.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>13.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 13</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired>2004-03-30</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859535</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Having lost his lightsaber, Master Windu takes on a battalion of Super Battle Droids hand to hand.</Overview>
+  <ProductionCode>113</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>13</absolute_number>
+  <filename>episodes/72244/79062.jpg</filename>
+  <lastupdated>1326279567</lastupdated>
+  <seasonid>3776</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79063</id>
+  <Combined_episodenumber>14.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>14.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 14</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired>2004-03-31</FirstAired>
+  <GuestStars>|Cree Summer|</GuestStars>
+  <IMDB_ID>tt0859536</IMDB_ID>
+  <Language>en</Language>
+  <Overview>The sacred Jedi temple on Ilum is attacked by Chameleon droids just as Luminara Unduli's Padawan, Barriss Offee is completing her training.</Overview>
+  <ProductionCode>114</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>14</absolute_number>
+  <filename>episodes/72244/79063.jpg</filename>
+  <lastupdated>1326279581</lastupdated>
+  <seasonid>3776</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79064</id>
+  <Combined_episodenumber>15.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>15.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 15</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired>2004-04-01</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859538</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Master Yoda, traveling aboard Senator Amidala's ship, persuades Captain Typho to take a detour to Ilum in order to mount a rescue operation.</Overview>
+  <ProductionCode>115</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>15</absolute_number>
+  <filename>episodes/72244/79064.jpg</filename>
+  <lastupdated>1326279600</lastupdated>
+  <seasonid>3776</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79065</id>
+  <Combined_episodenumber>16.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>16.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 16</EpisodeName>
+  <EpisodeNumber>6</EpisodeNumber>
+  <FirstAired>2004-04-02</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859539</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Padme, worrying about Master Yoda, is attacked by Chameleon Droids. Luckily she has Threepio to use as a shooting target.</Overview>
+  <ProductionCode>116</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>16</absolute_number>
+  <filename>episodes/72244/79065.jpg</filename>
+  <lastupdated>1326279615</lastupdated>
+  <seasonid>3776</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79066</id>
+  <Combined_episodenumber>17.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>17.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 17</EpisodeName>
+  <EpisodeNumber>7</EpisodeNumber>
+  <FirstAired>2004-04-05</FirstAired>
+  <GuestStars>|Grey Delisle|</GuestStars>
+  <IMDB_ID>tt0859540</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Anakin has followed Asaij Ventress to Yavin VI. Although a Clone squadron has been sent after them by Obi-Wan in a Republic carrier, they prove to be no match for the Sith hopeful.</Overview>
+  <ProductionCode>117</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>17</absolute_number>
+  <filename>episodes/72244/79066.jpg</filename>
+  <lastupdated>1326279671</lastupdated>
+  <seasonid>3776</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79067</id>
+  <Combined_episodenumber>18.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>18.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 18</EpisodeName>
+  <EpisodeNumber>8</EpisodeNumber>
+  <FirstAired>2004-04-06</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859541</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Ventress leads Anakin trough the jungles of Yavin VI towards the ancient Massassi Temples once inhabited by Exar Kun.</Overview>
+  <ProductionCode>118</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>18</absolute_number>
+  <filename>episodes/72244/79067.jpg</filename>
+  <lastupdated>1326279687</lastupdated>
+  <seasonid>3776</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79068</id>
+  <Combined_episodenumber>19.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>19.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 19</EpisodeName>
+  <EpisodeNumber>9</EpisodeNumber>
+  <FirstAired>2004-04-07</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859537</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Driven to the edge by Asaij Ventress, Anakin almost gives in to the dark side in a final bid to defeat her.</Overview>
+  <ProductionCode>119</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>19</absolute_number>
+  <filename>episodes/72244/79068.jpg</filename>
+  <lastupdated>1326279742</lastupdated>
+  <seasonid>3776</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79069</id>
+  <Combined_episodenumber>20.0</Combined_episodenumber>
+  <Combined_season>1</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>1</DVD_discid>
+  <DVD_episodenumber>20.0</DVD_episodenumber>
+  <DVD_season>1</DVD_season>
+  <Director></Director>
+  <EpImgFlag></EpImgFlag>
+  <EpisodeName>Chapter 20</EpisodeName>
+  <EpisodeNumber>10</EpisodeNumber>
+  <FirstAired>2004-04-08</FirstAired>
+  <GuestStars>|John DiMaggio|Grey Delisle|Daran Norris|Kevin Michael Richardson|</GuestStars>
+  <IMDB_ID>tt0859542</IMDB_ID>
+  <Language>en</Language>
+  <Overview>The Republic has won the battle of Muunilist, but news arrives off a new droid general hunting down Jedi on the planet Hypori. There, a group of Jedi consisting of Ki-Adi Mundi, Shaak Ti, K'Kruhk, Aayla Secura, Tarr Seirr and Sha'A Gi are driven into a corner by the formidable General Grievous.</Overview>
+  <ProductionCode>120</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>2</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>20</absolute_number>
+  <filename></filename>
+  <lastupdated>1326279774</lastupdated>
+  <seasonid>3776</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79070</id>
+  <Combined_episodenumber>1.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>2</DVD_discid>
+  <DVD_episodenumber>1.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director></Director>
+  <EpImgFlag>3</EpImgFlag>
+  <EpisodeName>Chapter 21</EpisodeName>
+  <EpisodeNumber>1</EpisodeNumber>
+  <FirstAired>2005-03-21</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859543</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Captain Fordo and his ARC troopers rescue Ki Adi Mundi, Aayla Secura and Shaak Ti from Grievous but leave K'Kruhk for dead. The Jedi council grants Anakin Skywalker the title of Jedi Knight, after which Senator Amidala allows him the use of R2D2 as co-pilot for his Jedi Interceptor.</Overview>
+  <ProductionCode>201</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>21</absolute_number>
+  <filename>episodes/72244/79070.jpg</filename>
+  <lastupdated>1326279795</lastupdated>
+  <seasonid>3777</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79071</id>
+  <Combined_episodenumber>2.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>2</DVD_discid>
+  <DVD_episodenumber>2.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 22</EpisodeName>
+  <EpisodeNumber>2</EpisodeNumber>
+  <FirstAired>2005-03-22</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859544</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Leading the third army of the Republic, General Kenobi and Commander Skywalker blow up a shield generator on Bomis Korri IV. Meanwhile, Seperatist forces move in on Outer Rim planets such as Kashyyk, Orto and Bal'demnic. As Darth Sidious launches his final operation, Obi-Wan and Anakin are send to Nilvaan, where young Skywalker disrupts a young native's right of passage by defeating a giant Horax.</Overview>
+  <ProductionCode>202</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>22</absolute_number>
+  <filename>episodes/72244/79071.jpg</filename>
+  <lastupdated>1326446408</lastupdated>
+  <seasonid>3777</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79072</id>
+  <Combined_episodenumber>3.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>2</DVD_discid>
+  <DVD_episodenumber>3.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 23</EpisodeName>
+  <EpisodeNumber>3</EpisodeNumber>
+  <FirstAired>2005-03-23</FirstAired>
+  <GuestStars></GuestStars>
+  <IMDB_ID>tt0859545</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Coruscant is attacked by Seperatists forces. Mace Windu takes to the air while Yoda rides his Kybuck to defend the city. Meanwhile Saesee Tinn leads his troops into battle just above the planet's atmosphere. On Nilvaan, Obi-Wan volunteers Anakin to take the trial of fire.</Overview>
+  <ProductionCode>203</ProductionCode>
+  <Rating></Rating>
+  <RatingCount>0</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>23</absolute_number>
+  <filename>episodes/72244/79072.jpg</filename>
+  <lastupdated>1326446426</lastupdated>
+  <seasonid>3777</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79073</id>
+  <Combined_episodenumber>4.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>2</DVD_discid>
+  <DVD_episodenumber>4.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 24</EpisodeName>
+  <EpisodeNumber>4</EpisodeNumber>
+  <FirstAired>2005-03-24</FirstAired>
+  <GuestStars>|Grey Delisle|</GuestStars>
+  <IMDB_ID>tt0859546</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Jedi Shaak Ti, Roron Corobb and Foul Moudama fight to keep Supreme Chancelor Palpatine out of General Grievous mechanical claws. Anakin finds a hidden laboratory where the Techno Union is conducting mutation experiments on Nelvaan warriors.</Overview>
+  <ProductionCode>204</ProductionCode>
+  <Rating>7.0</Rating>
+  <RatingCount>1</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>24</absolute_number>
+  <filename>episodes/72244/79073.jpg</filename>
+  <lastupdated>1326446440</lastupdated>
+  <seasonid>3777</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+<Episode>
+  <id>79074</id>
+  <Combined_episodenumber>5.0</Combined_episodenumber>
+  <Combined_season>2</Combined_season>
+  <DVD_chapter></DVD_chapter>
+  <DVD_discid>2</DVD_discid>
+  <DVD_episodenumber>5.0</DVD_episodenumber>
+  <DVD_season>2</DVD_season>
+  <Director></Director>
+  <EpImgFlag>5</EpImgFlag>
+  <EpisodeName>Chapter 25</EpisodeName>
+  <EpisodeNumber>5</EpisodeNumber>
+  <FirstAired>2005-03-25</FirstAired>
+  <GuestStars>|Grey Delisle|</GuestStars>
+  <IMDB_ID>tt0859547</IMDB_ID>
+  <Language>en</Language>
+  <Overview>Shaak Ti takes a desperate stand against Grievous' Magnaguards. Anakin, surrounded by mutated Nelvaan Warriors, must destroy the geothermal crystal powering the siphon generator. Mace Windu hurries to face General Grievous. This episode's end marks the the beginning of Episode III: Revenge of the Sith.</Overview>
+  <ProductionCode>205</ProductionCode>
+  <Rating>7.0</Rating>
+  <RatingCount>1</RatingCount>
+  <SeasonNumber>3</SeasonNumber>
+  <Writer></Writer>
+  <absolute_number>25</absolute_number>
+  <filename>episodes/72244/79074.jpg</filename>
+  <lastupdated>1326446453</lastupdated>
+  <seasonid>3777</seasonid>
+  <seriesid>72244</seriesid>
+</Episode>
+</Data>

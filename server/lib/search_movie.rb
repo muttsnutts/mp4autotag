@@ -57,7 +57,7 @@ class SearchMovie
     return SearchMovie::json2tag(json)
   end
   def SearchMovie::query_array(search_str)
-    json = JSON.load(SearchMovie.query($MOVIE_SEARCH_URL_FMT % [URI.escape(search_str)]))
+    json = JSON.load(Search.query($MOVIE_SEARCH_URL_FMT % [URI.escape(search_str)]))
     #get the results array
     resary = json['results']
     if resary == nil
@@ -66,21 +66,11 @@ class SearchMovie
     return resary
   end
   def SearchMovie::id_query(m_id)
-    return JSON.load(SearchMovie.query($MOVIE_GET_MOVIE_URL_FMT % [m_id]))
+    return JSON.load(Search.query($MOVIE_GET_MOVIE_URL_FMT % [m_id]))
   end
   def SearchMovie::cast_query_array(m_id)
-    json = JSON.load(SearchMovie.query($MOVIE_GET_CAST_URL_FMT % [m_id]))
+    json = JSON.load(Search.query($MOVIE_GET_CAST_URL_FMT % [m_id]))
     return json["cast"]
-  end
-  def SearchMovie::query(urlstr)
-    str = ''
-    open(urlstr) do |f|
-      str << f.read
-    end
-    if str == ''
-      return nil
-    end
-    return str
   end
   def SearchMovie::json2tag(json)
     tag = Tag.create_tag
@@ -119,7 +109,7 @@ class SearchMovie
     return ''
   end
   def SearchMovie::get_img_base
-    json = JSON.load(SearchMovie.query($MOVIE_CONFIG))
+    json = JSON.load(Search.query($MOVIE_CONFIG))
     return json['images']['base_url']
   end
   def SearchMovie::dbug(str)

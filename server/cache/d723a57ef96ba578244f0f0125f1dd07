@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data>
+<Series>
+<seriesid>72244</seriesid>
+<language>en</language>
+<SeriesName>Star Wars: Clone Wars</SeriesName>
+<banner>graphical/17291-g.jpg</banner>
+<Overview>2003.  Star Wars: Clone Wars picks up where the theatrical feature Star Wars: Episode II: Attack of the Clones left off as an epic civil war pits the Republic against the separatist movement led by the Dark Side of the Force's mastermind Darth Sidious.</Overview>
+<FirstAired>2003-11-01</FirstAired>
+<IMDB_ID>tt0361243</IMDB_ID>
+<id>72244</id>
+</Series>
+<Series>
+<seriesid>85811</seriesid>
+<language>en</language>
+<SeriesName>I've Never Seen Star Wars</SeriesName>
+<banner>graphical/85811-g.jpg</banner>
+<Overview>I've Never Seen Star Wars is a comedy chat show broadcast on BBC Four (2009 episodes) and BBC Two (2011 episodes), first broadcast on 12 March 2009. Created and produced by Bill Dare, each episode features a celebrity guest trying out new experiences.  The title comes from the fact that Dare has never seen the Star Wars films</Overview>
+<FirstAired>2009-03-12</FirstAired>
+<id>85811</id>
+</Series>
+<Series>
+<seriesid>250498</seriesid>
+<language>en</language>
+<SeriesName>LEGO Star Wars</SeriesName>
+<banner>graphical/250498-g.jpg</banner>
+<FirstAired>2011-07-26</FirstAired>
+<id>250498</id>
+</Series>
+<Series>
+<seriesid>83268</seriesid>
+<language>en</language>
+<SeriesName>Star Wars: The Clone Wars</SeriesName>
+<banner>graphical/83268-g9.jpg</banner>
+<Overview>As the Clone Wars sweep through the galaxy, the heroic Jedi Knights struggle to maintain order and restore peace. More and more systems are falling prey to the forces of the dark side as the Galactic Republic slips further and further under the sway of the Separatists and their never-ending droid army.</Overview>
+<FirstAired>2008-10-03</FirstAired>
+<IMDB_ID>tt0458290</IMDB_ID>
+<zap2it_id>EP01087361</zap2it_id>
+<id>83268</id>
+</Series>
+<Series>
+<seriesid>117611</seriesid>
+<language>en</language>
+<SeriesName>Star Wars: The Legacy Revealed</SeriesName>
+<banner>graphical/117611-g.jpg</banner>
+<FirstAired>2007-05-28</FirstAired>
+<IMDB_ID>tt1039988</IMDB_ID>
+<id>117611</id>
+</Series>
+</Data>
