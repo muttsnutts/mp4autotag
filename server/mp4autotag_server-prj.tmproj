@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>mp4autotag_cgi.rb</string>
+	<string>lib/search_itunes.rb</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -30,21 +30,19 @@
 			<key>filename</key>
 			<string>mp4autotag_server.rb</string>
 			<key>lastUsed</key>
-			<date>2012-11-17T02:36:33Z</date>
+			<date>2012-11-21T23:08:33Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>mp4autotag_cgi.html</string>
 			<key>lastUsed</key>
-			<date>2012-11-17T01:25:06Z</date>
+			<date>2012-11-22T09:48:15Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>mp4autotag_cgi.rb</string>
 			<key>lastUsed</key>
-			<date>2012-11-18T22:59:02Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2012-11-22T09:50:17Z</date>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
@@ -86,37 +84,67 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>7</integer>
+				<integer>4</integer>
 				<key>line</key>
-				<integer>27</integer>
+				<integer>20</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>91</integer>
+			<integer>0</integer>
+		</dict>
+		<key>lib/search_itunes.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>5</integer>
+				<key>line</key>
+				<integer>53</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>14</integer>
 		</dict>
 		<key>lib/search_movie.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>58</integer>
+				<integer>5</integer>
 				<key>line</key>
-				<integer>88</integer>
+				<integer>128</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>83</integer>
+			<integer>95</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
+				<key>line</key>
+				<integer>124</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>5</integer>
+				<key>line</key>
+				<integer>128</integer>
+			</dict>
 		</dict>
 		<key>lib/search_servlet.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>60</integer>
+				<integer>35</integer>
 				<key>line</key>
-				<integer>15</integer>
+				<integer>19</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -128,30 +156,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>30</integer>
+				<integer>47</integer>
 				<key>line</key>
-				<integer>75</integer>
+				<integer>60</integer>
 			</dict>
-			<key>columnSelection</key>
-			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>43</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>13</integer>
-				<key>line</key>
-				<integer>75</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>30</integer>
-				<key>line</key>
-				<integer>75</integer>
-			</dict>
+			<integer>46</integer>
 		</dict>
 		<key>lib/show_servlet.rb</key>
 		<dict>
@@ -167,12 +179,40 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>lib/tag.rb</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>mp4autotag_cgi.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>49</integer>
+				<key>line</key>
+				<integer>23</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>8</integer>
+		</dict>
 		<key>mp4autotag_cgi.rb</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1</integer>
+				<integer>56</integer>
 				<key>line</key>
 				<integer>22</integer>
 			</dict>
@@ -193,16 +233,19 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>mp4autotag_cgi.rb</string>
+		<string>mp4autotag_cgi.html</string>
+		<string>lib/tag.rb</string>
 		<string>mp4autotag_server.rb</string>
 		<string>lib/search_servlet.rb</string>
 		<string>lib/search.rb</string>
 		<string>lib/search_movie.rb</string>
+		<string>lib/search_itunes.rb</string>
 		<string>lib/search_show.rb</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
