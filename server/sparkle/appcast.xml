@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
    		<title>Mp4Autotag Changelog</title>
-      	<link>http://popmedic.com/mp4autotag/appcast.xml</link>
+      	<link>http://popmedic.com/mp4autotag/sparkle/appcast.xml</link>
       	<description>Base version.</description>
       	<language>en</language>
 		<item>

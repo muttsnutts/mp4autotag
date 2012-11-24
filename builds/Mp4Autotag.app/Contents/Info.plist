@@ -47,6 +47,6 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>SUFeedURL</key>
-	<string>http://popmedic.com/mp4autotag/appcast.xml</string>
+	<string>http://popmedic.com/mp4autotag/sparkle/appcast.xml</string>
 </dict>
 </plist>
