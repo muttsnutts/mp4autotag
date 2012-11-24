@@ -45,6 +45,7 @@
 	int use_proxy = [[[NSUserDefaults standardUserDefaults] valueForKey:@"usePopmedicProxy"] intValue];
 	int use_itunes = [[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] intValue];
 	int coverArtType = [[[NSUserDefaults standardUserDefaults] valueForKey:@"episodeCoverArt"] intValue];
+	int addWatermark = [[[NSUserDefaults standardUserDefaults] valueForKey:@"addWatermark"] intValue];
 	bool isCustomSearch = [[tag filename] compare:@""] == 0;
 	tableView = tv;
 	results = [NSArray array];
@@ -54,6 +55,9 @@
 	seastr = @"1";
 	serstr = @"";
 	[tableView setDataSource:(id<NSTableViewDataSource>)self];	
+	
+	//uses itunes little hack
+	use_itunes = (use_itunes && coverArtType == 1);
 	
 	if (use_proxy == NSOnState) {
 		//set the search string by the filename.
@@ -96,9 +100,18 @@
 				{
 					NSDictionary* dt = [resa objectAtIndex:i];
 					POPMp4FileTag* tag1 = [[POPMp4FileTag alloc] initWithDictionary:dt];
-					//if we got an image then lets see if we should watermark it
+					//get the img
 					NSImage* img = [tag1 image];
-					if([[tag1 property:@"Media Type"] compare:@"tvshow" options:NSCaseInsensitiveSearch] == 0 && img != nil && (coverArtType == 1 || coverArtType == 3))
+					if(coverArtType == 1 && use_itunes == 0)
+					{
+						NSImage *img2 = [[NSImage alloc] initWithContentsOfURL:[NSURL URLWithString:[tag1 seriesImageUrl]]];
+						if(img2 != nil) {
+							[tag1 setImage:img2];
+							img = img2;
+						}
+					}
+					//if we got an image then lets see if we should watermark it
+					if([[tag1 property:@"Media Type"] compare:@"tvshow" options:NSCaseInsensitiveSearch] == 0 && img != nil && addWatermark > 0)
 					{
 						[img lockFocus];
 						NSString *wm = [NSString stringWithFormat:@"S%0.2iE%0.2i ", [[tag1 property:@"TV Season"] intValue], [[tag1 property:@"TV Episode"] intValue]];

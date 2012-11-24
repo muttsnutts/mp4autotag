@@ -51,6 +51,7 @@
 @synthesize mp4FileTagsTableScrollView = _mp4FileTagsTableScrollView;
 @synthesize preferencesFixForNetworkCheckBox = _preferencesFixForNetworkCheckBox;
 @synthesize preferencesProxySearchCheckBox = _preferencesProxySearchCheckBox;
+@synthesize preferencesAddWatermarkCheckBox = _preferencesAddWatermarkCheckBox;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
@@ -74,6 +75,8 @@
 	[[self preferencesFixForNetworkCheckBox] setState:i];
 	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"usePopmedicProxy"] intValue];
 	[[self preferencesProxySearchCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"addWatermark"] intValue];
+	[[self preferencesAddWatermarkCheckBox] setState:i];
 	
 	//setup the size of the splits
 	CGFloat f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"hsplit1"] floatValue];	
@@ -314,6 +317,8 @@
 	[[self preferencesFixForNetworkCheckBox] setState:i];
 	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"usePopmedicProxy"] intValue];
 	[[self preferencesProxySearchCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"addWatermark"] intValue];
+	[[self preferencesAddWatermarkCheckBox] setState:i];
 	[[NSApplication sharedApplication] beginSheet:[self preferencesWindow] 
 								   modalForWindow:[self window]
 									modalDelegate:self
@@ -409,6 +414,10 @@
 	[[NSApplication sharedApplication] endSheet:[self preferencesWindow] returnCode:0];
 }
 
+- (IBAction)helpClick:(id)sender {
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/muttsnutts/mp4autotag/wiki"]];
+}
+
 - (IBAction)searchDoneClick:(id)sender {
 	[[NSApplication sharedApplication] endSheet:[self searchResultWindow] returnCode:0];
 }
@@ -460,6 +469,7 @@
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesUseITunesCheckBox] state]] forKey:@"useITunes"];
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesFixForNetworkCheckBox] state]] forKey:@"fixForNetwork"];
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesProxySearchCheckBox] state]] forKey:@"usePopmedicProxy"];
+	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesAddWatermarkCheckBox] state]] forKey:@"addWatermark"];
 	[[self preferencesWindow] close];
 }
 

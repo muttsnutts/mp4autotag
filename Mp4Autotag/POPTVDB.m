@@ -34,6 +34,7 @@
 	
 	int episearchnum = [episode intValue];
 	int seasearchnum = [season intValue];
+	int addWatermark = [[[NSUserDefaults standardUserDefaults] valueForKey:@"addWatermark"] intValue];
 	
 	POPMp4FileTag* tag = nil;
 	
@@ -154,7 +155,7 @@
 												//itunes season watermarked poster.
 												
 				//first see if we are using episode posters
-				if(coverArtType < 2)
+				if(coverArtType == 1)
 				{
 					if([poster compare:@""] != 0) {
 						imgurl = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.thetvdb.com/banners/%@", poster]];
@@ -185,7 +186,7 @@
 				}
 				
 				//if we got an image then lets see if we should watermark it
-				if(img != nil && (coverArtType == 1 || coverArtType == 3))
+				if(img != nil && addWatermark > 0)
 				{
 					[img lockFocus];
 					NSString *wm = [NSString stringWithFormat:@"S%0.2iE%0.2i ", [[tag property:@"TV Season"] intValue], [[tag property:@"TV Episode"] intValue]];

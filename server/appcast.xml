@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
-   <channel>
-      <title>Mp4Autotag Changelog</title>
-      <link>http://popmedic.com/mp4autotag/appcast.xml</link>
-      <description>Base version.</description>
-      <language>en</language>
-         <item>
-            <title>Version 0.0.1 (alpha release 1)</title>
-						<sparkle:releaseNotesLink>
-							http://popmedic.com/mp4autotag/0.0.1.html
-						</sparkle:releaseNotesLink>
-            <pubDate>Thu, 21 Nov 2012 10:16:33 +0700</pubDate>
-            <enclosure url="http://popmedic.com/mp4autotag_builds/latest/Mp4Autotag.zip" sparkle:version="0.0.1" length="1567598" type="application/octet-stream" sparkle:dsaSignature="MCwCFB/Dy7ZRYSTW2kQivlENli9w9CUVAhRNaHFDRHZR3qZVGFvEnBi5Z6TlYg==" />
-         </item>
+	<channel>
+   		<title>Mp4Autotag Changelog</title>
+      	<link>http://popmedic.com/mp4autotag/appcast.xml</link>
+      	<description>Base version.</description>
+      	<language>en</language>
+		<item>
+        	<title>Version 0.0.2 (alpha release 2)</title>
+			<sparkle:releaseNotesLink>
+				http://popmedic.com/mp4autotag/0.0.2.html
+			</sparkle:releaseNotesLink>
+          	<pubDate>Fri, 23 Nov 2012 14:36:33 +0700</pubDate>
+          	<enclosure 
+				url="http://popmedic.com/mp4autotag_builds/latest/Mp4Autotag.zip" 
+				sparkle:version="0.0.2" 
+				length="1987863" 
+				type="application/octet-stream" 
+			/>
+       </item>
    </channel>
 </rss>

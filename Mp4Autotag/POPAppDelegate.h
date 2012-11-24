@@ -48,6 +48,7 @@ typedef enum preferencesEpisodeCoverArtOption {useUnique, useSeries, useSeriesWa
 @property (weak) IBOutlet NSScrollView *mp4FileTagsTableScrollView;
 @property (weak) IBOutlet NSButton *preferencesFixForNetworkCheckBox;
 @property (weak) IBOutlet NSButton *preferencesProxySearchCheckBox;
+@property (weak) IBOutlet NSButton *preferencesAddWatermarkCheckBox;
 
 - (IBAction)addMp4Click:(id)sender;
 - (IBAction)removeMp4Click:(id)sender;
@@ -63,6 +64,7 @@ typedef enum preferencesEpisodeCoverArtOption {useUnique, useSeries, useSeriesWa
 - (IBAction)customSearchWindowSearchClick:(id)sender;
 - (IBAction)customSearchWindowCloseClick:(id)sender;
 - (IBAction)preferencesWindowCloseClick:(id)sender;
+- (IBAction)helpClick:(id)sender;
 
 -(void)refreshButtons;
 @end
