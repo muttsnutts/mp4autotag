@@ -3,218 +3,52 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>lib/search_show.rb</string>
+	<string>Sparkle/appcast.xml</string>
 	<key>documents</key>
 	<array>
 		<dict>
-			<key>filename</key>
-			<string>favicon.ico</string>
-		</dict>
-		<dict>
-			<key>filename</key>
-			<string>index.html</string>
-			<key>lastUsed</key>
-			<date>2012-11-17T01:00:30Z</date>
+			<key>expanded</key>
+			<true/>
+			<key>name</key>
+			<string>Sparkle</string>
+			<key>regexFolderFilter</key>
+			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
+			<key>sourceDirectory</key>
+			<string>Sparkle</string>
 		</dict>
 		<dict>
 			<key>expanded</key>
 			<true/>
 			<key>name</key>
-			<string>lib</string>
+			<string>webservice</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
 			<key>sourceDirectory</key>
-			<string>lib</string>
-		</dict>
-		<dict>
-			<key>filename</key>
-			<string>mp4autotag_server.rb</string>
-			<key>lastUsed</key>
-			<date>2012-11-21T23:08:33Z</date>
-		</dict>
-		<dict>
-			<key>filename</key>
-			<string>mp4autotag_cgi.html</string>
-			<key>lastUsed</key>
-			<date>2012-11-23T17:37:25Z</date>
-		</dict>
-		<dict>
-			<key>filename</key>
-			<string>mp4autotag_cgi.rb</string>
-			<key>lastUsed</key>
-			<date>2012-11-23T16:30:52Z</date>
+			<string>webservice</string>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>203</integer>
 	<key>metaData</key>
 	<dict>
-		<key>index.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>7</integer>
-				<key>line</key>
-				<integer>168</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>133</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>3</integer>
-				<key>line</key>
-				<integer>165</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>7</integer>
-				<key>line</key>
-				<integer>168</integer>
-			</dict>
-		</dict>
-		<key>lib/search.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>6</integer>
-				<key>line</key>
-				<integer>195</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>175</integer>
-		</dict>
-		<key>lib/search_itunes.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>5</integer>
-				<key>line</key>
-				<integer>29</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>10</integer>
-		</dict>
-		<key>lib/search_movie.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>5</integer>
-				<key>line</key>
-				<integer>73</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>59</integer>
-		</dict>
-		<key>lib/search_servlet.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>35</integer>
-				<key>line</key>
-				<integer>19</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>lib/search_show.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>25</integer>
-				<key>line</key>
-				<integer>99</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>76</integer>
-		</dict>
-		<key>lib/show_servlet.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>17</integer>
-				<key>line</key>
-				<integer>29</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>mp4autotag_cgi.html</key>
+		<key>Sparkle/appcast.xml</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>51</integer>
 				<key>line</key>
-				<integer>18</integer>
+				<integer>4</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
-		</dict>
-		<key>mp4autotag_cgi.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>56</integer>
-				<key>line</key>
-				<integer>22</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>mp4autotag_server.rb</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>17</integer>
-				<key>line</key>
-				<integer>8</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>mp4autotag_cgi.rb</string>
-		<string>mp4autotag_server.rb</string>
-		<string>lib/search.rb</string>
-		<string>lib/search_movie.rb</string>
-		<string>lib/search_itunes.rb</string>
-		<string>lib/search_show.rb</string>
-		<string>mp4autotag_cgi.html</string>
+		<string>Sparkle/appcast.xml</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
