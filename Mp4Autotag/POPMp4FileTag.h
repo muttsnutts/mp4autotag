@@ -28,5 +28,6 @@
 -(NSString*) property:(NSString*)prop;
 -(bool) setProperty:(NSString*)prop value:(NSString*)val;
 -(bool) rename;
+-(bool) renameTo:(NSString*)to;
 
 @end

@@ -10,6 +10,7 @@
 #import "POPLoadingWindow.h"
 #import "POPMp4FileTag.h"
 #import "POPMp4FileTagTable.h"
+#import "POPAutomatedAutotagWindow.h"
 
 @interface POPAppDelegate : NSObject <NSApplicationDelegate>
 
@@ -24,6 +25,7 @@ typedef enum preferencesEpisodeCoverArtOption {useUnique, useSeries, useSeriesWa
 @property (unsafe_unretained) IBOutlet NSWindow *searchResultWindow;
 @property (unsafe_unretained) IBOutlet NSWindow *customSearchWindow;
 @property (unsafe_unretained) IBOutlet NSWindow *preferencesWindow;
+@property (unsafe_unretained) IBOutlet POPAutomatedAutotagWindow *automatedAutotagWindow;
 @property (weak) IBOutlet NSTableView *searchTableView;
 @property (weak) IBOutlet NSTextField *seachFilenameLabel;
 @property (weak) IBOutlet NSTabView *customSearchWindowTabView;
@@ -67,4 +69,7 @@ typedef enum preferencesEpisodeCoverArtOption {useUnique, useSeries, useSeriesWa
 - (IBAction)helpClick:(id)sender;
 
 -(void)refreshButtons;
+- (void)automatedAutotagWindowSheetEnded:(NSNotification *)notification 
+							  returnCode:(NSInteger)rtnCode 
+							 contextInfo:(NSObject*)cInfo;
 @end

@@ -38,7 +38,7 @@
 -(NSString*) searchString{return search_str;}
 
 -(id) searchWithFileTag:(POPMp4FileTag *)tag 
-			tableView:(NSTableView*)tv {
+			/*tableView:(NSTableView*)tv*/ {
 	NSError *error;
 	NSRegularExpression* rgx;
 	int nm;
@@ -47,14 +47,14 @@
 	int coverArtType = [[[NSUserDefaults standardUserDefaults] valueForKey:@"episodeCoverArt"] intValue];
 	int addWatermark = [[[NSUserDefaults standardUserDefaults] valueForKey:@"addWatermark"] intValue];
 	bool isCustomSearch = [[tag filename] compare:@""] == 0;
-	tableView = tv;
+	//tableView = tv;
 	results = [NSArray array];
 	_isMovie = true;
 	tmdb = nil;
 	epistr = @"1";
 	seastr = @"1";
 	serstr = @"";
-	[tableView setDataSource:(id<NSTableViewDataSource>)self];	
+	//[tableView setDataSource:(id<NSTableViewDataSource>)self];	
 	
 	//uses itunes little hack
 	use_itunes = (use_itunes && coverArtType == 1);
@@ -257,8 +257,8 @@
 							  useITunes:use_itunes];
 		}
 	}
-	[tableView reloadData];
-	[tableView selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:NO];
+	//[tableView reloadData];
+	//[tableView selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:NO];
 	return results;
 }
 
@@ -274,11 +274,6 @@
 		}
 	}
 	return nil;
-}
-
--(void) reload {
-	if(tableView != nil)
-		[tableView reloadData];
 }
 
 - (int)numberOfRowsInTableView:(NSTableView *)aTableView

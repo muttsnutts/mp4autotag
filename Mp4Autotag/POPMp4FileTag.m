@@ -124,7 +124,7 @@
 										  forKeys:[NSArray arrayWithObjects:@"flag", @"value", nil]],
 				[NSMutableDictionary dictionaryWithObjects:[NSArray arrayWithObjects:@"-I", @"0", nil]
 										  forKeys:[NSArray arrayWithObjects:@"flag", @"value", nil]],
-				[NSMutableDictionary dictionaryWithObjects:[NSArray arrayWithObjects:@"-L", @"", nil]
+				[NSMutableDictionary dictionaryWithObjects:[NSArray arrayWithObjects:@"-L", @"0", nil]
 										  forKeys:[NSArray arrayWithObjects:@"flag", @"value", nil]],
 				nil
 			]
@@ -349,13 +349,31 @@
 
 -(bool) rename {
 	NSString* nn;
-	NSError *error;
 	if([self filename] != @"")
 	{
 		if([self property:@"Name"] != @"")
 		{
 			nn = [NSString stringWithFormat:@"%@/%@.mp4", [[self filename] stringByDeletingLastPathComponent], [self property:@"Name"]];
-			if([[NSFileManager defaultManager] moveItemAtPath:[self filename] toPath:nn error:&error]){
+			return [self renameTo:nn];
+		}
+	}
+	return false;
+}
+
+-(bool) renameTo:(NSString*)to {
+	NSError *error;
+	if([self filename] != @"")
+	{
+		if([self property:@"Name"] != @"" && [[self filename] compare:to] != 0)
+		{
+			if([[NSFileManager defaultManager] fileExistsAtPath:to])
+			{
+				if(![[NSFileManager defaultManager] removeItemAtPath:to error:&error])
+				{
+					NSLog(@"ERROR*** %@", [error description]);
+				}
+			}
+			if([[NSFileManager defaultManager] moveItemAtPath:[self filename] toPath:to error:&error]){
 				//special for me...
 				NSString* obf = [[[self filename] stringByDeletingPathExtension] stringByAppendingString:@"-SD.bif"];
 				NSString* nbf = [NSString stringWithFormat:@"%@/%@-SD.bif", [[self filename] stringByDeletingLastPathComponent], [self property:@"Name"]];
@@ -365,7 +383,7 @@
 				NSString* njf = [NSString stringWithFormat:@"%@/%@-SD.jpg", [[self filename] stringByDeletingLastPathComponent], [self property:@"Name"]];
 				if([[NSFileManager defaultManager] fileExistsAtPath:ojf])
 					[[NSFileManager defaultManager] moveItemAtPath:ojf toPath:njf error:&error];
-				_filename = nn;
+				_filename = to;
 				return true;
 			}
 			else {

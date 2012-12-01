@@ -11,7 +11,7 @@
 
 @interface POPMp4FileTagSearch : NSObject
 @property (readonly) bool isMovie;
--(id) searchWithFileTag:(POPMp4FileTag*)tag tableView:(NSTableView*)tv;
+-(id) searchWithFileTag:(POPMp4FileTag*)tag /*tableView:(NSTableView*)tv*/;
 -(POPMp4FileTag*) chooseResult:(int)idx;
 -(NSString*) episodeString;
 -(NSString*) seasonString;

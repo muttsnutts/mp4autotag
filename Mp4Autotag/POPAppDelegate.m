@@ -27,6 +27,7 @@
 @synthesize searchResultWindow = _searchResultWindow;
 @synthesize customSearchWindow = _customSearchWindow;
 @synthesize preferencesWindow = _preferencesWindow;
+@synthesize automatedAutotagWindow = _automatedAutotagWindow;
 @synthesize searchTableView = _searchTableView;
 @synthesize seachFilenameLabel = _seachFilenameLabel;
 @synthesize customSearchWindowTabView = _customSearchWindowTabView;
@@ -100,6 +101,16 @@
 		size.width = f;
 		[[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:1] setFrameSize:size];
 	}
+	f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"vsplit3"] floatValue];
+	if(f != 0){
+		size = [[[[[self automatedAutotagWindow] vsplit] subviews] objectAtIndex:0] frame].size;
+		size.width = f;
+		[[[[[self automatedAutotagWindow] vsplit] subviews] objectAtIndex:0] setFrameSize:size];
+		f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"vsplit4"] floatValue];
+		size = [[[[[self automatedAutotagWindow] vsplit] subviews] objectAtIndex:1] frame].size;
+		size.width = f;
+		[[[[[self automatedAutotagWindow] vsplit] subviews] objectAtIndex:1] setFrameSize:size];
+	}
 }
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
@@ -118,6 +129,10 @@
 	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:f] forKey:@"vsplit1"];
 	f = [[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:1] frame].size.width;
 	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:f] forKey:@"vsplit2"];
+	f = [[[[[self automatedAutotagWindow] vsplit] subviews] objectAtIndex:0] frame].size.width;
+	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:f] forKey:@"vsplit3"];
+	f = [[[[[self automatedAutotagWindow] vsplit] subviews] objectAtIndex:1] frame].size.width;
+	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:f] forKey:@"vsplit4"];
 }
 
 -(void)awakeFromNib
@@ -228,9 +243,9 @@
 						@"Please select a file first.",
 						@"OK", nil, nil);
 }
-
+//autotaging functions.....
 -(bool) autotagNext {
-	NSInteger fa = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fullAutomation"] intValue];
+	//NSInteger fa = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fullAutomation"] intValue];
 	if(attags_idx < [attags count]) {
 		POPMp4FileTag* tag = [attags objectAtIndex:attags_idx];
 		attags_idx = attags_idx + 1;
@@ -244,15 +259,18 @@
 			[tag setCustomSeriesSearch:YES];
 		}
 		mp4SearchFileTagTable = [[POPMp4FileTagSearch alloc] init];
-		[mp4SearchFileTagTable searchWithFileTag:tag tableView:[self searchTableView]];
+		[[self searchTableView] setDataSource:(id<NSTableViewDataSource>)mp4SearchFileTagTable];
+		[mp4SearchFileTagTable searchWithFileTag:tag /*tableView:[self searchTableView]*/];
+		[[self searchTableView] reloadData];
+		[[self searchTableView] selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:NO];
 		[_loadWnd hide];
 		
 		if([[self searchTableView] numberOfRows] == 0)
 		{
-			if(fa){
+			/*if(fa){
 				[self autotagNext];
 			}
-			else{
+			else{*/
 				NSInteger rtn =  NSRunAlertPanel(@"Mp4Autotag", 
 												 @"Unable to find movie/show in databases. Try a custom search, or skip this file?",
 												 @"Custom Search", 
@@ -266,11 +284,12 @@
 				{
 					[self autotagNext];
 				}
-			}
+			//}
 		}
-		else if(fa){
+		/*else if(fa){
 			[self searchTagClick:self];
-		}
+		}*/
+		
 		return true;
 	}
 	[[NSApplication sharedApplication] endSheet:[self searchResultWindow] returnCode:0];
@@ -278,17 +297,18 @@
 }
 
 -(void) autotag {
-	NSInteger fa = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fullAutomation"] intValue];
+	//NSInteger fa = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fullAutomation"] intValue];
 	[[self customSearchWindowUseSameSeriesCheckBox] setState:NO];
-	if(fa) [_loadWnd show:@"Preforming Full Automation Autotag..."];
+	//if(fa) [_loadWnd show:@"Preforming Full Automation Autotag..."];
 	[[NSApplication sharedApplication] beginSheet:[self searchResultWindow] 
 								   modalForWindow:[self window]
 									modalDelegate:self
 								   didEndSelector:@selector(searchResultSheetEnded:returnCode:contextInfo:) 
 									  contextInfo:(void*)[self searchResultWindow]];
 	[self autotagNext];
-	if(fa) [_loadWnd hide];
+	//if(fa) [_loadWnd hide];
 }
+
 - (IBAction)autotagSelectedClick:(id)sender {
 	int idx = [[self mp4FileTagTableView] selectedRow];
 	if(idx >= 0) {
@@ -304,6 +324,34 @@
 						@"OK", nil, nil);
 }
 
+- (IBAction)autotagAllClick:(id)sender {
+	NSInteger fa = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fullAutomation"] intValue];
+	attags = [mp4FileTagTable mp4tags];
+	attags_idx = 0;
+	if([attags count] > 0)
+	{	
+		if(fa)
+		{
+			[[NSApplication sharedApplication] beginSheet:[self automatedAutotagWindow] 
+										   modalForWindow:[self window]
+											modalDelegate:self//[self automatedAutotagWindow]
+										   didEndSelector:@selector(automatedAutotagWindowSheetEnded:returnCode:contextInfo:)
+											  contextInfo:(void*)[self automatedAutotagWindow]];
+			[[self automatedAutotagWindow] autotagQueue:attags];
+		}
+		else
+		{
+			[self autotag];
+		}
+	}
+	else 
+	{
+		NSRunAlertPanel(@"Mp4Autotag", 
+						@"Please add a file first.",
+						@"OK", nil, nil);
+	}
+}
+//end autotaging functions.....
 - (IBAction)preferencesClick:(id)sender {
 	NSInteger i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"renameFile"] intValue];
 	[[self preferencesRenameCheckBox] setState:i];
@@ -326,6 +374,11 @@
 									  contextInfo:(void*)[self searchResultWindow]];
 }
 
+- (IBAction)helpClick:(id)sender {
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/muttsnutts/mp4autotag/wiki"]];
+}
+
+//SearchResultWindow-------------
 - (IBAction)searchResultWindowSearchClick:(id)sender {
 	if(mp4SearchFileTagTable != nil)
 	{
@@ -346,76 +399,6 @@
 									modalDelegate:self
 								   didEndSelector:@selector(customSearchSheetEnded:returnCode:contextInfo:) 
 									  contextInfo:(void*)[self customSearchWindow]];
-}
-
-- (IBAction)autotagAllClick:(id)sender {
-	attags = [mp4FileTagTable mp4tags];
-	attags_idx = 0;
-	if([attags count] > 0)
-		[self autotag];
-	else 
-		NSRunAlertPanel(@"Mp4Autotag", 
-						@"Please add a file first.",
-						@"OK", nil, nil);
-}
-
-- (IBAction)customSearchWindowSearchClick:(id)sender {
-	if(mp4SearchFileTagTable != nil) {
-		mp4SearchFileTagTable = nil;
-	}
-	mp4SearchFileTagTable = [[POPMp4FileTagSearch alloc] init];
-	
-	POPMp4FileTag* tag = [[POPMp4FileTag alloc] init];
-	if([[[[self customSearchWindowTabView] selectedTabViewItem] label] compare:@"TV Search"] == 0) {
-		[tag setProperty:@"Media Type" value:@"tvshow"];
-		[tag setProperty:@"TV Show" value:[[self customSearchWindowSeriesTextField] stringValue]];
-		[tag setProperty:@"TV Season" value:[[self customSearchWindowSeasonNumberTextField] stringValue]];
-		[tag setProperty:@"TV Episode" value:[[self customSearchWindowEpisodeNumberTextField] stringValue]];
-		[tag setCustomSeriesSearch:YES];
-		[_loadWnd show:[NSString stringWithFormat:@"Searching for TV Show: %@\nSeason: %@\nEpisode: %@", [tag property:@"TV Show"], [tag property:@"TV Season"], [tag property:@"TV Episode"]]];
-	}
-	else {
-		[tag setProperty:@"Media Type" value:@"movie"];
-		[tag setProperty:@"Name" value:[[self customSearchWindowMovieTextField] stringValue]];
-		[_loadWnd show:[NSString stringWithFormat:@"Searching for Movie: %@", [tag property:@"Name"], [tag property:@"Name"]]];
-	}
-	
-	[mp4SearchFileTagTable searchWithFileTag:tag
-								   tableView:[self searchTableView]];
-	[_loadWnd hide];
-	
-	if([[self searchTableView] numberOfRows] == 0)
-	{
-		NSInteger rtn =  NSRunAlertPanel(@"Mp4Autotag", 
-										 @"Unable to find movie/show in databases. Try a custom search, or skip this file?",
-										 @"Custom Search", 
-										 @"Skip File", 
-										 nil);
-		if(rtn == NSAlertDefaultReturn)
-		{
-			return;
-		}
-		else if(rtn == NSAlertAlternateReturn)
-		{
-			[[NSApplication sharedApplication] endSheet:[self customSearchWindow] returnCode:0];
-			[self autotagNext];
-		}
-	}
-	else {
-		[[NSApplication sharedApplication] endSheet:[self customSearchWindow] returnCode:0];
-	}
-}
-
-- (IBAction)customSearchWindowCloseClick:(id)sender {
-	[[NSApplication sharedApplication] endSheet:[self customSearchWindow] returnCode:0];
-}
-
-- (IBAction)preferencesWindowCloseClick:(id)sender {
-	[[NSApplication sharedApplication] endSheet:[self preferencesWindow] returnCode:0];
-}
-
-- (IBAction)helpClick:(id)sender {
-	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/muttsnutts/mp4autotag/wiki"]];
 }
 
 - (IBAction)searchDoneClick:(id)sender {
@@ -448,7 +431,9 @@
 						@"OK", nil, nil);
 }
 
-- (void)searchResultSheetEnded:(NSNotification *)notification returnCode:(NSInteger)rtnCode contextInfo:(NSObject*)cInfo
+- (void)searchResultSheetEnded:(NSNotification *)notification 
+					returnCode:(NSInteger)rtnCode 
+				   contextInfo:(NSObject*)cInfo
 {
 	[mp4FileTagTable reloadAll];
 	[[self searchTableView] setDataSource:nil];
@@ -456,12 +441,77 @@
 	[[self searchResultWindow] close];
 }
 
-- (void)customSearchSheetEnded:(NSNotification *)notification returnCode:(NSInteger)rtnCode contextInfo:(NSObject*)cInfo
+//CustomSearchWindow--------------------------
+- (IBAction)customSearchWindowSearchClick:(id)sender {
+	if(mp4SearchFileTagTable != nil) {
+		mp4SearchFileTagTable = nil;
+	}
+	mp4SearchFileTagTable = [[POPMp4FileTagSearch alloc] init];
+	
+	POPMp4FileTag* tag = [[POPMp4FileTag alloc] init];
+	if([[[[self customSearchWindowTabView] selectedTabViewItem] label] compare:@"TV Search"] == 0) {
+		[tag setProperty:@"Media Type" value:@"tvshow"];
+		[tag setProperty:@"TV Show" value:[[self customSearchWindowSeriesTextField] stringValue]];
+		[tag setProperty:@"TV Season" value:[[self customSearchWindowSeasonNumberTextField] stringValue]];
+		[tag setProperty:@"TV Episode" value:[[self customSearchWindowEpisodeNumberTextField] stringValue]];
+		[tag setCustomSeriesSearch:YES];
+		[_loadWnd show:[NSString stringWithFormat:@"Searching for TV Show: %@\nSeason: %@\nEpisode: %@", [tag property:@"TV Show"], [tag property:@"TV Season"], [tag property:@"TV Episode"]]];
+	}
+	else {
+		[tag setProperty:@"Media Type" value:@"movie"];
+		[tag setProperty:@"Name" value:[[self customSearchWindowMovieTextField] stringValue]];
+		[_loadWnd show:[NSString stringWithFormat:@"Searching for Movie: %@", [tag property:@"Name"], [tag property:@"Name"]]];
+	}
+	
+	[[self searchTableView] setDataSource:(id<NSTableViewDataSource>)mp4SearchFileTagTable];
+	[mp4SearchFileTagTable searchWithFileTag:tag /*tableView:[self searchTableView]*/];
+	[[self searchTableView] reloadData];
+	[[self searchTableView] selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:NO];
+	/*[mp4SearchFileTagTable searchWithFileTag:tag
+								   tableView:[self searchTableView]];*/
+	[_loadWnd hide];
+	
+	if([[self searchTableView] numberOfRows] == 0)
+	{
+		NSInteger rtn =  NSRunAlertPanel(@"Mp4Autotag", 
+										 @"Unable to find movie/show in databases. Try a custom search, or skip this file?",
+										 @"Custom Search", 
+										 @"Skip File", 
+										 nil);
+		if(rtn == NSAlertDefaultReturn)
+		{
+			return;
+		}
+		else if(rtn == NSAlertAlternateReturn)
+		{
+			[[NSApplication sharedApplication] endSheet:[self customSearchWindow] returnCode:0];
+			[self autotagNext];
+		}
+	}
+	else {
+		[[NSApplication sharedApplication] endSheet:[self customSearchWindow] returnCode:0];
+	}
+}
+
+- (IBAction)customSearchWindowCloseClick:(id)sender {
+	[[NSApplication sharedApplication] endSheet:[self customSearchWindow] returnCode:0];
+}
+
+- (void)customSearchSheetEnded:(NSNotification *)notification 
+					returnCode:(NSInteger)rtnCode 
+				   contextInfo:(NSObject*)cInfo
 {
 	[[self customSearchWindow] close];
 }
 
-- (void)preferencesWindowSheetEnded:(NSNotification *)notification returnCode:(NSInteger)rtnCode contextInfo:(NSObject*)cInfo
+//PreferencesWindow---------------------------
+- (IBAction)preferencesWindowCloseClick:(id)sender {
+	[[NSApplication sharedApplication] endSheet:[self preferencesWindow] returnCode:0];
+}
+
+- (void)preferencesWindowSheetEnded:(NSNotification *)notification 
+						 returnCode:(NSInteger)rtnCode 
+						contextInfo:(NSObject*)cInfo
 {
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesRenameCheckBox] state]] forKey:@"renameFile"];
 	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesFullAutomationCheckBox] state]] forKey:@"fullAutomation"];
@@ -473,4 +523,10 @@
 	[[self preferencesWindow] close];
 }
 
+- (void)automatedAutotagWindowSheetEnded:(NSNotification *)notification 
+							  returnCode:(NSInteger)rtnCode 
+							 contextInfo:(NSObject*)cInfo
+{
+	[mp4FileTagTable reloadAll];
+}
 @end
