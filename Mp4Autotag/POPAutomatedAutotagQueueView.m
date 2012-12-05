@@ -76,9 +76,12 @@ objectValueForTableColumn:(NSTableColumn*)aTableColumn
 			if([[ntag property:@"Name"] compare:@"Not Found"] == 0)
 			{
 				[cell setDrawsBackground:YES];
-				[cell setBackgroundColor:[NSColor redColor]];
+				[cell setBackgroundColor:[NSColor orangeColor]];
+				[cell setTextColor:[NSColor whiteColor]];
 			}
 			else {
+				[cell setBackgroundColor:[NSColor textBackgroundColor]];
+				[cell setTextColor:[NSColor textColor]];
 				[cell setDrawsBackground:NO];
 			}
 			return [[ntag filename] lastPathComponent];

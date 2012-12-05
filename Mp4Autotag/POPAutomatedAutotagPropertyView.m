@@ -74,9 +74,12 @@ objectValueForTableColumn:(NSTableColumn*)aTableColumn
 				if([oval compare:nval] != 0)
 				{
 					[cell setDrawsBackground:YES];
-					[cell setBackgroundColor:[NSColor redColor]];
+					[cell setBackgroundColor:[NSColor orangeColor]];
+					[cell setTextColor:[NSColor whiteColor]];
 				}
 				else {
+					[cell setBackgroundColor:[NSColor textBackgroundColor]];
+					[cell setTextColor:[NSColor textColor]];
 					[cell setDrawsBackground:NO];
 				}
 				return [_ntag property:key];

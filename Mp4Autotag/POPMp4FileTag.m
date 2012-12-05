@@ -245,6 +245,8 @@
 							[[[rtn properties] valueForKey:key] setObject:a forKey:@"value"];
 							[[[rtn properties] valueForKey:s] setObject:b forKey:@"value"];
 						}
+					}else if ([key compare:@"Lyrics"] == 0) {
+						[[[rtn properties] valueForKey:key] setObject:@"0" forKey:@"value"];
 					}
 					else if ([key compare:@"Media Type"] == 0) {
 						if([value compare:@"TV Show"] == 0) 
