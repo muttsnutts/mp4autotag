@@ -312,7 +312,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = POP;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 0AD6636A1614B4D1005EA39C /* Build configuration list for PBXProject "Mp4Autotag" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -472,6 +472,7 @@
 		0AD6638F1614B4D3005EA39C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -488,6 +489,7 @@
 		0AD663901614B4D3005EA39C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
