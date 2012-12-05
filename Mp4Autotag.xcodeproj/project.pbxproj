@@ -92,6 +92,7 @@
 		0A5BDF2C166FC8BD00E537FF /* save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "save@2x.png"; path = "Mp4Autotag/art/save@2x.png"; sourceTree = "<group>"; };
 		0A5BDF2D166FC8BD00E537FF /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "search@2x.png"; path = "Mp4Autotag/art/search@2x.png"; sourceTree = "<group>"; };
 		0A5BDF39166FC90B00E537FF /* mp4autotag.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = mp4autotag.icns; sourceTree = "<group>"; };
+		0A5BDF53166FDF4400E537FF /* Mp4Autotag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Mp4Autotag.entitlements; sourceTree = "<group>"; };
 		0A61524716285A9E00B41F2C /* POPImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPImage.h; sourceTree = "<group>"; };
 		0A61524816285A9E00B41F2C /* POPImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPImage.m; sourceTree = "<group>"; };
 		0A6581F416192A6800959142 /* POPXMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPXMLReader.h; sourceTree = "<group>"; };
@@ -234,6 +235,7 @@
 		0AD6637A1614B4D2005EA39C /* Mp4Autotag */ = {
 			isa = PBXGroup;
 			children = (
+				0A5BDF53166FDF4400E537FF /* Mp4Autotag.entitlements */,
 				0AD663891614B4D3005EA39C /* MainMenu.xib */,
 				0AD663861614B4D2005EA39C /* POPAppDelegate.h */,
 				0AD663871614B4D2005EA39C /* POPAppDelegate.m */,
@@ -428,6 +430,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -445,6 +448,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -455,6 +459,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -465,6 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -472,6 +478,7 @@
 		0AD6638F1614B4D3005EA39C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Mp4Autotag/Mp4Autotag.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -489,6 +496,7 @@
 		0AD663901614B4D3005EA39C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Mp4Autotag/Mp4Autotag.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
