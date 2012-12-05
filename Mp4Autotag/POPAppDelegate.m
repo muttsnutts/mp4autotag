@@ -189,7 +189,7 @@
 
 - (IBAction)removeMp4Click:(id)sender {
 	if([[self mp4FileTagTableView] selectedRow] >= 0) 
-		[mp4FileTagTable removeMp4FileTagAt:[[self mp4FileTagTableView] selectedRow]];
+		[mp4FileTagTable removeMp4FileTagAt:(int)[[self mp4FileTagTableView] selectedRow]];
 	else 
 		NSRunAlertPanel(@"Mp4Autotag", 
 						@"Please select a file first.",
@@ -198,7 +198,7 @@
 }
 
 - (IBAction)saveMp4Click:(id)sender {
-	int idx = [[self mp4FileTagTableView] selectedRow];
+	int idx = (int)[[self mp4FileTagTableView] selectedRow];
 	if(idx >= 0) 
 		[mp4FileTagTable saveMp4FileTagAt:idx];
 	else 
@@ -217,7 +217,7 @@
 }
 
 - (IBAction)selectImageClick:(id)sender {
-	int idx = [[self mp4FileTagTableView] selectedRow];
+	int idx = (int)[[self mp4FileTagTableView] selectedRow];
 	if(idx >= 0) {
 		NSOpenPanel* oDlg = [NSOpenPanel openPanel];
 		[oDlg setCanChooseFiles:YES];
@@ -310,7 +310,7 @@
 }
 
 - (IBAction)autotagSelectedClick:(id)sender {
-	int idx = [[self mp4FileTagTableView] selectedRow];
+	int idx = (int)[[self mp4FileTagTableView] selectedRow];
 	if(idx >= 0) {
 		POPMp4FileTag* tag = [[mp4FileTagTable mp4tags] objectAtIndex:idx];
 		
@@ -406,10 +406,10 @@
 }
 
 - (IBAction)searchTagClick:(id)sender {
-	int idx = [[self searchTableView] selectedRow];
+	long idx = [[self searchTableView] selectedRow];
 	if(idx >= 0){
 		POPMp4FileTag* otag = [attags objectAtIndex:attags_idx-1];
-		POPMp4FileTag* ntag = [mp4SearchFileTagTable chooseResult:idx];
+		POPMp4FileTag* ntag = [mp4SearchFileTagTable chooseResult:(int)idx];
 		if(ntag != nil)
 		{
 			[_loadWnd show:[NSString stringWithFormat:@"Merging tag and saving ...\"%@\"\nRename to...\"%@\"", [otag filename], [NSString stringWithFormat:@"%@.mp4", [ntag property:@"Name"]]]];
@@ -460,7 +460,7 @@
 	else {
 		[tag setProperty:@"Media Type" value:@"movie"];
 		[tag setProperty:@"Name" value:[[self customSearchWindowMovieTextField] stringValue]];
-		[_loadWnd show:[NSString stringWithFormat:@"Searching for Movie: %@", [tag property:@"Name"], [tag property:@"Name"]]];
+		[_loadWnd show:[NSString stringWithFormat:@"Searching for Movie: %@", [tag property:@"Name"]]];
 	}
 	
 	[[self searchTableView] setDataSource:(id<NSTableViewDataSource>)mp4SearchFileTagTable];
@@ -513,13 +513,13 @@
 						 returnCode:(NSInteger)rtnCode 
 						contextInfo:(NSObject*)cInfo
 {
-	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesRenameCheckBox] state]] forKey:@"renameFile"];
-	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesFullAutomationCheckBox] state]] forKey:@"fullAutomation"];
-	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesEpisodeCoverArtMatrix] selectedRow]] forKey:@"episodeCoverArt"];
-	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesUseITunesCheckBox] state]] forKey:@"useITunes"];
-	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesFixForNetworkCheckBox] state]] forKey:@"fixForNetwork"];
-	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesProxySearchCheckBox] state]] forKey:@"usePopmedicProxy"];
-	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%i", [[self preferencesAddWatermarkCheckBox] state]] forKey:@"addWatermark"];
+	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%li", [[self preferencesRenameCheckBox] state]] forKey:@"renameFile"];
+	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%li", [[self preferencesFullAutomationCheckBox] state]] forKey:@"fullAutomation"];
+	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%li", [[self preferencesEpisodeCoverArtMatrix] selectedRow]] forKey:@"episodeCoverArt"];
+	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%li", [[self preferencesUseITunesCheckBox] state]] forKey:@"useITunes"];
+	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%li", [[self preferencesFixForNetworkCheckBox] state]] forKey:@"fixForNetwork"];
+	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%li", [[self preferencesProxySearchCheckBox] state]] forKey:@"usePopmedicProxy"];
+	[[NSUserDefaults standardUserDefaults] setValue:[NSString stringWithFormat:@"%li", [[self preferencesAddWatermarkCheckBox] state]] forKey:@"addWatermark"];
 	[[self preferencesWindow] close];
 }
 

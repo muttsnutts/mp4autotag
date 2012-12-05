@@ -46,7 +46,7 @@
 - (int)numberOfRowsInTableView:(NSTableView *)aTableView
 {
 	_tv = aTableView;
-	return [_queue count];
+	return (int)[_queue count];
 }
 
 - (id)tableView:(NSTableView*)aTableView 

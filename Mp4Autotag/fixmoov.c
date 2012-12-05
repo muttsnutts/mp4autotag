@@ -330,7 +330,7 @@ int fixMOOVFILE(char* source, char* dest)
         if (last_offset > COPY_BUFFER_SIZE)
             bytes_to_copy = COPY_BUFFER_SIZE;
         else
-            bytes_to_copy = last_offset;
+            bytes_to_copy =(int) last_offset;
 		
         if (fread(copy_buffer, bytes_to_copy, 1, infile) != 1) {
             perror(source);

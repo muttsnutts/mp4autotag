@@ -168,7 +168,7 @@
 			rgx = [NSRegularExpression regularExpressionWithPattern:@"E[0-9]+"
 															options:NSRegularExpressionCaseInsensitive
 															  error:&error];
-			nm = [rgx numberOfMatchesInString:search_str
+			nm = (int)[rgx numberOfMatchesInString:search_str
 									  options:0
 										range:NSMakeRange(0, [search_str length])];
 			if(nm) {
@@ -183,7 +183,7 @@
 				rgx = [NSRegularExpression regularExpressionWithPattern:@"\\-{0,1} {0,1}([SE]{1}[0-9]+){1,2} {0,1}\\-{0,1}"
 																options:NSRegularExpressionCaseInsensitive
 																  error:&error];
-				nm = [rgx numberOfMatchesInString:search_str 
+				nm = (int)[rgx numberOfMatchesInString:search_str
 										  options:0
 											range:NSMakeRange(0, [search_str length])];
 				if(nm) {
@@ -198,7 +198,7 @@
 				rgx = [NSRegularExpression regularExpressionWithPattern:@"S[0-9]+E[0-9]+"
 																options:NSRegularExpressionCaseInsensitive
 																  error:&error];
-				nm = [rgx numberOfMatchesInString:search_str 
+				nm = (int)[rgx numberOfMatchesInString:search_str
 										  options:0
 											range:NSMakeRange(0, [search_str length])];
 				if(nm) {
@@ -216,7 +216,7 @@
 					NSString* pdir = [[[tag filename] stringByDeletingLastPathComponent] lastPathComponent];
 					rgx = [NSRegularExpression regularExpressionWithPattern:@"Season" 
 																	options:NSRegularExpressionCaseInsensitive error:&error];
-					nm = [rgx numberOfMatchesInString:pdir
+					nm = (int)[rgx numberOfMatchesInString:pdir
 											  options:0
 												range:NSMakeRange(0, [pdir length])];
 					if(nm) {
@@ -278,7 +278,7 @@
 
 - (int)numberOfRowsInTableView:(NSTableView *)aTableView
 {
-	return [results count];
+	return (int)[results count];
 }
 
 - (id)tableView:(NSTableView*)aTableView 

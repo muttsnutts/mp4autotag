@@ -412,7 +412,7 @@
 
 - (int)numberOfRowsInTableView:(NSTableView *)aTableView
 {
-	return [[_properties allKeys] count] + 1;
+	return (int)[[_properties allKeys] count] + 1;
 }
 
 - (id)tableView:(NSTableView*)aTableView 

@@ -112,7 +112,7 @@
 
 - (int)numberOfRowsInTableView:(NSTableView *)aTableView
 {
-	return [_mp4tags count];
+	return (int)[_mp4tags count];
 }
 
 - (id)tableView:(NSTableView*)aTableView 
@@ -258,7 +258,7 @@ objectValueForTableColumn:(NSTableColumn*)aTableColumn
 			}
 			else {
 				[NSApp activateIgnoringOtherApps:YES];
-				[self addMp4Files:urls atIndex:row];
+				[self addMp4Files:urls atIndex:(unsigned int)row];
 				return YES;
 			}
 		}

@@ -45,7 +45,7 @@
 
 - (int)numberOfRowsInTableView:(NSTableView *)aTableView
 {
-	if(_otag != nil) return [[[_otag properties] allKeys] count];
+	if(_otag != nil) return (int)[[[_otag properties] allKeys] count];
 	return 0;
 }
 

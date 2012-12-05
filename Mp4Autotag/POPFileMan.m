@@ -12,7 +12,7 @@
 
 +(NSString*) getTempFilePath
 {
-	return [NSTemporaryDirectory() stringByAppendingPathComponent: [NSString stringWithFormat: @"%.0f", [NSDate timeIntervalSinceReferenceDate] * 1000.0, @"txt"]];
+	return [NSTemporaryDirectory() stringByAppendingPathComponent: [NSString stringWithFormat: @"%.0f.%@", ([NSDate timeIntervalSinceReferenceDate] * 1000.0), @"txt"]];
 }
 
 +(NSString*) getTempFilePathWithExt:(NSString*)ext
