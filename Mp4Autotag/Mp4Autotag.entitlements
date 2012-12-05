@@ -16,5 +16,11 @@
 	<true/>
 	<key>com.apple.security.network.client</key>
 	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>mp4art</string>
+		<string>mp4info</string>
+		<string>mp4tags</string>
+	</array>
 </dict>
 </plist>
