@@ -87,12 +87,15 @@
 	}
 }
 //functions
+- (void)clearResults{
+	[queueViewer setQueue:[NSArray array]];
+	[[self queueView] reloadData];
+}
 - (bool)autotagQueue:(NSArray *)q {
 	int i = 0;
-	[[self progressWindow] showSheet:@"Building queue..." progress:0 parent:self];
 	NSMutableArray* results = [[NSMutableArray alloc] init];
 	[queueViewer setQueue:results];
-	[[self queueView] reloadData];
+	[[self progressWindow] showSheet:@"Building queue..." progress:0 parent:self];
 	[[self progressWindow] show:@"Searching queue..." progress:1];
 	POPMp4FileTagSearch* mp4SearchFileTagTable = [[POPMp4FileTagSearch alloc] init];
 	for (i = 0; i < [q count]; i++) {
@@ -137,6 +140,7 @@
 	}
 	mp4SearchFileTagTable = nil;
 	[[self progressWindow] show:@"Done..." progress:100];
+	[[self queueView] selectRowIndexes:[NSIndexSet indexSetWithIndex:0] byExtendingSelection:NO];
 	[[self progressWindow] hide];
 	return true;
 }

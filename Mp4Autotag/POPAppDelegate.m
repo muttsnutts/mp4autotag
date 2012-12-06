@@ -369,7 +369,8 @@
 	{	
 		if(fa)
 		{
-			[[NSApplication sharedApplication] beginSheet:[self automatedAutotagWindow] 
+			[[self automatedAutotagWindow] clearResults];
+			[[NSApplication sharedApplication] beginSheet:[self automatedAutotagWindow]
 										   modalForWindow:[self window]
 											modalDelegate:self//[self automatedAutotagWindow]
 										   didEndSelector:@selector(automatedAutotagWindowSheetEnded:returnCode:contextInfo:)

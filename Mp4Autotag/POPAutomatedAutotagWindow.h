@@ -28,5 +28,6 @@
 - (IBAction)undoClick:(id)sender;
 
 //functions
+- (void)clearResults;
 - (bool)autotagQueue:(NSArray*)q;
 @end
