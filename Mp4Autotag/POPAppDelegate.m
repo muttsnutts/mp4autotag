@@ -60,9 +60,7 @@
 	mp4FileTagTable = [[POPMp4FileTagTable alloc] initWithParent:self];
 	mp4SearchFileTagTable = nil;
 	[[self mp4FileTagTableView] setDataSource:(id<NSTableViewDataSource>)mp4FileTagTable];
-	[[self mp4FileTagTableView] setDelegate:(id<NSTableViewDelegate>)mp4FileTagTable];
-	[self refreshButtons];
-	
+	[[self mp4FileTagTableView] setDelegate:(id<NSTableViewDelegate>)mp4FileTagTable];	
 	//set up preferences
 	NSInteger i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"renameFile"] intValue];
 	[[self preferencesRenameCheckBox] setState:i];
@@ -111,6 +109,9 @@
 		size.width = f;
 		[[[[[self automatedAutotagWindow] vsplit] subviews] objectAtIndex:1] setFrameSize:size];
 	}
+	//refresh properities
+	[self refreshButtons];
+
 }
 
 - (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender
@@ -121,11 +122,8 @@
 - (void)applicationWillTerminate:(NSNotification *)aNotification
 {
 	//save out the userdefaults...
-	CGFloat f = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] frame].size.height;
-	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:f] forKey:@"hsplit1"];
-	f = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] frame].size.height;
-	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:f] forKey:@"hsplit2"];
-	f = [[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:0] frame].size.width;
+	[self hidePropPanel];
+	CGFloat f = [[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:0] frame].size.width;
 	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:f] forKey:@"vsplit1"];
 	f = [[[[self mp4AutotagWindowSplitViewVertical] subviews] objectAtIndex:1] frame].size.width;
 	[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:f] forKey:@"vsplit2"];
@@ -141,6 +139,42 @@
 	[[self dropFileHereImageWell] registerForDraggedTypes:[NSArray arrayWithObjects:NSFilenamesPboardType, nil]];
 }
 
+-(void)hidePropPanel
+{
+	NSSize size = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] frame].size;
+	//if the panel is not already hidden...
+	if(size.height != 0)
+	{
+		//save the hsplit values
+		[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:size.height] forKey:@"hsplit2"];
+		NSInteger h = size.height;
+		size = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] frame].size;
+		[[NSUserDefaults standardUserDefaults] setValue:[NSNumber numberWithFloat:size.height] forKey:@"hsplit1"];
+		
+		//hide bottom panel
+		h = h + size.height;
+		size.height = h;
+		[[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] setFrameSize:size];
+		size.height = 0;
+		[[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] setFrameSize:size];
+	}
+}
+-(void)showPropPanel
+{
+	//show the bottom panel
+	CGFloat f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"hsplit2"] floatValue];
+	NSSize size;
+	if(f != 0){
+		size = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] frame].size;
+		size.height = f;
+		[[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] setFrameSize:size];
+		f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"hsplit1"] floatValue];
+		size = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] frame].size;
+		size.height = f;
+		[[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] setFrameSize:size];
+	}
+}
+
 -(void)refreshButtons {
 	if([_mp4FileTagTableView numberOfRows] > 0)
 	{
@@ -153,11 +187,13 @@
 			[[self removeButton] setAction:@selector(removeMp4Click:)];
 			[[self autotagButton] setAction:@selector(autotagSelectedClick:)];
 			[[self saveButton] setAction:@selector(saveMp4Click:)];
+			[self showPropPanel];
 		}
 		else {
 			[[self removeButton] setAction:nil];
 			[[self autotagButton] setAction:nil];
 			[[self saveButton] setAction:nil];
+			[self hidePropPanel];
 		}
 	}
 	else {
@@ -168,6 +204,7 @@
 		[[self saveButton] setAction:nil];
 		//[[self dropFileHereImageWell] setHidden:NO];
 		[[self mp4FileTagsTableScrollView] setAlphaValue:0.3];
+		[self hidePropPanel];
 	}
 }
 

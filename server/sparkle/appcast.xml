@@ -6,13 +6,27 @@
       	<description>Base version.</description>
       	<language>en</language>
 		<item>
+        	<title>Version 0.0.4 (alpha release 4)</title>
+			<sparkle:releaseNotesLink>
+				http://popmedic.com/mp4autotag/sparkle/0.0.4.html
+			</sparkle:releaseNotesLink>
+          	<pubDate>Wed, 05 Dec 2012 14:36:33 +0700</pubDate>
+          	<enclosure
+			url="http://popmedic.com/mp4autotag_builds/latest/Mp4Autotag.zip"
+			sparkle:version="0.0.4"
+			sparkle:dsaSignature="MCwCFCMn/3BBpzZA0SPeLUWUhh20eqAhAhRHNFLnGTjuTmB1s2jiPnEzHFTVyA=="
+			length="3492789"
+			type="application/octet-stream"
+			/>
+		</item>
+		<item>
         	<title>Version 0.0.3 (alpha release 3)</title>
 			<sparkle:releaseNotesLink>
 				http://popmedic.com/mp4autotag/sparkle/0.0.3.html
 			</sparkle:releaseNotesLink>
           	<pubDate>Fri, 30 Nov 2012 14:36:33 +0700</pubDate>
           	<enclosure 
-			url="http://popmedic.com/mp4autotag_builds/latest/Mp4Autotag.zip" 
+			url="http://popmedic.com/mp4autotag_builds/Mp4Autotag.0.0.3.zip" 
 			sparkle:version="0.0.3"
 			sparkle:dsaSignature="MC0CFQCoN4gufVLVDPKxoeC72t2Rd/kY8gIUaz25QW2baecEMOPUGsl9+21rxhQ="
 			length="1987711" 
