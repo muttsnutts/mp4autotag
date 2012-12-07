@@ -1,4 +1,4 @@
-# Mp4Autotag #
+# Mp4Autotag ![icon.](http://www.popmedic.com/images/mp4autotag_icon_32.png) 
 
 [Download](https://github.com/muttsnutts/mp4autotag/wiki/download)
 
