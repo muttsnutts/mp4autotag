@@ -1,6 +1,8 @@
-# Mp4Autotag ![icon.](http://www.popmedic.com/images/mp4autotag_icon_32.png) 
+# Mp4Autotag #
 
 [Download](https://github.com/muttsnutts/mp4autotag/wiki/download)
+
+![icon.](http://www.popmedic.com/images/mp4autotag_icon_32.png) 
 
 ### Table of Contents ###
 1. [Introduction](#introduction)
