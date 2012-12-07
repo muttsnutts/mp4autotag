@@ -1,6 +1,6 @@
 # Mp4Autotag #
 
-![icon.](http://www.popmedic.com/images/mp4autotag_icon_32.png) [Download](https://github.com/muttsnutts/mp4autotag/wiki/download)
+[Download](https://github.com/muttsnutts/mp4autotag/wiki/download)
 
 ### Table of Contents ###
 1. [Introduction](#introduction)
@@ -10,21 +10,29 @@
 5. [The Main Window](#the-main-window) 
 6. [The Autotag Panel](#the-autotag-panel) 
 7. [Preferences](#preferences)
+8. [Cover Art Tab](#cover-art-tab)
+9. [Other Tab](#other-tab)
 8. [Fully Automated Autotag](#fully-automated-autotag)
 9. [Dev Team](#dev-team)
 
 ## Introduction ##
 Mp4AutoTag is a meta data editor for mp4 file types.  In-other-words, it edits the info you see about the mp4 file in iTunes and Finder.  Mp4AutoTag atempts to locate your mp4 file by file name in [thetvdb.com](http://thetvdb.com) or [themoviedb.org](http://www.themoviedb.org).  It then allows you to save the information to the file.  You can also edit the results, attach different images, rename the file automatically to the proper standard, and/or add a watermark to the image. Images can be pulled from not only [thetvdb.com](http://thetvdb.com) or [themoviedb.org](http://www.themoviedb.org), but also [iTunes Store](http://www.apple.com/itunes/).
 
+[Table of Contents](#table-of-contents)
+
 ## Download Mp4Autotag ##
 
 You can download the latest Mp4Autotag and older versions from the [download page](./download).
+
+[Table of Contents](#table-of-contents)
 
 ## Installing ##
 
 Install by unzipping the downloaded file and copy the Mp4Autotag(.app) file to the Applications directory.
 
 Run Mp4Autotag by browsing to Applications and clicking on Mp4Autotag.
+
+[Table of Contents](#table-of-contents)
 
 ## Overview ##
 
@@ -36,11 +44,15 @@ When you start Mp4Autotag you will see the above Window.  You can drag and drop 
 ![mp4autotag application with Kanon Series in queue.](http://www.popmedic.com/images/mp4autotag_kanon.png)
 Once you have mp4's in the queue, you can select them and edit their current tags in the lower panel.  Once edited, you can save the changes by clicking on the "Save" button, or "File | Save".  You could also "Autotag" the mp4 by clicking on the "Autotag" button. If you want to "Autotag" all your mp4's then you can click the "Autotag All" button.  The "Save All" button will save the changes to all the mp4's in your queue.  The "Preferences" button will bring up the preferences panel where you can customize how Mp4Autotag behaves.
 
+[Table of Contents](#table-of-contents)
+
 ### The Autotag Panel ###
 
 ![mp4autotag autotag panel.](http://www.popmedic.com/images/mp4autotag_autotagwnd.png)
 
 The Autotag Panel will appear when you do a "Autotag" or "Autotag All".  This panel provides you with a table to see the results for the search on the mp4 file shown in the bottom status line.  Select the result that looks most correct to you and click on the tag button to merge and save the meta-data content to the mp4 file.  If the result you want is not in the table, then try a "Custom Search" by clicking on the "Search" button.  The "Close" button will close the "Autotag" or "Autotag All" session. 
+
+[Table of Contents](#table-of-contents)
 
 ### Preferences ###
 
@@ -53,6 +65,8 @@ The Autotag Panel will appear when you do a "Autotag" or "Autotag All".  This pa
 * **Add watermark for season/episode.** - When selected image will be watermarked with "S00E00".
 * **Use high quality iTunes art.** - When selected the search will return image path to an image from iTunes store. 
 
+[Table of Contents](#table-of-contents)
+
 #### Other Tab ####
 
 ![mp4autotag preferences panel, other.](http://www.popmedic.com/images/mp4autotag_preferences_other.png) 
@@ -61,6 +75,8 @@ The Autotag Panel will appear when you do a "Autotag" or "Autotag All".  This pa
 * **Rename file to standard convention.** - This option will rename the mp4 file to a standard convention (for movies - "movie name" ("year"), for shows - "show name" - S"season number"E"episode number" - "episode title").
 * **Optimize for network.** - This option will fix the MOOV order so that the movie will play over a network to some less sophisticated browsers and players.  _This option could add up to a minute of processing on saves_.
 * **Use "Popmedic" proxy search.** - This option will use a proxy search though [popmedic.com](http://www.popmedic.com/cgi/mp4autotag_cgi.rb).  By using this proxy you will have the most comprehensive and up-to-date search I provide.  You can turn this option off, but the results of a search will not be as accurate.  _See more about the proxy in the Design notes below._ 
+
+[Table of Contents](#table-of-contents)
 
 ### Fully Automated Autotag ###
 
@@ -76,9 +92,11 @@ Once complete, the below panel will be present so you can undo any changes the a
 * **Right Panel** - This is a table showing the changes in the selected file of the "Left Panel."  Properties changed will be highlighted in red.  If you don't like the changes, click the "Undo" button. 
 * **Undo Button** - This button will "Undo" the changes made to the file selected in the "Left Panel."
 
+[Table of Contents](#table-of-contents)
 
 ## Dev Team ##
 
 * Master Coder - popmedic  
 * Sidekick - muttsnutts
 
+[Table of Contents](#table-of-contents)
