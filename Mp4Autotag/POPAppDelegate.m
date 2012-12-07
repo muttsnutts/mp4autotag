@@ -161,17 +161,20 @@
 }
 -(void)showPropPanel
 {
-	//show the bottom panel
-	CGFloat f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"hsplit2"] floatValue];
-	NSSize size;
-	if(f != 0){
-		size = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] frame].size;
-		size.height = f;
-		[[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] setFrameSize:size];
-		f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"hsplit1"] floatValue];
-		size = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] frame].size;
-		size.height = f;
-		[[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] setFrameSize:size];
+	//show the bottom panel - but only if not already shown!
+	if ([[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] frame].size.height == 0)
+	{	
+		CGFloat f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"hsplit2"] floatValue];
+		NSSize size;
+		if(f != 0){
+			size = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] frame].size;
+			size.height = f;
+			[[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:1] setFrameSize:size];
+			f = [[[NSUserDefaults standardUserDefaults] valueForKey:@"hsplit1"] floatValue];
+			size = [[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] frame].size;
+			size.height = f;
+			[[[[self mp4AutotagWindowSplitViewHorizontal] subviews] objectAtIndex:0] setFrameSize:size];
+		}
 	}
 }
 
@@ -280,6 +283,33 @@
 						@"Please select a file first.",
 						@"OK", nil, nil);
 }
+
+- (IBAction)preferencesClick:(id)sender {
+	NSInteger i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"renameFile"] intValue];
+	[[self preferencesRenameCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fullAutomation"] intValue];
+	[[self preferencesFullAutomationCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"episodeCoverArt"] intValue];
+	[[self preferencesEpisodeCoverArtMatrix] setState:YES atRow:i column:0];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] intValue];
+	[[self preferencesUseITunesCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fixForNetwork"] intValue];
+	[[self preferencesFixForNetworkCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"usePopmedicProxy"] intValue];
+	[[self preferencesProxySearchCheckBox] setState:i];
+	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"addWatermark"] intValue];
+	[[self preferencesAddWatermarkCheckBox] setState:i];
+	[[NSApplication sharedApplication] beginSheet:[self preferencesWindow]
+								   modalForWindow:[self window]
+									modalDelegate:self
+								   didEndSelector:@selector(preferencesWindowSheetEnded:returnCode:contextInfo:)
+									  contextInfo:(void*)[self searchResultWindow]];
+}
+
+- (IBAction)helpClick:(id)sender {
+	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/muttsnutts/mp4autotag#mp4autotag"]];
+}
+
 //autotaging functions.....
 -(bool) autotagNext {
 	//NSInteger fa = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fullAutomation"] intValue];
@@ -390,31 +420,7 @@
 	}
 }
 //end autotaging functions.....
-- (IBAction)preferencesClick:(id)sender {
-	NSInteger i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"renameFile"] intValue];
-	[[self preferencesRenameCheckBox] setState:i];
-	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fullAutomation"] intValue];
-	[[self preferencesFullAutomationCheckBox] setState:i];
-	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"episodeCoverArt"] intValue];
-	[[self preferencesEpisodeCoverArtMatrix] setState:YES atRow:i column:0];
-	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"useITunes"] intValue];
-	[[self preferencesUseITunesCheckBox] setState:i];
-	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"fixForNetwork"] intValue];
-	[[self preferencesFixForNetworkCheckBox] setState:i];
-	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"usePopmedicProxy"] intValue];
-	[[self preferencesProxySearchCheckBox] setState:i];
-	i = [[[NSUserDefaults standardUserDefaults] valueForKey:@"addWatermark"] intValue];
-	[[self preferencesAddWatermarkCheckBox] setState:i];
-	[[NSApplication sharedApplication] beginSheet:[self preferencesWindow] 
-								   modalForWindow:[self window]
-									modalDelegate:self
-								   didEndSelector:@selector(preferencesWindowSheetEnded:returnCode:contextInfo:) 
-									  contextInfo:(void*)[self searchResultWindow]];
-}
 
-- (IBAction)helpClick:(id)sender {
-	[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"https://github.com/muttsnutts/mp4autotag/wiki"]];
-}
 
 //SearchResultWindow-------------
 - (IBAction)searchResultWindowSearchClick:(id)sender {
